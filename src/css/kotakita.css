@@ -1,0 +1,58 @@
+/* CUSTOM NAV */
+
+.navbar-brand {
+	background-color: #FC3A51;
+	width: 230px;
+	height: 3.5em;
+	border-top: 12px solid #F90D1A;
+}
+
+.navbar-brand:hover {
+	background-color: #F90D1A;
+}
+
+.navbar-brand img {
+	margin-top: -6px;
+	width: 200px;
+}
+
+ul.nav li {
+	background-color: #F5B349;
+}
+
+ul.nav li.active {
+	background-color: #EB7E15;
+}
+
+/* SECTION */
+
+.section-shift {
+	margin-top: -76px;
+	padding-bottom: 4em;
+}
+
+.section-intro {
+	background-color: #F5B349;
+	padding: 2em;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.section-intro h1 {
+	font-weight: 700;
+	font-size: 2em;
+	letter-spacing: 1px;
+}
+
+.project-thumb {
+	border-top: 16px solid #0E2430;	
+}
+
+@media (min-width: 768px) {
+	.section-intro {
+		min-height: 360px;
+	}
+	.section-intro h1 {
+		font-size: 4em;
+	}
+}
