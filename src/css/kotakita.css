@@ -44,8 +44,18 @@ ul.nav li.active {
 	letter-spacing: 1px;
 }
 
-.project-thumb {
-	border-top: 16px solid #0E2430;	
+.project {
+	/*border-top: 16px solid #0E2430;*/	
+}
+
+.project-top-box {
+	background-color: #0E2430;
+	height: 16px;
+}
+
+.project img {
+	width: 100%;
+	height: auto;
 }
 
 @media (min-width: 768px) {
