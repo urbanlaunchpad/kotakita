@@ -6003,7 +6003,7 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   /*text-align: center;*/
-  text-shadow: 0 0 20px rgba(0, 0, 0, .6);
+  text-shadow: 0 0 10px rgba(0, 0, 0, .6);
 }
 .carousel-caption .btn {
   text-shadow: none;
