@@ -44,10 +44,6 @@ ul.nav li.active {
 	letter-spacing: 1px;
 }
 
-.project {
-	/*border-top: 16px solid #0E2430;*/	
-}
-
 .project-top-box {
 	background-color: #0E2430;
 	height: 16px;
@@ -58,6 +54,14 @@ ul.nav li.active {
 	height: auto;
 }
 
+.project-page .project-page-intro {
+	padding-top: 3em;
+}
+
+.project-page .project-page-intro h3 {
+	line-height: 1.5;
+}
+
 @media (min-width: 768px) {
 	.section-intro {
 		min-height: 360px;
@@ -66,3 +70,4 @@ ul.nav li.active {
 		font-size: 4em;
 	}
 }
+
