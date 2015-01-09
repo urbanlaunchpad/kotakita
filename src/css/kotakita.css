@@ -4,7 +4,7 @@
 	background-color: #FC3A51;
 	width: 230px;
 	height: 3.5em;
-	border-top: 12px solid #F90D1A;
+	border-top: 6px solid #F90D1A;
 }
 
 .navbar-brand:hover {
@@ -18,10 +18,25 @@
 
 ul.nav li {
 	background-color: #F5B349;
+	border-top: 6px solid #EB7E15;
 }
 
-ul.nav li.active {
+/*ul.nav li.active {
 	background-color: #EB7E15;
+}*/
+ul.nav li:hover {
+	background-color: #EB7E15;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color: #0E2430;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
 }
 
 /* SECTION */
