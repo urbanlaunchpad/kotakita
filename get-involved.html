@@ -1,3 +1,5 @@
+---
+---
 
 <!DOCTYPE html>
 <html lang="en">
@@ -32,49 +34,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
 
 	</head>
-<!-- NAVBAR
-================================================== -->
+
 	<body>
-	<div class="navbar-wrapper">
-		<div class="container">
 
-		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-			<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="./index.html"><img src="./src/img/head_logo.png" alt="Kota Kita"></img></a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-				<li><a href="./about-us">About Us</a></li>
-				<li class="active"><a href="./get-involved">Get Involved</a></li>
-				<li><a href="#contact">Our Partners</a></li>
-				<li><a href="#tools">Tools</a></li>
-				<li><a href="#contact">Contact Us</a></li>
- 				<!-- <li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-					<li><a href="#">Action</a></li>
-					<li><a href="#">Another action</a></li>
-					<li><a href="#">Something else here</a></li>
-					<li class="divider"></li>
-					<li class="dropdown-header">Nav header</li>
-					<li><a href="#">Separated link</a></li>
-					<li><a href="#">One more separated link</a></li>
-					</ul>
-				</li> --> 
-				</ul>
-			</div>
-			</div>
-		</nav>
-
-		</div>
-	</div>
+	{% include nav.html %}
 
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
@@ -163,10 +126,7 @@
 
 
 		<!-- FOOTER -->
-		<footer>
-		<p class="pull-right"><a href="#">Back to top</a></p>
-		<p>&copy; 2015 Yayasan Kota Kita &middot;</p>
-		</footer>
+	{% include footer.html %}
 
 	</div><!-- /.container -->
 
