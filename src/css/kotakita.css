@@ -21,9 +21,6 @@ ul.nav li {
 	border-top: 6px solid #EB7E15;
 }
 
-/*ul.nav li.active {
-	background-color: #EB7E15;
-}*/
 ul.nav li:hover {
 	background-color: #EB7E15;
 }
