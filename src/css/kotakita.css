@@ -1,0 +1,85 @@
+/* CUSTOM NAV */
+
+.navbar-brand {
+	background-color: #FC3A51;
+	width: 230px;
+	height: 3.5em;
+	border-top: 6px solid #F90D1A;
+}
+
+.navbar-brand:hover {
+	background-color: #F90D1A;
+}
+
+.navbar-brand img {
+	margin-top: -4px;
+	width: 200px;
+}
+
+ul.nav li {
+	background-color: #F5B349;
+	border-top: 6px solid #EB7E15;
+}
+
+ul.nav li:hover {
+	background-color: #EB7E15;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color: #0E2430;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+/* SECTION */
+
+.section-shift {
+	margin-top: -76px;
+	padding-bottom: 4em;
+}
+
+.section-intro {
+	background-color: #F5B349;
+	padding: 2em;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.section-intro h1 {
+	font-weight: 700;
+	font-size: 2em;
+	letter-spacing: 1px;
+}
+
+.project-top-box {
+	background-color: #0E2430;
+	height: 16px;
+}
+
+.project img {
+	width: 100%;
+	height: auto;
+}
+
+.project-page .project-page-intro {
+	padding-top: 3em;
+}
+
+.project-page .project-page-intro h3 {
+	line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+	.section-intro {
+		min-height: 360px;
+	}
+	.section-intro h1 {
+		font-size: 4em;
+	}
+}
+
