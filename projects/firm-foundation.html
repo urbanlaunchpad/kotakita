@@ -14,10 +14,10 @@
 	<title>Kota Kita</title>
 
 	<!-- Bootstrap core CSS -->
-	<link href="./src/css/bootstrap.css" rel="stylesheet">
+	<link href="../src/css/bootstrap.css" rel="stylesheet">
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-	<script src="./src/js/ie-emulation-modes-warning.js"></script>
+	<script src="../src/js/ie-emulation-modes-warning.js"></script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -27,8 +27,8 @@
 
 	<!-- Custom styles for this template -->
 
-	<link href="./src/css/carousel.css" rel="stylesheet">
-	<link href="./src/css/kotakita.css" rel="stylesheet">
+	<link href="../src/css/carousel.css" rel="stylesheet">
+	<link href="../src/css/kotakita.css" rel="stylesheet">
 
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
@@ -42,7 +42,7 @@
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="./src/img/FF_Final-design_07.jpg" alt="First slide">
+				<img src="../src/img/FF_Final-design_07.jpg" alt="First slide">
 			</div>
 		</div>
     </div>
@@ -85,14 +85,7 @@
 
 	</div><!-- /.container -->
 
-
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="./src/js/bootstrap.min.js"></script>
-	<script src="./src/js/docs.min.js"></script>
-	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<script src="./src/js/ie10-viewport-bug-workaround.js"></script>
+	{% include core-js.html %}
+	
 	</body>
 </html>
