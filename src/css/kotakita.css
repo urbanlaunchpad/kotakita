@@ -36,6 +36,14 @@ ul.nav li:hover {
 	color: #fff;
 }
 
+.dropdown-menu {
+	padding: 0;
+	border: 0px;
+	border-radius: 0;
+	-webkit-box-shadow: 0;
+	box-shadow: 0;
+}
+
 /* SECTION */
 
 .section-shift {
