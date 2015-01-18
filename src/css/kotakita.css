@@ -1,10 +1,10 @@
 /* CUSTOM NAV */
 
 .navbar-brand {
-	background-color: #FC3A51;
+	background-color: #0e2430;
 	width: 230px;
 	height: 3.5em;
-	border-top: 6px solid #F90D1A;
+	border-top: 6px solid #02080d;
 }
 
 .navbar-brand:hover {
