@@ -21,7 +21,7 @@ ul.nav li {
 	border-top: 6px solid #EB7E15;
 }
 
-ul.nav li:hover {
+ul.nav li:hover, .dropdown-menu > li > a:hover {
 	background-color: #EB7E15;
 }
 
@@ -32,7 +32,7 @@ ul.nav li:hover {
 	background-color: #0E2430;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a, .dropdown-menu > li > a {
 	color: #fff;
 }
 
