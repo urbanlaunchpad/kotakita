@@ -1001,7 +1001,7 @@ h6,
 .h6 {
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.375;
   color: inherit;
 }
 h1 small,
@@ -2803,9 +2803,9 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fff;
+  background-color: #F5B349;
+  border-color: #EB7E15;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -2813,9 +2813,9 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #fff;
+  background-color: #EB7E15;
+  /*border-color: #adadad;*/
 }
 .btn-default:active,
 .btn-default.active,

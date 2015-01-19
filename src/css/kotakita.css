@@ -74,6 +74,11 @@ ul.nav li:hover, .dropdown-menu > li > a:hover {
 	height: 16px;
 }
 
+.news-top-box, .intern-top-box {
+	background-color: #F5B349;
+	height: 12px;
+}
+
 .project img {
 	width: 100%;
 	height: auto;
@@ -93,6 +98,8 @@ ul.nav li:hover, .dropdown-menu > li > a:hover {
 	}
 	.section-intro h1 {
 		font-size: 4em;
+		line-height: 1.125;
+		padding-bottom: 0.25em;
 	}
 }
 
