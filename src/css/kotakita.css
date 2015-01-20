@@ -57,7 +57,8 @@ ul.nav li:hover, .dropdown-menu > li > a:hover {
 }
 
 .section-intro {
-	background-image: url("http://www.stephenjameskennedy.com/kotakita/src/img/batik.png");
+	background-image: url("./src/img/batik.png");
+	background-repeat: repeat-y;
 	background-color: #F5B349;
 	padding: 2em;
 	margin-bottom: 20px;
