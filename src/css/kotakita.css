@@ -103,3 +103,16 @@ ul.nav li:hover, .dropdown-menu > li > a:hover {
 	}
 }
 
+/* INTERNs */
+
+#intern a {
+	cursor: pointer;
+}
+
+#intern a img:hover {
+	opacity: 0.9;
+}
+
+.modal-content {
+	padding: 2em;
+}
