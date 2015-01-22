@@ -45,8 +45,14 @@ ul.nav li:hover, .dropdown-menu > li > a:hover {
 	box-shadow: 0;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-toggle > .open > a:hover {
 	background-color: #EB7E15;
+}
+
+.navbar-toggle {
+	background-color: #F5B349;
+	color: #fff;
+	border-radius: 0px;
 }
 
 /* SECTION */
