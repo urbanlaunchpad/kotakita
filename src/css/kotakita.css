@@ -65,14 +65,21 @@ ul.nav li:hover, .dropdown-menu > li > a:hover {
 	color: white;
 }
 
-.section-batik {
-
-}
-
 .section-intro h1 {
 	font-weight: 700;
 	font-size: 2em;
 	letter-spacing: 1px;
+}
+
+.section-meta {
+	padding: 0 20px;
+}
+
+.section-meta h5 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #EB7E15;
+	padding-top: 0.5em;
 }
 
 .project-top-box {
@@ -100,10 +107,10 @@ ul.nav li:hover, .dropdown-menu > li > a:hover {
 
 @media (min-width: 768px) {
 	.section-intro {
-		min-height: 360px;
+		min-height: 280px;
 	}
 	.section-intro h1 {
-		font-size: 4em;
+		/*font-size: 2em;*/
 		line-height: 1.125;
 		padding-bottom: 0.25em;
 	}
@@ -134,4 +141,10 @@ ul.nav li:hover, .dropdown-menu > li > a:hover {
 
 .modal-body {
 	background-color:#FEF7EC;
+}
+
+.modal-image {
+   float: right;	
+   width: 176px;
+   padding: 0 0 10px 10px;
 }
