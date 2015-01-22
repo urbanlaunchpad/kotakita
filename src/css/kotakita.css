@@ -64,7 +64,7 @@ color: #fff;
 /* SECTION */
 
 .section-shift {
-	margin-top: -76px;
+	margin-top: -30px;
 	padding-bottom: 4em;
 }
 
@@ -73,7 +73,7 @@ color: #fff;
 	background-repeat: repeat;
 	background-color: #F5B349;
 	padding: 2em;
-	margin-bottom: 20px;
+	margin: -20px 0 20px 0;
 	color: white;
 }
 
@@ -110,7 +110,7 @@ color: #fff;
 }
 
 .project-page .project-page-intro {
-	padding-top: 3em;
+	padding-top: 1em;
 }
 
 .project-page .project-page-intro h3 {
@@ -120,6 +120,7 @@ color: #fff;
 @media (min-width: 768px) {
 	.section-intro {
 		min-height: 280px;
+		margin: -20px 0 20px 0;
 	}
 	.section-intro h1 {
 		/*font-size: 2em;*/
@@ -130,7 +131,14 @@ color: #fff;
 
 .jumbotron {
 	background-repeat: no-repeat center center fixed;
-	min-height: 340px;
+	background-size:cover;
+	min-height: 240px;
+}
+
+@media (min-width: 768px) {
+	.jumbotron {
+		min-height: 360px;
+	}
 }
 
 /* INTERNs */
