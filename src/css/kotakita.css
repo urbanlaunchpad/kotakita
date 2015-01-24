@@ -151,6 +151,10 @@ color: #fff;
 	opacity: 0.9;
 }
 
+#expert h3 {
+	color: #EB7E15;
+}
+
 /* MODAL */
 
 .modal-content {
