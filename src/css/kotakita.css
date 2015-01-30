@@ -117,6 +117,16 @@ color: #fff;
 	line-height: 1.5;
 }
 
+.project-page .publication-image {
+	filter: grayscale(50%);
+	-webkit-filter: grayscale(50%); 
+}
+
+.project-page .publication-image:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%); 
+}
+
 @media (min-width: 768px) {
 	.section-intro {
 		min-height: 280px;
