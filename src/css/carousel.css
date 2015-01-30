@@ -65,8 +65,16 @@ body {
 .carousel-caption h1 {
   /*text-transform: uppercase;*/
   letter-spacing: 3px;
-  font-size: 2.25em;
+  font-size: 2.125em;
   font-weight: 600;
+  line-height: 1.25;
+}
+
+.carousel-caption h4 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #F5B349;
+  margin-bottom: -0.5em;
 }
 
 .carousel-caption p {
