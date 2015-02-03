@@ -3,7 +3,7 @@
 .navbar-brand {
 	background-color: #FC3A51;
 	width: 230px;
-	height: 3.5em;
+	height: 4.375em;
 	border-top: 6px solid #F90D1A;
 }
 
@@ -21,7 +21,8 @@ ul.nav li {
 	border-top: 6px solid #EB7E15;
 }
 
-ul.nav li:hover {
+ul.nav li:hover, .dropdown-menu > li > a:hover {
+	color: #fff;
 	background-color: #EB7E15;
 }
 
@@ -32,21 +33,47 @@ ul.nav li:hover {
 	background-color: #0E2430;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a, .dropdown-menu > li > a {
 	color: #fff;
+}
+
+.dropdown-menu {
+	padding: 0;
+	border: 0px;
+	border-radius: 0;
+	-webkit-box-shadow: 0;
+	box-shadow: 0;
+}
+
+@media (max-width: 767px)
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-toggle > .open > a:hover {
+	background-color: #EB7E15;
+}
+
+.navbar-toggle {
+	background-color: #F5B349;
+	color: #fff;
+	border-radius: 0px;
+	border: 0;
 }
 
 /* SECTION */
 
 .section-shift {
-	margin-top: -76px;
+	margin-top: -30px;
 	padding-bottom: 4em;
 }
 
 .section-intro {
+	background-image: url("http://www.stephenjameskennedy.com/kotakita/src/img/batik.png");
+	background-repeat: repeat;
 	background-color: #F5B349;
 	padding: 2em;
-	margin-bottom: 20px;
+	margin: -20px 0 20px 0;
 	color: white;
 }
 
@@ -56,9 +83,25 @@ ul.nav li:hover {
 	letter-spacing: 1px;
 }
 
+.section-meta {
+	padding: 0 20px;
+}
+
+.section-meta h5 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #EB7E15;
+	padding-top: 0.5em;
+}
+
 .project-top-box {
 	background-color: #0E2430;
 	height: 16px;
+}
+
+.news-top-box, .intern-top-box {
+	background-color: #F5B349;
+	height: 12px;
 }
 
 .project img {
@@ -67,19 +110,85 @@ ul.nav li:hover {
 }
 
 .project-page .project-page-intro {
-	padding-top: 3em;
+	padding-top: 1em;
 }
 
 .project-page .project-page-intro h3 {
 	line-height: 1.5;
 }
 
+.project-page .publication-image {
+	filter: grayscale(50%);
+	-webkit-filter: grayscale(50%); 
+}
+
+.project-page .publication-image:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%); 
+}
+
 @media (min-width: 768px) {
 	.section-intro {
-		min-height: 360px;
+		min-height: 280px;
+		margin: -20px 0 20px 0;
 	}
 	.section-intro h1 {
-		font-size: 4em;
+		/*font-size: 2em;*/
+		line-height: 1.125;
+		padding-bottom: 0.25em;
 	}
 }
 
+.jumbotron {
+	background-repeat: no-repeat center center fixed;
+	background-size:cover;
+	min-height: 240px;
+}
+
+@media (min-width: 768px) {
+	.jumbotron {
+		min-height: 360px;
+	}
+}
+
+/* INTERNs */
+
+#intern a {
+	cursor: pointer;
+}
+
+#intern a img:hover {
+	opacity: 0.9;
+}
+
+#expert h4 {
+	color: #EB7E15;
+}
+
+/* PUBLICAATIONS */
+.project-page .col-md-3 {
+	margin-bottom: 1.25em;
+}
+
+/* MODAL */
+
+.modal-content {
+	border-radius: 0;
+}
+
+.modal-header {
+	background-color: #F5B349;
+	border-top: 6px solid #EB7E15;
+	color: #fff;
+	border-bottom: 0;
+}
+
+.modal-body {
+	background-color:#FEF7EC;
+}
+
+.modal-image {
+   float: right;	
+   width: 176px;
+   padding: 0 0 10px 10px;
+}

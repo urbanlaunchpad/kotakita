@@ -901,7 +901,7 @@ html {
 }
 body {
   font-family: "Raleway","Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   color: #333;
   background-color: #fdf0dc;
@@ -1001,7 +1001,7 @@ h6,
 .h6 {
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.375;
   color: inherit;
 }
 h1 small,
@@ -1153,7 +1153,7 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
+  color: #EB7E15;
 }
 a.text-primary:hover {
   color: #286090;
@@ -2803,9 +2803,9 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fff;
+  background-color: #F5B349;
+  border-color: #EB7E15;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -2813,9 +2813,9 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #fff;
+  background-color: #EB7E15;
+  /*border-color: #adadad;*/
 }
 .btn-default:active,
 .btn-default.active,
@@ -2849,8 +2849,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #263a45;
+  border-color: #02080d;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -2859,8 +2859,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #02080d;
+  border-color: #02080d;
 }
 .btn-primary:active,
 .btn-primary.active,
