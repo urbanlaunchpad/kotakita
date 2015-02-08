@@ -1,5 +1,6 @@
 .tumblr_posts {
-	margin-bottom: 3em;
+	margin-bottom: 12em;
+	clear: both;
 }
 
 .tumblr_post {		
@@ -8,14 +9,25 @@
 	border-bottom: 1px solid #fff;
 }
 
-.tumblr_title {	
-	font-size: 3em;
+.tumblr_title {
+	/*float: left;
+	max-width: 24em;*/
+	margin-right: 20px;
 }
+
+.tumblr_title h1 {
+	font-size: 2.5em;
+	line-height: 1.125em;
+}
+
+/*.tumblr_body {
+	margin-top: 40px;
+}*/
 
 .tumblr_body figure img {	
 	float: right;
 	width: 400px;
-	padding: 0 0 10px 10px;
+	margin: 0 10px 10px 10px;
 }
 
 .read_more_container {
