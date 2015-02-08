@@ -20,13 +20,14 @@
 	line-height: 1.125em;
 }
 
-/*.tumblr_body {
-	margin-top: 40px;
-}*/
+.tumblr_body p {
+	max-width: 40em;
+}
 
 .tumblr_body figure img {	
 	float: right;
-	width: 400px;
+	/*clear: right;*/
+	width: 420px;
 	margin: 0 10px 10px 10px;
 }
 

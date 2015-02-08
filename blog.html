@@ -54,7 +54,7 @@
 				for (var i=0;i<tumblr_api_read.posts.length;i++) {
 			        var thisPost = tumblr_api_read.posts[i];
 					document.write(
-				    	'<li class="tumblr_post tumblr_text_post"><a href="' + thisPost.url + '"><div class="tumblr_title text-primary"><h1>' + tumblr_api_read['posts'][i]['regular-title'] + '</h1><h5 class="text-uppercase">' + thisPost.date + '</h5></div></a><div class="tumblr_body">' + tumblr_api_read['posts'][i]['regular-body'] + '</p></li>'
+				    	'<li class="tumblr_post tumblr_text_post"><div class="row"><div class="col-sm-3"><div class="tumblr_title text-primary"><a href="' + thisPost.url + '"><h1>' + tumblr_api_read['posts'][i]['regular-title'] + '</h1><h5 class="text-uppercase">' + thisPost.date + '</h5></a></div></div><div class="col-sm-9 tumblr_body">' + tumblr_api_read['posts'][i]['regular-body'] + '</div></li>'
 			        );
 
 			    }
