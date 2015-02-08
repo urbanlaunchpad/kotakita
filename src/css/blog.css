@@ -1,0 +1,27 @@
+.tumblr_posts {
+
+}
+
+.tumblr_post {		
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #fff;
+}
+
+.tumblr_title {	
+	font-size: 3em;
+}
+
+.tumblr_body figure img {	
+	float: right;
+	width: 400px;
+	padding: 0 0 10px 10px;
+}
+
+.read_more_container {
+	
+}
+
+.read_more_container a {
+	
+}
