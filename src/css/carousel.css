@@ -40,7 +40,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -52,7 +52,12 @@ body {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
+.carousel-inner > .item {
+  background-repeat: no-repeat center center fixed;
+  background-size:cover;
+  min-height: 240px;
+}
+/*.carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -61,7 +66,7 @@ body {
   max-width: none;
   height: 500px;
 }
-
+*/
 .carousel-caption h1 {
   /*text-transform: uppercase;*/
   letter-spacing: 3px;
