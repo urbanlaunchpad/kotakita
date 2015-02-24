@@ -183,12 +183,18 @@ color: #fff;
 }
 
 /* HOMEPAGE */
-#features > div > a {
+.block-item > a {
 	text-decoration: none;
 }
-#features > div:hover {
-	background-color: #FEF7EC;
+.block-item {
 	cursor: pointer;
+}
+#features .block-item:hover {
+	background-color: #FEF7EC;
+}
+
+#projects .block-item:hover {
+	background-color: #fdf0dc;
 }
 
 /* INTERNs */
