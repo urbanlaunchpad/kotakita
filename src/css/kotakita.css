@@ -235,6 +235,9 @@ color: #fff;
 
 /* FOOTER */
 
+#footer {
+	padding-bottom: 2em;
+}
 footer {
 	padding: 2em;
 	color: white;
