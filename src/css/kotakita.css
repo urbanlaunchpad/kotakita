@@ -236,7 +236,8 @@ color: #fff;
 /* FOOTER */
 
 #footer {
-	padding-bottom: 2em;
+	padding-bottom: 4em;
+	margin-top: 2em;
 }
 footer {
 	padding: 2em;
