@@ -182,6 +182,15 @@ color: #fff;
 	}
 }
 
+/* HOMEPAGE */
+#features > div > a {
+	text-decoration: none;
+}
+#features > div:hover {
+	background-color: #FEF7EC;
+	cursor: pointer;
+}
+
 /* INTERNs */
 
 #intern a {
