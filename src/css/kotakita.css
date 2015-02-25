@@ -196,6 +196,7 @@ color: #fff;
 }
 .block-item {
 	cursor: pointer;
+	padding-bottom: 1.125em;
 	-webkit-transition: all .15s ease-in-out;
 	-moz-transition: all .15s ease-in-out;
 	-o-transition: all .15s ease-in-out;
