@@ -202,6 +202,9 @@ color: #fff;
 	-o-transition: all .15s ease-in-out;
 	transition: all .15s ease-in-out;
 }
+.block-item h3 {
+	margin-top: 10px;
+}
 #features .block-item:hover {
 	background-color: #FEF7EC;
 }
