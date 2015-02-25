@@ -5,6 +5,10 @@
 	width: 230px;
 	height: 4.375em;
 	border-top: 6px solid #F90D1A;
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
 }
 
 .navbar-brand:hover {
@@ -192,6 +196,10 @@ color: #fff;
 }
 .block-item {
 	cursor: pointer;
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
 }
 #features .block-item:hover {
 	background-color: #FEF7EC;
