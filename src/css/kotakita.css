@@ -265,3 +265,6 @@ footer {
 	padding: 2em;
 	color: white;
 }
+#footer .sub-section {
+	background-color: #FEF7EC;
+}
