@@ -266,5 +266,8 @@ footer {
 	color: white;
 }
 #footer .sub-section {
-	background-color: #EB7E15;
+	background-color: #0E2430;
+	height: 400px;
+	margin-top: -36px;
+	padding-top: 1em;
 }
