@@ -15,6 +15,7 @@
 
 	<!-- Bootstrap core CSS -->
 	<link href="./src/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="./src/css/iconic-bootstrap.css">
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 	<script src="./src/js/ie-emulation-modes-warning.js"></script>
@@ -26,7 +27,7 @@
 	<![endif]-->
 
 	<!-- Custom styles for this template -->
-
+	{% include stylesheets.html %}
 	<link href="./src/css/carousel.css" rel="stylesheet">
 	<link href="./src/css/kotakita.css" rel="stylesheet">
 
@@ -49,8 +50,7 @@
 		<li data-target="#myCarousel" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<img src="./src/img/ex_slider_01.jpg" alt="First slide">
+			<div class="item active" style="background-image:url(./src/img/ex_slider_01.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Our Mission</h4>
@@ -60,8 +60,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="item">
-				<img src="./src/img/ex_slider_02.jpg">
+			<div class="item" style="background-image:url(./src/img/ex_slider_02.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Latest News</h4>
@@ -71,8 +70,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="item">
-				<img src="./src/img/ex_slider_03.jpg">
+			<div class="item" style="background-image:url(./src/img/ex_slider_03.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Latest News</h4>
@@ -98,12 +96,12 @@
 	================================================== -->
 	<!-- Wrap the rest of the page in another container to center all the content. -->
 
-	<div class="container marketing">
+	<div class="container">
 
 		<!-- Three columns of text below the carousel -->
-		<div class="section-shift row" style="background-color:#FEF7EC;">
+		<div id="projects" class="section-shift row" style="background-color:#FEF7EC;">
 
-			<div class="col-xs-6 col-md-3">
+			<div class="col-md-3">
 				<div class="section-intro">
 					<h1>Our Projects</h1>
 					<a href="projects"><p class="btn btn-lg btn-default" role="button">See all</p></a>
@@ -113,7 +111,8 @@
 				<a href="#"><p class="btn btn-lg btn-primary" role="button">Learn more</p></a>
 			</div>
 
-			<div class="project col-xs-6 col-md-3">
+			<div class="project block-item col-md-3">
+				<hr class="featurette-divider visible-xs visible-sm">
 				<a href="project-firm-foundation.html">
 					<div class="project-top-box"></div>
 					<img class="publication-image img-responsive" src="./src/img/projects/firm-foundation/thumb.jpg">
@@ -123,9 +122,8 @@
 				</a>
 			</div>
 
-			<hr class="featurette-divider visible-xs visible-sm">
-
-			<div class="project col-xs-6 col-md-3">
+			<div class="project block-item col-md-3">
+				<hr class="featurette-divider visible-xs visible-sm">
 				<a href="project-solo-kota-kita.html">
 					<div class="project-top-box"></div>
 					<img class="publication-image img-responsive" src="./src/img/projects/solo-kota-kita/thumb.jpg">
@@ -135,8 +133,8 @@
 				</a>
 			</div>
 			
-			<div class="project col-xs-6 col-md-3">
-				<a href="project-pekalongan-ccva.html">
+			<div class="project block-item col-md-3">
+				<hr class="featurette-divider visible-xs visible-sm">				<a href="project-pekalongan-ccva.html">
 					<div class="project-top-box"></div>
 					<img class="publication-image img-responsive" src="./src/img/projects/pekalongan-ccva/thumb.jpg">
 					<h3>Pekalongan Climate Change Vulnerability Assessment</h3>
@@ -173,44 +171,58 @@
 			</div>
 		</div> -->
 
-		<div class="row featurette">
-			<hr class="featurette-divider">	
-			<div class="col-md-2">
-				<h2>Kota Kita Today</h2>
+		<div id="features" class="row featurette">
+			<div class="col-md-4">
+				<hr class="featurette-divider">	
 			</div>
-			<div class="col-sm-6 col-md-6">
+			<div class="col-md-4">
+				<h1 class="text-center">Kota Kita Today</h1>
+			</div>
+			<div class="col-md-4">
+				<hr class="featurette-divider">	
+			</div>
+			<div class="block-item col-sm-3 col-md-6">
 				<div class="news-top-box"></div>
 				<a href="https://www.youtube.com/watch?v=3HseJlc6KsY">
 					<img class="featurette-image img-responsive" src="./src/img/news/tedx_thumb.jpg" target="_blank">
-					<h4>Making invisible cities visible | John Taylor</h4>
+					<h3><span class="iconic iconic-video" title="video" aria-hidden="true"></span> Making invisible cities visible | John Taylor</h3>
 					<p class="text-uppercase small">TEDxUbud - 27 September, 2010</p>
 				</a>
+				<hr class="featurette-divider visible-xs">
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2">
+			<div class="block-item col-sm-3 col-md-2">
 				<div class="news-top-box"></div>
-				<a href="#">
-					<img class="featurette-image img-responsive" src="./src/img/ex_news.jpg" alt="Generic placeholder image">
-					<h4>Interview with Mayor</h4>
-					<p class="text-uppercase small">City Hall Solo - 27 September, 2010</p>
+				<a href="feature-new-leaders">
+					<img class="featurette-image img-responsive" src="./src/img/ex_news.jpg">
+					<h5 class="text-primary text-uppercase small"><span class="iconic iconic-flag iconic-sm" title="flag" aria-hidden="true"></span> Feature</h5>
+					<h3>Indonesian parliament backs new leaders building better cities</h3>
+					<h4>January 20th, 2015</h4>
 				</a>
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2">
+			<div class="block-item col-sm-3 col-md-2">
 				<div class="news-top-box"></div>
-				<a href="#">
-					<img class="featurette-image img-responsive" src="./src/img/ex_news2.jpg" alt="Generic placeholder image">
-					<h4>Firm Foundation Receives SEED Award from Design Corps</h4>
-					<p class="text-uppercase small">November 13, 2012</p>
+				<a href="feature-water-water">
+					<img class="featurette-image img-responsive" src="./src/img/ex_news.jpg">
+					<h5 class="text-primary text-uppercase small"><span class="iconic iconic-flag iconic-sm" title="flag" aria-hidden="true"></span> Feature</h5>
+					<h3>Water, water everywhere but not a drop to drink</h3>
+					<h4>January 20th, 2015</h4>
+				</a>
+			</div>
+			<div class="block-item col-sm-3 col-md-2">
+				<div class="news-top-box"></div>
+				<a href="blog">
+					<img class="featurette-image img-responsive" src="./src/img/feature/blog-thumb_another-city.jpg">
+					<h5 class="text-primary text-uppercase small"><span class="iconic iconic-microphone iconic-sm" title="microphone" aria-hidden="true"></span> Blog</h5>
+					<h3>Another City is Possible</h3>
+					<h5>The 2nd Urban Social Forum was hosted and organized by Kota Kita on December 20th, 2014 in Solo.</h5>
+					<h4>January 30th, 2015</h4>
 				</a>
 			</div>
 		</div>
 
-		<hr class="featurette-divider">
-
-		<!-- /END THE FEATURETTES -->
+	</div><!-- /.container -->
 
 	{% include footer.html %}
-
-	</div><!-- /.container -->
 
 	{% include core-js.html %}
 

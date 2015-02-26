@@ -15,6 +15,7 @@
 
 	<!-- Bootstrap core CSS -->
 	<link href="./src/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="./src/css/iconic-bootstrap.css">
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 	<script src="./src/js/ie-emulation-modes-warning.js"></script>
@@ -42,7 +43,7 @@
 	<div class="jumbotron" style="background-image:url(./src/img/ex_slider_02.jpg)">
     </div>
 
-	<div class="container project-page">
+	<div class="container library-page">
 
 		<div class="section-shift row" style="background-color:#FEF7EC;">
 			<div class="col-md-3">
@@ -328,21 +329,11 @@
 
 		</div>
 
-		<hr class="featurette-divider">
-
-		<!-- FOOTER -->
-	{% include footer.html %}
-
 	</div><!-- /.container -->
 
+	{% include footer.html %}
 
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="./src/js/bootstrap.min.js"></script>
-	<script src="./src/js/docs.min.js"></script>
-	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<script src="./src/js/ie10-viewport-bug-workaround.js"></script>
+	{% include core-js.html %}
+
 	</body>
 </html>

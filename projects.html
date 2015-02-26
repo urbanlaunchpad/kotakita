@@ -15,6 +15,7 @@
 
 	<!-- Bootstrap core CSS -->
 	<link href="./src/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="./src/css/iconic-bootstrap.css">
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 	<script src="./src/js/ie-emulation-modes-warning.js"></script>
@@ -44,70 +45,70 @@
 
 	<div class="container project-page">
 
-		<div class="section-shift row" style="background-color:#FEF7EC;">
+		<div id="projects" class="section-shift row" style="background-color:#FEF7EC;">
 			<div class="col-md-3">
 				<div class="section-intro">
 					<h1>Our Projects</h1>
 				</div>
 			</div>
 
-			<div class="thumb col-xs-6 col-md-3">
+			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
 				<a href="project-manado-ccva.html">
 					<img class="publication-image img-responsive" src="./src/img/projects/manado-ccva/thumb.jpg">
 					<h3 class="text-primary">Manado Climate Change Vulnerability Assessment</h3>
 					<p>A thriving coastal urban hub and tourist spot is threatened by climate change and rapid urbanization</p>
-					<h5 class="text-uppercase">Manado, North Sulawesi, Indonesia</h5>
+					<h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> Manado, North Sulawesi, Indonesia</h5>
 				</a>
 			</div>
 
-			<div class="thumb col-xs-6 col-md-3">
+			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
 				<a href="project-firm-foundation.html">
 					<img class="publication-image img-responsive" src="./src/img/projects/firm-foundation/thumb.jpg">
 					<h3 class="text-primary">Firm Foundation</h3>
 					<p>Residents of riverbank neighborhoods get involved in the restoration of a port, creating an innovative multifunctional public space</p>
-					<h5 class="text-uppercase">Banjarmasin, South Kalimantan, Indonesia</h5>
+					<h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> Banjarmasin, South Kalimantan, Indonesia</h5>
 				</a>
 			</div>
 
-			<div class="thumb col-xs-6 col-md-3">
+			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
 				<a href="project-solo-kota-kita.html">
 					<img class="publication-image img-responsive" src="./src/img/projects/solo-kota-kita/thumb.jpg">
 					<h3 class="text-primary">Solo Kota Kita</h3>
 					<p>Community mapping of neighborhoods gives local governments a new tool to serve residents</p>
-					<h5 class="text-uppercase">Surakarta (Solo), Central Java, Indonesia</h5>
+					<h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> Surakarta (Solo), Central Java, Indonesia</h5>
 				</a>
 			</div>
 
-			<div class="thumb col-xs-6 col-md-3">
+			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
 				<a href="project-pekalongan-ccva.html">
 					<img class="publication-image img-responsive" src="./src/img/projects/pekalongan-ccva/thumb.jpg">
 					<h3 class="text-primary">Pekalongan Climate Change Vulnerability Assessment</h3>
 					<p>A creative hub for traditional fabrics stands to be hit hard by climate change and urbanization</p>
-					<h5 class="text-uppercase">Pekalongan, Central Java, Indonesia</h5>
+					<h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> Pekalongan, Central Java, Indonesia</h5>
 				</a>
 			</div>
 
-			<div class="thumb col-xs-6 col-md-3">
+			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
 				<a href="project-manaikhoroo.html">
 					<img class="publication-image img-responsive" src="./src/img/projects/manaikhoroo/thumb.jpg">
 					<h3 class="text-primary">Manaikhoroo Participatory Mapping of the Ger Areas</h3>
 					<p>Kota Kita takes its Solo mapping project to the Mongolian capital</p>
-					<h5 class="text-uppercase">Ulaanbaatar, Mongolia</h5>
+					<h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> Ulaanbaatar, Mongolia</h5>
 				</a>
 			</div>
 
-			<div class="thumb col-xs-6 col-md-3">
+			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
 				<a href="project-transportation-networks.html">
 					<img class="publication-image img-responsive" src="./src/img/projects/transportation-networks/thumb.jpg">
 					<h3 class="text-primary">Informal Transportation Networks in Three Indonesian Cities</h3>
 					<p>Informal transportation in Indonesia's midsize cities provides valuable services to the urban poor</p>
-					<h5 class="text-uppercase">Surakarta, Jogjakarta, &amp; Palembang, Indonesia</h5>
+					<h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> Surakarta, Jogjakarta, &amp; Palembang, Indonesia</h5>
 				</a>
 			</div>
 
@@ -115,21 +116,11 @@
 
 		</div>
 
-		<hr class="featurette-divider">
-
-		<!-- FOOTER -->
-	{% include footer.html %}
-
 	</div><!-- /.container -->
 
+	{% include footer.html %}
 
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="./src/js/bootstrap.min.js"></script>
-	<script src="./src/js/docs.min.js"></script>
-	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<script src="./src/js/ie10-viewport-bug-workaround.js"></script>
+	{% include core-js.html %}
+
 	</body>
 </html>
