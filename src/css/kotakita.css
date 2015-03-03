@@ -272,7 +272,6 @@ footer {
 }
 #footer .sub-section {
 	background-color: #0E2430;
-	height: 340px;
 	margin-top: -36px;
-	padding-top: 1em;
+	padding: 1em 1em 3em 1em;
 }
