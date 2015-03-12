@@ -78,7 +78,7 @@ body {
 .carousel-caption h4 {
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #F5B349;
+  /*color: #F5B349;*/
   margin-bottom: -0.5em;
 }
 
