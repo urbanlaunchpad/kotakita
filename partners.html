@@ -30,9 +30,17 @@
 
 	<link href="./src/css/carousel.css" rel="stylesheet">
 	<link href="./src/css/kotakita.css" rel="stylesheet">
+	<link href="./src/css/toggle.css" rel="stylesheet">
 
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- JQuery -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+	<script src="./src/js/toggle.js"></script>
 
 	</head>
 
@@ -51,13 +59,28 @@
 					<h1>Funding Partners</h1>
 				</div>
 				<p>Kota Kita has worked with, and for, a number of international development agencies, private foundations and NGOs who have supported and funded our research and development activities.</p>
+				<label id="language-toggle" class="switch-light switch-candy" onclick="">
+				  <input type="checkbox">
+				  <span>
+				    Language:
+				    <span>EN</span>
+				    <span>ID</span>
+				  </span>
+				  <a></a>
+				</label>
 			</div>
 
 			<div class="col-sm-3">
 				<div class="intern-top-box"></div>
 				<img class="featurette-image img-responsive" src="./src/img/partner_thumb/FordFoundation.jpg">
-				<a href="http://www.fordfoundation.org/regions/indonesia" target="_blank"><h3>Ford Foundation</h3></a>
-				<h5>The Ford Foundation has been supporting civil society initiatives in Indonesia for more than 60 years, promoting tolerance, social equity and environmental sustainability. The Ford Foundation has enabled Kota Kita to develop community mapping and participatory budgeting initiatives in many cities across the country.</h5>
+				<div class="text-on">
+					<a href="http://www.fordfoundation.org/regions/indonesia" target="_blank"><h3>Ford Foundation</h3></a>
+					<h5>The Ford Foundation has been supporting civil society initiatives in Indonesia for more than 60 years, promoting tolerance, social equity and environmental sustainability. The Ford Foundation has enabled Kota Kita to develop community mapping and participatory budgeting initiatives in many cities across the country.</h5>
+				</div>
+				<div class="text-off">
+					<a href="http://www.fordfoundation.org/regions/indonesia" target="_blank"><h3>Ford Foundation</h3></a>
+					<h5>Lioadpljflajs.</h5>
+				</div>
 			</div>
 			<div class="col-sm-3">
 				<div class="intern-top-box"></div>
