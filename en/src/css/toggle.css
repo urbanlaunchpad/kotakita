@@ -1,0 +1,21 @@
+input {
+    display:none;
+}
+.show_en {
+    display:none;
+}
+input#show:checked ~ span.language_toggle {
+  background-color: yellow;
+}
+input#show:checked .show_en {
+  display:block;
+}
+input#hide:checked .show_en {
+  display:none;
+}
+input#show:checked .show_in {
+  display:none;
+}
+input#hide:checked .show_in {
+  display:block;
+}
