@@ -13,40 +13,18 @@
 
 	<title>Kota Kita</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="./src/css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet" href="./src/css/iconic-bootstrap.css">
-	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-	<script src="./src/js/ie-emulation-modes-warning.js"></script>
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-	<!-- Custom styles for this template -->
-
-	<link href="./src/css/carousel.css" rel="stylesheet">
-	<link href="./src/css/kotakita.css" rel="stylesheet">
-	<link href="./src/css/toggle.css" rel="stylesheet">
-
-	<!-- Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
-
-	<!-- JQuery -->
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-
-	<script src="./src/js/toggle.js"></script>
+	{% include header.html %}
 
 	</head>
 
 	<body>
 
 	{% include nav.html %}
+
+	<label for="show"><span class="language_toggle">English</span></label>
+	<input type=radio id="show" name="group">
+	<label for="hide"><span>Bahasa</span></label>    
+	<input type=radio id="hide" name="group">
 
 	<div class="jumbotron" style="background-image:url(./src/img/partner_thumb/banner.jpg)">
     </div>
@@ -59,13 +37,22 @@
 					<h1>Funding Partners</h1>
 				</div>
 				<p>Kota Kita has worked with, and for, a number of international development agencies, private foundations and NGOs who have supported and funded our research and development activities.</p>
+
+			<p class="show_en">This is English!</p>
+			<p class="show_in">This is Bahasa!</p>
 			</div>
 
 			<div class="col-sm-3">
 				<div class="intern-top-box"></div>
 				<img class="featurette-image img-responsive" src="./src/img/partner_thumb/FordFoundation.jpg">
-				<a href="http://www.fordfoundation.org/regions/indonesia" target="_blank"><h3>Ford Foundation</h3></a>
-				<h5>The Ford Foundation has been supporting civil society initiatives in Indonesia for more than 60 years, promoting tolerance, social equity and environmental sustainability. The Ford Foundation has enabled Kota Kita to develop community mapping and participatory budgeting initiatives in many cities across the country.</h5>
+				<div class="show_in">
+					<a href="http://www.fordfoundation.org/regions/indonesia" target="_blank"><h3>Ford Foundation</h3></a>
+					<h5>Ford Foundation telah membantu insitaif dari kelompok Civil Society di Indonesia lebih dari 60 tahun lamanya, dalam berbagai bidang seperti toleransi, keadilan sosial, dan keberlangsungan lingkungan. Ford Fundation membantu Kota Kita dalam mewujudkan program pemetaan kota dan perencanaan partisipatif di beberapa kota di Indonesia.</h5>
+				</div>
+				<div class="show_en">
+					<a href="http://www.fordfoundation.org/regions/indonesia" target="_blank"><h3>Ford Foundation</h3></a>
+					<h5>The Ford Foundation has been supporting civil society initiatives in Indonesia for more than 60 years, promoting tolerance, social equity and environmental sustainability. The Ford Foundation has enabled Kota Kita to develop community mapping and participatory budgeting initiatives in many cities across the country.</h5>
+				</div>
 			</div>
 			<div class="col-sm-3">
 				<div class="intern-top-box"></div>
