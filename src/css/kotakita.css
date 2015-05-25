@@ -275,3 +275,6 @@ footer {
 	margin-top: -36px;
 	padding: 1em 1em 10em 1em;
 }
+#footer #social-icons a {
+	margin-right: 0.675em;
+}
