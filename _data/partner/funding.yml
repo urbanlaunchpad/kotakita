@@ -1,0 +1,31 @@
+# UPDATE JULY 2018
+# Author: Ongki Herlambang -- meepomodeon@gmail.com
+
+- name: 'British Academy'
+  thumbnail: 'july-2018/british-academy.png'
+  url: 'https://www.britac.ac.uk/'
+  description: '<p>The British Academy is the United Kingdom’s national body for the humanities and social sciences.  The British Academy fosters the international collaboration in the humanities and social sciences, and promote the sharing of international perspectives on global challenges. The British Academy provides a variety of grants and fellowships to support academic research, career development and wider engagement across the full range of the humanities and social sciences. The British Academy also provides funding opportunities which cover UK and international research from the postdoctoral level upwards, supporting the best ideas, individuals and intellectual resources.</p>
+
+  <p>The British Academy provided a grant for Kota Kita, in collaboration with University College London, under the scheme of Sustainable Development Programme 2016, to deliver research on the geography of informal enterprise and innovation in Greater Solo.</p>'
+
+- name: 'Making All Voices Count'
+  thumbnail: 'july-2018/mavc.png'
+  url: 'http://www.makingallvoicescount.org/'
+  description: '<p>Making All Voices Count is a programme working towards a world in which open, effective and participatory governance is the norm and not the exception. It focuses global attention on creative and cutting-edge solutions to transform the relationship between citizens and their governments. The programme is inspired by and supports the goals of the Open Government Partnership.</p>
+
+  <p>Making All Voices Count is supported by the UK Department for International Development (DFID), the US Agency for International Development (USAID), the Swedish International Development Cooperation Agency (SIDA) and the Omidyar Network, and is implemented by a consortium consisting of Hivos, IDS and Ushahidi.</p>
+
+  <p>Kota Kita is a part of the Making All Voices Count initiative in Indonesia in year 2016-2017 and produced a comprehensive document on the experiences of participatory budgeting in 6 Indonesian cities.</p>'
+
+- name: 'UNESCO'
+  thumbnail: 'july-2018/unesco.png'
+  url: 'https://en.unesco.org/'
+  description: '<p>The United Nations Educational, Scientific and Cultural Organization (UNESCO) is responsible for coordinating international cooperation in education, science, culture and communication. UNESCO Office in Jakarta is a Regional Science Bureau for Asia and the Pacific dedicated to fostering equitable and inclusive human development based on the universal ethical and human rights frameworks. UNESCO works closely with the governments and the civil society to promote participatory and inclusive processes and policies: making sure that all the relevant voices are heard and everyone benefits equitably from social and economic development. In Indonesia, UNESCO has joined forces with sister UN agencies WHO and ILO and the Network of Mayors for Inclusive Cities to realize a UN initiative on promoting the rights of persons with disabilities (UNPRPD).</p>
+
+  <p>UNESCO and Kota Kita are collaborating to do participatory data collection for the conditions and rights  of persons with disabilities in Solo and Banjarmasin, Indonesia, from year 2017-2019.</p>'
+
+# Template
+# - name: ''
+#   thumbnail: ''
+#   url: ''
+#   description: ''

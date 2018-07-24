@@ -1,0 +1,54 @@
+# UPDATE JULY 2018
+# Author: Ongki Herlambang -- meepomodeon@gmail.com
+# TODO: Get the thumbnails
+# TODO: Confirm aboyt document storage, github, issue, or google drive
+
+- thumbnail: 'default.png'
+  title: 'Kota Kita’s Annual Report 2017'
+  publisher: 'Kota Kita, 2018'
+  options:
+    - url: 'Annual Report 2017FIN.pdf'
+      name: 'English'
+
+- thumbnail: 'default.png'
+  title: 'Solo City: A Disability-inclusive City Profile'
+  publisher: 'UNESCO, Kota Kita, 2018'
+  options:
+    - url: ''
+      name: 'English'
+
+- thumbnail: 'default.png'
+  title: 'Participatory Data Collection and Mapping Tool: Guideline for Disability Study'
+  publisher: 'UNESCO, Kota Kita, 2018'
+  options:
+    - url: ''
+      name: 'English'
+
+- thumbnail: 'default.png'
+  title: 'Highlights on Some Asian and Russian Participatory Budgeting Pioneers'
+  publisher: 'Yves Cabannes,  DPU-UCL, IOPD, Kota Kita, 2018'
+  options:
+    - url: 'participatory_budgeting_asia_russia_final.pdf'
+      name: 'English'
+
+- thumbnail: 'default.png'
+  title: 'Kota Kita and The World Urban Forum 9: Experiences and Learnings'
+  publisher: 'Kota Kita, 2018'
+  options:
+    - url: ''
+      name: 'English'
+
+- thumbnail: 'default.png'
+  title: 'Participatory Budgeting in Indonesia; Past, Present, Future'
+  publisher: 'Making All Voices Count, Kota Kita, 2017'
+  options:
+    - url: ''
+      name: 'English'
+
+- thumbnail: 'default.png'
+  title: 'The 4th Urban Social Forum Event Report'
+  publisher: 'Kota Kita, 2016'
+  options:
+    - url: ''
+      name: 'English'
+

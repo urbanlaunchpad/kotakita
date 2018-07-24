@@ -72,13 +72,13 @@
 				<img class="featurette-image img-responsive" src="./src/img/partner_thumb/CDIA.jpg">
 				<a href="http://cdia.asia" target="_blank"><h3>Cities Development Initiative for Asia (CDIA)</h3></a>
 				<h5>The Cities Development Initiative for Asia commissioned Kota Kita to carry out an in-depth study of the impact of public transportation projects on urban poor communities in Solo, Yogyakarta, and Palembang. The research focused upon drivers and riders of becak, angkot and ojek, all informal modes of public transportation, and resulted in the creation of a publication and a regional workshop that Kota Kita helped facilitate.</h5>
-			</div>		
+			</div>
 			<div class="col-sm-3">
 				<div class="intern-top-box"></div>
 				<img class="featurette-image img-responsive" src="./src/img/partner_thumb/MercyCorps.jpg">
 				<a href="http://www.mercycorps.org/indonesia" target="_blank"><h3>Mercy Corps Indonesia</h3></a>
 				<h5>Mercy Corps Indonesia asked Kota Kita to carry out community-based vulnerability assessments in two cities, Semarang and Bandar Lampung, in order to support their comprehensive climate change resilience strategies in those cities under the Asian Cities Climate Change Resilience Network (ACCCRN) initiative.</h5>
-			</div>		
+			</div>
 
 			<div class="clearfix"></div><hr class="featurette-divider">
 
@@ -99,13 +99,13 @@
 				<img class="featurette-image img-responsive" src="./src/img/partner_thumb/CCRD.jpg">
 				<a href="http://www.ccrdproject.com" target="_blank"><h3>USAID – CCRD</h3></a>
 				<h5>The USAID-funded Climate Change Resilient Development (CCRD) was a global, four-year project to support climate change adaptation in 33 countries. CCRD funded a grant that allowed Kota Kita to conduct a climate change vulnerability assessment of the city of Manado and build the capacity of government officials and academicians in the city to build resilience to climate change.</h5>
-			</div>		
+			</div>
 			<div class="col-sm-3">
 				<div class="intern-top-box"></div>
 				<img class="featurette-image img-responsive" src="./src/img/partner_thumb/AECOM.jpg">
 				<a href="http://www.aecom.com/urbansos" target="_blank"><h3>AECOM</h3></a>
 				<h5>AECOM is an international architecture, engineering and planning firm that hosts Urban SOS, an annual design competition for students. In 2011, a team made up of two urban planning students from the Massachusetts Institute of Technology interning at Kota Kita and two staff members won the competition with an entry entitled Firm Foundation. The $25,000 prize was awarded to implement the winning design, resulting in a participatory design-and-build process with community members in the city of Banjarmasin.</h5>
-			</div>	
+			</div>
 
 			<div class="clearfix"></div><hr class="featurette-divider">
 
@@ -125,10 +125,16 @@
 				<div class="intern-top-box"></div>
 				<h3>The Giles Family</h3>
 				<h5>The Giles Family is dedicated to empowering promising social development initiatives throughout the world, offering strategic guidance and financial support to Room to Read and Direct Relief, widely recognized development organizations that work globally. They have generously supported Kota Kita in our capacity building efforts, strategic initiatives and organizational strengthening.</h5>
-			</div>
-		</div>
+      </div>
 
-		<hr class="featurette-divider">
+      {% include components/partners/funding.html partners=site.data.partner.funding %}
+
+    </div>
+
+
+    <div class="clearfix"></div><hr class="featurette-divider">
+
+		<!-- <hr class="featurette-divider"> -->
 
 		<div id="collaboration" class="featurette row">
 				<div class="col-sm-3">
@@ -236,12 +242,16 @@
 					<img class="featurette-image img-responsive" src="./src/img/partner_thumb/SocialBusiness.jpg">
 					<a href="http://www.socialbusinessconsulting.org" target="_blank"><h3>Social Business Consulting</h3></a>
 					<h5>Social Business Consulting (SBC) is an organization based at Cornell University and run by undergraduate students seeking to make a difference in the world of development. They provide pro-bono consulting support to NGOs around the world, providing them a range of services and tailoring strategies to their needs. SBS helped Kota Kita develop a new marketing strategy, gave suggestions about a social media campaigns and ideas about fundraising.</h5>
-				</div>
+        </div>
 
-				<div class="clearfix"></div><hr class="featurette-divider">
+        <div class="clearfix"></div><hr class="featurette-divider">
 
-				<div class="col-sm-3">
-					<h3>The City Governments of Solo, Banjarmasin, Pekalongan, Padang, Manado, Makassar, Kupang, Ulaanbaatar.</h3>
+        {% include components/partners/collaboration.html partners=site.data.partner.collaborations %}
+
+        <div class="clearfix"></div><hr class="featurette-divider">
+
+				<div class="col-sm-6">
+					<h3>The City Governments of Solo Raya (Greater Solo), Banjarmasin, Pekalongan, Yogyakarta, Surabaya, Bandung,  Padang, Manado, Makassar, Kupang, Ulaanbaatar (Mongolia).</h3>
 				</div>
 		</div>
 
@@ -353,7 +363,12 @@
 				<div class="col-sm-3">
 					<h4>Kemal Taruc</h4>
 					<h5>Urban Development specialist, Indonesia</h5>
-				</div>
+        </div>
+
+        <div class="clearfix"></div><hr class="featurette-divider">
+
+        {% include components/partners/expert.html experts=site.data.partner.experts %}
+
 		</div>
 
 	</div><!-- /.container -->
