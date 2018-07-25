@@ -1,0 +1,56 @@
+# UPDATE JULY 2018
+# Author: Ongki Herlambang -- meepomodeon@gmail.com
+
+# SOLO ON WHEELS
+- name: '‘Solo on Wheels’ Bicycle Map'
+  description: 'Solo bicycle map is designed by Kota Kita to encourage more people to enjoy the city using bicycle. It aims to mainstream the use of non-motorized transportation, as well as advocating for better infrastructure that support it. There are three thematic routes- following the type of destinations that it promote, each routes take into consideration supporting factors to use bicycle, like safety, distance, convenience (shade and availability of slow lane).  The map will be available  for free in public places in Solo.'
+  images:
+    - name: 'solo-wheels-1.png'
+    - name: 'solo-wheels-2.png'
+  urls:
+
+# DATA KOTA
+- name: 'Data Kota'
+  description: 'Data Kota is Kota Kita’s technology initiative to create an open and free, urban diagnostic platform of cities across Indonesia. The platform consolidates socio-demographic data and features an interactive map of each cities.The feature and design of the map helps to locate certain conditions, compare findings  between neighborhoods and indicators, and finally, allows users to create and print their self-made Mini Atlases/ neighborhood profiles. The first Data Kota’s city initiative was made in collaboration with the City Government of Banjarmasin in 2016-2017.'
+  images:
+    - name: 'data-kota-1.png'
+    - name: 'data-kota-2.png'
+  urls:
+    - name: 'Visit the web'
+      url: 'http://www.datakota.id'
+
+# Participatory Methodology for Disability-inclusive City: Guideline Document and Video
+- name: 'Participatory Methodology for Disability-inclusive City: Guideline Document and Video '
+  description: 'Together with UNESCO, Kota Kita created Guideline Methodology document for Participatory Disability Data Collection. It is a manual that aims to introduce the process and step-by-step activities in developing the Disability-Inclusive City Profile which synthesized the process, learning and experience in Solo, Indonesia. This manual is an educational tool that can be used by anyone who has concern with disability issues and wishes to create a more inclusive city through provision of reliable data. Kota Kita also produced a video that captures the process of participatory data collection in Solo, Indonesia. The video is available in Bahasa Indonesia and English with subtitles. '
+  urls:
+    - name: 'Bahasa'
+      url: 'https://www.youtube.com/watch?v=GVWqvL1XKtI'
+    - name: 'English (with subtitles)'
+      url: 'https://www.youtube.com/watch?v=pQK8u_2h7PA'
+  images:
+    - name: ''
+    - name: ''
+
+# Safe Bicycle Practices Bilingual Video
+- name: "Safe Bicycle Practices Bilingual Video"
+  description: "Using a video, Kota Kita shares practical tips and traffic etiquettes, the dos and don'ts for urban cyclists. This video is a part of Women on Wheels program, an ongoing awareness raising campaign, to promote safer, more inclusive, and bicycle-friendly urban transportation system in Indonesian cities. The video is available in Bahasa Indonesia and English."
+  urls:
+    - name: "Bahasa"
+      url: "https://www.youtube.com/watch?v=BmMqZLwdO5U"
+    - name: "English"
+      url: "https://www.youtube.com/watch?v=EoPLAuZY5gw"
+  images:
+    - name: ""
+    - name: ""
+
+# ----------------------------
+# Template
+# - name: ''
+#   description: ''
+#   urls:
+#     - _1:
+#       - name: ''
+#         url: ''
+#   images:
+#     - _1: ''
+#     - _2: ''
