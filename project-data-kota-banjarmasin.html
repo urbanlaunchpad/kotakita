@@ -1,0 +1,69 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.datakota-banjarmasin%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.datakota-banjarmasin%}
+
+    {% for project in site.data.projects.datakota-banjarmasin %}
+
+      {% include components/projects/full-bleed-image.html
+        image=project.img.map1
+      %}
+
+      {% include components/projects/full-bleed-image.html
+        image=project.img.map2
+      %}
+
+      {% include components/projects/image-right.html
+        image=project.img.thumbnail
+        text="
+        <p>Building on <a href='http://www.kotakita.org/project-solo-kota-kita.html'>Solo Kota Kita</a>, the initiative in Banjarmasin followed a similar yet more refined implementation and representation of results. It collaborated with local government, divisions, relevant working groups, and citizen volunteers to extensively collect data from the smallest administrative unit, Rukun Tetangga (RT), illustrating the different conditions from its demography, economy, education, access to sanitation, clean water, waste management, to types of houses along with their land tenure status or property relations.</p>
+        <p>Citizen volunteers in Banjarmasin conducted citywide, door-to-door survey using an Android-based mobile survey application that allows for faster, more detailed,  geotagged information about the urban conditions.</p>
+        "
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.launch1
+        image2=project.img.launch2
+      %}
+
+      {% include components/projects/image-right-third.html
+        image=project.img.launch3
+        text="
+        <p>Data Kota is developed by an interdisciplinary team that worked to interpret and communicate urban patterns and potentials in a way that is user-friendly for government officials and citizens. Banjarmasin Data Kota applied visualization and geospatial web-based technology to aid the interpretation of urban data. Features include 1) an interactive map that displays color-coded geospatial information layers in each neighborhood, 2) charts that applies different indicators for neighborhood comparisons, 3) comparative maps, and 4) a do-it-yourself Mini Atlas that allows citizens to choose and print themselves, a neighborhood profile with its 6 key features.</p>
+        "
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+        <p>Decision making based on data derived from the residents themselves can lead to a stronger, more impactful connection to what citizens want and need. With the help of fine-grained RT level data, It can influence positively how local governments invest in neighborhoods.  Banjarmasin is the first of the many cities that will participate in the Data Kota platform.</p>
+        "
+      %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

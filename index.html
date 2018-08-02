@@ -57,7 +57,7 @@
 				</div>
       </div> -->
 
-      <div class="item" style="background-image:url(./src/img/feature/cover1.jpg)">
+      <div class="item" style="background-image:url(https://res.cloudinary.com/vasilenka/image/upload/v1533093007/kotakita/projects/participatory-budgetting/banner.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Library</h4>
@@ -68,13 +68,13 @@
 				</div>
       </div>
 
-      <div class="item" style="background-image:url(./src/img/feature/cover2.jpg)">
+      <div class="item" style="background-image:url(https://res.cloudinary.com/vasilenka/image/upload/v1533093994/kotakita/projects/participatory-data-collection/cross.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Video</h4>
 						<h1>Participatory data collection for disability-inclusive city: Solo City</h1>
-						<p>Participatory process enables mapping of various key determinants of exclusion and inclusion, such as the concentrations of persons with disabilities throughout the city and in relation to access to public services. It produced datasets that are unique in Indonesia in being able to provide fine-grain information about the city residents with disabilities, and the degree of their inclusion in different aspects of life.</p>
-						<p><a class="btn btn-lg btn-default" href="about-us#our-mission" role="button">Watch here</a></p>
+						<p>Participatory process enables mapping of various key determinants of exclusion and inclusion, such as the concentrations of persons with disabilities throughout the city and in relation to access to public services.</p>
+						<p><a class="btn btn-lg btn-default" target="_blank" href="https://www.youtube.com/watch?v=GVWqvL1XKtI&t=14s" role="button">Watch here</a></p>
 					</div>
 				</div>
       </div>
@@ -131,7 +131,34 @@
 				<a href="#"><p class="btn btn-lg btn-primary" role="button">Learn more</p></a> -->
 			</div>
 
-			<div class="project block-item col-md-3">
+      {% for project in site.data.projects.datakota-banjarmasin %}
+        {% include components/projects/front-home.html
+          url="project-data-kota-banjarmasin.html"
+          title=project.name
+          teaser=project.teaser
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+      {% for project in site.data.projects.creative-kampongs %}
+        {% include components/projects/front-home.html
+          url="project-creative-kampongs.html"
+          title=project.name
+          teaser=project.short-teaser
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+      {% for project in site.data.projects.women-on-wheels %}
+        {% include components/projects/front-home.html
+          url="project-women-on-wheels.html"
+          title=project.name
+          teaser=project.teaser
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+			<!-- <div class="project block-item col-md-3">
 				<hr class="featurette-divider visible-xs visible-sm">
 				<a href="project-third-urban-social-forum.html">
 					<div class="project-top-box"></div>
@@ -140,9 +167,9 @@
 					<p>Over 1000 activists, social leaders, academics, and students from throughout Indonesia and Asia came together to discuss solutions and actions to respond to our most pressing urban issues</p>
 					<p class="btn btn-default" role="button">View details &raquo;</p>
 				</a>
-			</div>
+      </div> -->
 
-			<div class="project block-item col-md-3">
+			<!-- <div class="project block-item col-md-3">
 				<hr class="featurette-divider visible-xs visible-sm">
 				<a href="project-aiira-participatory-budgeting.html">
 					<div class="project-top-box"></div>
@@ -161,7 +188,7 @@
 					<p>Promoting bicycling for women in Indonesian cities, through a pilot project in Solo</p>
 					<p class="btn btn-default" role="button">View details &raquo;</p>
 				</a>
-			</div>
+			</div> -->
 
 			<!-- <div class="project col-xs-6 col-md-3">
 				<a  href="firm-foundation.html" >

@@ -1,0 +1,56 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.participatory-disabilites %}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.participatory-disabilites %}
+
+    {% for project in site.data.projects.participatory-disabilites %}
+
+      {% include components/projects/full-bleed-image.html
+        image=project.img.cross
+      %}
+
+      {% include components/projects/image-right.html
+        text="
+        <p>In 2017, Kota Kita collaborated with UNESCO to conduct a city-wide participatory data collection in Solo. The neighborhood-level mapping exercise led to the enrichment and standardization of the participatory data collection methodology, and the development of a disability-inclusive city profile for advocacy.</p>
+        <p style='font-style: italic'>The Solo City legislature had already passed the Local Law 2/2008 on Disability Rights which was hailed as breakthrough as it preceded the national ratification of UNCRPD in 2011. This regulation declared Solo as an ‘Inclusive City’ and called for citywide action based on ‘right-based approach to disability</p>
+        "
+        image=project.img.talk1
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.talk2
+        image2=project.img.smile
+      %}
+
+      {% include components/projects/full-text.html
+        text="The mapping initiative identified constraints and opportunities for disability inclusion in the city. Equipped with mobile survey application, Kota Kita worked with volunteers to gather vital socio-economic and demographic data at the smallest administrative division level – referred to in Indonesia as “rukun tetangga” (RT). The persons with disabilities responded to a specially designed questionnaire that integrates the information into a citywide dataset. Kota Kita managed to map various key determinants of exclusion and inclusion, such as the concentrations of persons with disabilities throughout the city, relationships to social welfare conditions, and their proximity to various vital public institutions for education and healthcare. It produced unique datasets that provide fine-grain visibility on the city residents with disabilities, and the degree of their inclusion in different aspects of life. This ultimately serves to influence policy and a more inclusive public service delivery."
+      %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>
