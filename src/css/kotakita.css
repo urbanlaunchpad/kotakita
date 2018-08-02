@@ -267,7 +267,7 @@ color: #fff;
 }
 
 .subscription-container {
-  align-items: center;
+  align-items: flex-end;
   display: inline-flex;
   width: 100%;
   background: transparent !important;
@@ -316,7 +316,7 @@ color: #fff;
 }
 
 #footer {
-
+  margin-top: 2em;
 }
 footer {
 	padding: 2em 2em 0 2em;
