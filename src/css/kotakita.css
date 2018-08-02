@@ -278,7 +278,7 @@ color: #fff;
 }
 
 #mc_embed_signup form {
-  padding: 0;
+  padding: 0 !important;
   display: inline-flex;
   align-items: center;
   background: transparent !important;
