@@ -22,7 +22,9 @@
     {% include components/projects/header.html projects=site.data.projects.women-on-wheels%}
 
     {% for project in site.data.projects.women-on-wheels %}
-      {% include components/projects/full-bleed-image.html image=project.img.biker %}
+
+      {% include components/projects/full-bleed-image.html image=project.img.school %}
+
       {% include components/projects/image-right.html
         image=project.img.biker2
         text="

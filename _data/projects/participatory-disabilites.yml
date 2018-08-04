@@ -7,13 +7,13 @@
   location: "Solo, Central Java, Indonesia"
   keyorganizations : "UNESCO Jakarta"
   duration: "2017"
-  cover: "https://res.cloudinary.com/vasilenka/image/upload/v1533093406/kotakita/projects/participatory-data-collection/focus-group.jpg"
-  thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/ar_1:1,c_fill,g_auto/v1533093406/kotakita/projects/participatory-data-collection/focus-group.jpg"
+  cover: "https://res.cloudinary.com/vasilenka/image/upload/v1533350448/kotakita/projects/participatory-data-collection/disability-cover.jpg"
+  thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533350444/kotakita/projects/participatory-data-collection/disability-thumbnail.jpg"
   img :
     talk2: "https://res.cloudinary.com/vasilenka/image/upload/v1533093505/kotakita/projects/participatory-data-collection/talk2.jpg"
     talk1: "https://res.cloudinary.com/vasilenka/image/upload/v1533093420/kotakita/projects/participatory-data-collection/talk.jpg"
     smile: "https://res.cloudinary.com/vasilenka/image/upload/v1533093446/kotakita/projects/participatory-data-collection/smile.jpg"
-    cross: "https://res.cloudinary.com/vasilenka/image/upload/v1533093994/kotakita/projects/participatory-data-collection/cross.jpg"
+    focus: "https://res.cloudinary.com/vasilenka/image/upload/v1533093406/kotakita/projects/participatory-data-collection/focus-group.jpg"
   paragraph1: "<p>Reliable, disaggregated and fit-for-purpose data is essential for the design, implementation and evaluation of any policy that aims to promote social inclusion of vulnerable groups, including persons with disabilities. Indonesian cities are often at the forefront of inclusive social policy innovation to fulfil the rights of persons with disabilities. The efforts of the government and the civil society are hampered by the lack of relevant up-to-date and accurate data at the local and municipal levels.</p>
   <p>Currently, the available data on disability from the official sources, responsible city-level and/or national-level departments datasets is scarce - often outdated to be useful for effective planning and policy making.</p>"
   paragraph2: "<p>Moreover, the data on disability is often aggregated at the national level, making it very difficult for the municipal policymakers to utilize it for local policy design.  One way for city authorities to bridge this gap is by fostering closer links with persons with disabilities, increasing their participation in knowledge production and policy processes in order to enhance the impact and effectiveness of city-level policy and action. This improved process of data collection and management ultimately contributes to strengthening of the inclusive character of urban environments.</p>"

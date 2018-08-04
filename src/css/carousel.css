@@ -55,7 +55,7 @@ body {
 .carousel-inner > .item {
   background-repeat: no-repeat center center fixed;
   background-size:cover;
-  min-height: 240px;
+  min-height: 400px;
 }
 /*.carousel-inner > .item > img {
   position: absolute;

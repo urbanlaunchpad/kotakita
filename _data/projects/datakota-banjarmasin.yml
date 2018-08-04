@@ -7,8 +7,8 @@
   location: "Banjarmasin, South Kalimantan, Indonesia"
   keyorganizations : "City Government of Banjarmasin, Barenlitbangda (Local Planning Agency) Banjarmasin, Ford Foundation, Turun Tangan Banjarmasin, Dattabot"
   duration: "2016-ongoing"
-  cover: "https://res.cloudinary.com/vasilenka/image/upload/v1533093833/kotakita/projects/banjarmasin-datakota/banner.jpg"
-  thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/ar_1:1,c_fill,g_auto/v1533093833/kotakita/projects/banjarmasin-datakota/banner.jpg"
+  cover: "https://res.cloudinary.com/vasilenka/image/upload/v1533350978/kotakita/projects/banjarmasin-datakota/datakota-cover.jpg"
+  thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533350979/kotakita/projects/banjarmasin-datakota/datakota-thumbnail.jpg"
   img :
     launch1: "https://res.cloudinary.com/vasilenka/image/upload/v1533093897/kotakita/projects/banjarmasin-datakota/launch1.jpg"
     launch2: "https://res.cloudinary.com/vasilenka/image/upload/v1533093832/kotakita/projects/banjarmasin-datakota/launch2.jpg"

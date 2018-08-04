@@ -186,7 +186,7 @@ color: #fff;
 
 @media (min-width: 768px) {
 	.jumbotron {
-		min-height: 440px;
+		min-height: 560px;
 	}
 }
 
@@ -210,7 +210,7 @@ color: #fff;
 }
 
 #projects .block-item:hover {
-	background-color: #fdf0dc;
+  background-color: #fdf0dc;
 }
 
 /* INTERNs */

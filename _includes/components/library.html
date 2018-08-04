@@ -1,7 +1,7 @@
 {% for publication in include.publications %}
   <div class="thumb col-xs-6 col-md-3">
     <div class="intern-top-box"></div>
-    <img class="publication-image img-responsive" src="./src/img/publication_thumb/{{ publication.thumbnail }}">
+    <img class="publication-image img-responsive" src="{{ publication.thumbnail }}">
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
 
       {% for option in publication.options %}
