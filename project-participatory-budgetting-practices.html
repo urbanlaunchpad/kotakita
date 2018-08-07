@@ -24,14 +24,13 @@
     {% for project in site.data.projects.participatory-budgetting %}
 
       {% include components/projects/full-bleed-image.html
-        image=project.img.rk
+        image=project.img.wall
       %}
 
-      {% include components/projects/image-right.html
+      {% include components/projects/full-text.html
         text="
         <p>In 2016, Kota Kita, with the support of the Making All Voices Count (MAVC) programme and Institute of Development Studies (IDS), conducted a research, documenting participatory budgeting and planning practices in six Indonesian cities, Solo, Yogyakarta, Surabaya, Makassar, Bandung, and Municipality of Kebumen. Through this research, Kota Kita set out to investigate the challenges and opportunities of institutionalising participation; how access to information and use of technology impact participation in budget planning processes; what it takes for participatory budgeting to empower citizens; and how participatory budgeting can be inclusive to the most marginalized citizens.</p>
         "
-        image=project.img.wall
       %}
 
       {% include components/projects/image-right.html

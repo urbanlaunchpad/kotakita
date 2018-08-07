@@ -2,8 +2,13 @@
 
   var config = {
     "youtube" : "UC7h8eMsspsYvUFm9j7U932g",
-    "url" : "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUC7h8eMsspsYvUFm9j7U932g&api_key=9ohqkyjauovauuxkbzg0tl6fboaizgkwd0j7cqby&order_by=pubDate&count=3"
+    "url" : "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUC7h8eMsspsYvUFm9j7U932g&api_key=9ohqkyjauovauuxkbzg0tl6fboaizgkwd0j7cqby&order_by=pubDate&count=3",
+    "api_key" : "AIzaSyALicOFaXZslcRWh0d9GzfqUKA6sBRZfL8"
   };
+
+  // $.getJSON('https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC7h8eMsspsYvUFm9j7U932g&maxResults=30&type=video&key=AIzaSyALicOFaXZslcRWh0d9GzfqUKA6sBRZfL8',function(data,status,xhr){
+  //     console.log(data);
+  // });
 
   var monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
