@@ -45,6 +45,11 @@ ul.nav li:hover, .dropdown-menu > li > a:hover {
 	color: #fff;
 }
 
+.publication-date {
+  font-size: 13px;
+  line-height: 16px;
+}
+
 .dropdown-menu {
 	padding: 0;
 	border: 0px;

@@ -3,11 +3,13 @@
 
 # SOLO ON WHEELS
 - name: '‘Solo on Wheels’ Bicycle Map'
-  description: 'Solo bicycle map is designed by Kota Kita to encourage more people to enjoy the city using bicycle. It aims to mainstream the use of non-motorized transportation, as well as advocating for better infrastructure that support it. There are three thematic routes- following the type of destinations that it promote, each routes take into consideration supporting factors to use bicycle, like safety, distance, convenience (shade and availability of slow lane).  The map will be available  for free in public places in Solo.'
+  description: 'Solo bicycle map is designed by Kota Kita to encourage more people to enjoy the city using bicycle. It aims to mainstream the use of non-motorized transportation, as well as advocating for better infrastructure that support it. There are three thematic routes- following the type of destinations that it promote, each routes take into consideration supporting factors to use bicycle, like safety, distance, convenience (shade and availability of slow lane). The <a href="http://bit.ly/solomap" target="_blank">map</a> will be available  for free in public places in Solo.'
   images:
     - name: 'solo-on-wheels-map-1.jpg'
     - name: 'solo-on-wheels-map-2.jpg'
   urls:
+    - name: 'Get the map'
+      url: 'http://bit.ly/solomap'
 
 # DATA KOTA
 - name: 'Data Kota'
