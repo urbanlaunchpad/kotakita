@@ -1,7 +1,7 @@
 (function(){
 
   function sortPublish(a, b) {
-    return new Date(a.lastUpdated).getTime() - new Date(b.lastUpdated).getTime();
+    return new Date(a.snippet.publishedAt).getTime() - new Date(b.snippet.publishedAt).getTime();
   }
 
   var config = {
@@ -26,7 +26,6 @@
         "url" : url
       }
       renderVideo(video);
-
     });
   });
 
@@ -45,7 +44,6 @@
 
   function renderVideo(video) {
     var pubDate = new Date(video.pubDate);
-    console.log(video.thumbnail);
     var container =
       '<div class="block-item col-sm-4 col-xs-6">'+
         '<div class="news-top-box"></div>'+
