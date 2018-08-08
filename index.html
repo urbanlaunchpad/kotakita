@@ -23,7 +23,8 @@
 		<li data-target="#myCarousel" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
-			<div class="item active" style="background-image:url(./src/img/carousel/ex_slider_01.jpg)">
+
+      <div class="item active" style="background-image:url(./src/img/carousel/ex_slider_01.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Our Mission</h4>
@@ -32,7 +33,8 @@
 						<p><a class="btn btn-lg btn-default" href="about-us#our-mission" role="button">Learn about our mission</a></p>
 					</div>
 				</div>
-			</div>
+      </div>
+
 			<!-- <div class="item" style="background-image:url(./src/img/carousel/slider_another-city.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
@@ -42,8 +44,9 @@
 						<p><a class="btn btn-lg btn-default" href="http://kotakita-journal.tumblr.com/post/109590341832/another-city-is-possible" role="button">Read more</a></p>
 					</div>
 				</div>
-			</div> -->
-			<div class="item" style="background-image:url(./src/img/feature/development-boom/banner-dark.jpg)">
+      </div> -->
+
+			<!-- <div class="item" style="background-image:url(./src/img/feature/development-boom/banner-dark.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Feature</h4>
@@ -52,8 +55,31 @@
 						<p><a class="btn btn-lg btn-default" href="feature-development-boom" role="button">Read more</a></p>
 					</div>
 				</div>
-			</div>
-			<div class="item" style="background-image:url(./src/img/feature/mongolia-planning/banner-dark.jpg)">
+      </div> -->
+
+      <div class="item" style="background-image:url('https://res.cloudinary.com/vasilenka/image/upload/v1533597764/kotakita/featured/participatory-budgetting.jpg')">
+				<div class="container">
+					<div class="carousel-caption">
+						<h4>Library</h4>
+						<h1>Participatory Budgeting in Indonesia: Past, Present, and Future</h1>
+						<p><small>Kota Kita reflects on the history and evolution of participatory budgeting in Indonesia.</small></p>
+						<p><a class="btn btn-lg btn-default" href="./publications-docs/participatory_budgeting_asia_russia_final.pdf" role="button" target="_blank">Read more</a></p>
+					</div>
+				</div>
+      </div>
+
+      <div class="item" style="background-image:url('https://res.cloudinary.com/vasilenka/image/upload/v1533597767/kotakita/featured/disability.jpg')">
+				<div class="container">
+					<div class="carousel-caption">
+						<h4>Video</h4>
+						<h1>Participatory data collection for disability-inclusive city: Solo City</h1>
+						<p><small>Participatory process enables mapping of various key determinants of exclusion and inclusion.</small></p>
+						<p><a class="btn btn-lg btn-default" target="_blank" href="https://www.youtube.com/watch?v=GVWqvL1XKtI&t=14s" role="button">Watch here</a></p>
+					</div>
+				</div>
+      </div>
+
+			<!-- <div class="item" style="background-image:url(./src/img/feature/mongolia-planning/banner-dark.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Feature</h4>
@@ -62,7 +88,8 @@
 						<p><a class="btn btn-lg btn-default" href="feature-mongolia-planning" role="button">Read more</a></p>
 					</div>
 				</div>
-			</div>
+			</div> -->
+
 			<!-- <div class="item" style="background-image:url(./src/img/feature/water-water/banner.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
@@ -92,7 +119,7 @@
 	<div class="container">
 
 		<!-- Three columns of text below the carousel -->
-		<div id="projects" class="row" style="background-color:#FEF7EC;">
+		<div id="projects" class="row" style="background-color:#FEF7EC; padding-top: 24px;">
 
 			<div class="col-md-3">
 				<div class="section-shift section-intro">
@@ -104,7 +131,34 @@
 				<a href="#"><p class="btn btn-lg btn-primary" role="button">Learn more</p></a> -->
 			</div>
 
-			<div class="project block-item col-md-3">
+      {% for project in site.data.projects.datakota-banjarmasin %}
+        {% include components/projects/front-home.html
+          url="project-data-kota-banjarmasin.html"
+          title=project.name
+          teaser=project.teaser
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+      {% for project in site.data.projects.creative-kampongs %}
+        {% include components/projects/front-home.html
+          url="project-creative-kampongs.html"
+          title=project.name
+          teaser=project.short-teaser
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+      {% for project in site.data.projects.women-on-wheels %}
+        {% include components/projects/front-home.html
+          url="project-women-on-wheels.html"
+          title=project.name
+          teaser=project.teaser
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+			<!-- <div class="project block-item col-md-3">
 				<hr class="featurette-divider visible-xs visible-sm">
 				<a href="project-third-urban-social-forum.html">
 					<div class="project-top-box"></div>
@@ -113,9 +167,9 @@
 					<p>Over 1000 activists, social leaders, academics, and students from throughout Indonesia and Asia came together to discuss solutions and actions to respond to our most pressing urban issues</p>
 					<p class="btn btn-default" role="button">View details &raquo;</p>
 				</a>
-			</div>
+      </div> -->
 
-			<div class="project block-item col-md-3">
+			<!-- <div class="project block-item col-md-3">
 				<hr class="featurette-divider visible-xs visible-sm">
 				<a href="project-aiira-participatory-budgeting.html">
 					<div class="project-top-box"></div>
@@ -134,8 +188,8 @@
 					<p>Promoting bicycling for women in Indonesian cities, through a pilot project in Solo</p>
 					<p class="btn btn-default" role="button">View details &raquo;</p>
 				</a>
-			</div>
-			
+			</div> -->
+
 			<!-- <div class="project col-xs-6 col-md-3">
 				<a  href="firm-foundation.html" >
 					<div class="project-top-box"></div>
@@ -145,7 +199,7 @@
 					<p class="btn btn-default" role="button">View details &raquo;</p>
 				</a>
 			</div> -->
-		
+
 		</div><!-- /.row -->
 
 
@@ -164,10 +218,11 @@
 			</div>
 		</div> -->
 
-		<div id="features" class="row featurette">
+		<!--
+    <div id="features" class="row featurette">
 			<div class="col-xs-12">
 				<h1 class="text-center">Kota Kita Today</h1>
-				<hr class="featurette-divider">	
+				<hr class="featurette-divider">
 			</div>
 			<div class="block-item col-sm-3">
 				<div class="news-top-box"></div>
@@ -206,10 +261,13 @@
 					<h5 class="text-primary text-uppercase small"><span class="iconic iconic-microphone iconic-sm" title="microphone" aria-hidden="true"></span> Blog</h5>
 					<h3>Urban Social Forum Hosts Asia Regional Meeting on the Right to the City</h3>
 					<p>Kota Kita supporting a coalition to promote better cities across Asia</p>
-					<h4>January, 2016</h4>
+          <h4>January, 2016</h4>
 				</a>
 			</div>
-		</div>
+    </div>
+    -->
+
+    {% include components/video-container.html %}
 
 	</div><!-- /.container -->
 

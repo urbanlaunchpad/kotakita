@@ -1,0 +1,25 @@
+{
+  "name": "kotakita",
+  "version": "1.0.0",
+  "description": "Official website for yayasan Kota Kita",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasilenka/kotakita.git"
+  },
+  "keywords": [
+    "kotakita",
+    "urban",
+    "social",
+    "city"
+  ],
+  "author": ".h",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasilenka/kotakita/issues"
+  },
+  "homepage": "https://github.com/vasilenka/kotakita#readme"
+}

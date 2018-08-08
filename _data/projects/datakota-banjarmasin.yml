@@ -1,0 +1,23 @@
+# UPDATE AUGUST 2018
+# Author: Ongki Herlambang -- meepomodeon@gmail.com
+
+# DATA KOTA - BANJARMASIN
+- name : "Data Kota - Kota Banjarmasin"
+  teaser : "An open digital platform for fine-grained spatial data of urban conditions to improve citizen participation and inclusivity in city planning and development. Data Kota is an extension of Kota Kita’s longstanding Urban Observatory initiative."
+  location: "Banjarmasin, South Kalimantan, Indonesia"
+  keyorganizations : "City Government of Banjarmasin, Barenlitbangda (Local Planning Agency) Banjarmasin, Ford Foundation, Turun Tangan Banjarmasin, Dattabot"
+  duration: "2016-ongoing"
+  cover: "https://res.cloudinary.com/vasilenka/image/upload/v1533350978/kotakita/projects/banjarmasin-datakota/datakota-cover.jpg"
+  thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533598122/kotakita/projects/banjarmasin-datakota/datakota-thumbnail.jpg"
+  img :
+    launch1: "https://res.cloudinary.com/vasilenka/image/upload/v1533093897/kotakita/projects/banjarmasin-datakota/launch1.jpg"
+    launch2: "https://res.cloudinary.com/vasilenka/image/upload/v1533093832/kotakita/projects/banjarmasin-datakota/launch2.jpg"
+    launch3: "https://res.cloudinary.com/vasilenka/image/upload/v1533093821/kotakita/projects/banjarmasin-datakota/launch3.jpg"
+    map1: "https://res.cloudinary.com/vasilenka/image/upload/v1533093820/kotakita/projects/banjarmasin-datakota/map1.jpg"
+    map2: "https://res.cloudinary.com/vasilenka/image/upload/v1533093821/kotakita/projects/banjarmasin-datakota/map2.jpg"
+    thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533598122/kotakita/projects/banjarmasin-datakota/datakota-thumbnail.jpg"
+  paragraph1: "In recent years, data-driven decision-making processes in planning and development of Indonesian cities is on the rise. Despite the glut of data, they are often inaccessible and do not translate well into a set of meaningful information that could inform a more inclusive planning. Data is scattered and not represented in ways that could help to catalyze the necessary conversation about development issues and prioritization, between government officials, and more importantly, between the officials and citizens.
+
+  <p>Since 2017, City Government of Banjarmasin and Kota Kita have been working together to establish and maintain a free and open, urban diagnostic platform, Data Kota <a href='http://www.datakota.id/banjarmasin'>(www.datakota.id/banjarmasin)</a>. </p>
+  "
+  paragraph2: "The platform consolidates socio-demographic data and features an interactive map that geographically locates the different conditions and allows users to create and print each of the city’s 52 neighborhood (Kelurahan) profiles and produce what is called a ‘mini-atlas’. Mini Atlas, one of the main tools of the project, it is an infographic product that shows how each neighborhood works and illustrates patterns of social and economic, accessibility, and inclusivity problems and opportunities."

@@ -23,7 +23,57 @@
 				<div class="section-intro">
 					<h1>Our Projects</h1>
 				</div>
-			</div>
+      </div>
+
+      {% for project in site.data.projects.women-on-wheels %}
+        {% include components/projects/front.html
+          page-url="project-women-on-wheels-sequel.html"
+          title=project.name
+          teaser=project.teaser
+          location=project.location
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+      {% for project in site.data.projects.datakota-banjarmasin %}
+        {% include components/projects/front.html
+          page-url="project-data-kota-banjarmasin.html"
+          title=project.name
+          teaser=project.teaser
+          location=project.location
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+      {% for project in site.data.projects.creative-kampongs %}
+        {% include components/projects/front.html
+          page-url="project-creative-kampongs.html"
+          title=project.name
+          teaser=project.teaser
+          location=project.location
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+      {% for project in site.data.projects.participatory-budgetting %}
+        {% include components/projects/front.html
+          page-url="project-participatory-budgetting-practices.html"
+          title=project.name
+          teaser=project.teaser
+          location=project.location
+          image=project.thumbnail
+        %}
+      {% endfor %}
+
+      {% for project in site.data.projects.participatory-disabilites %}
+        {% include components/projects/front.html
+          page-url="project-disability-inclusive-city.html"
+          title=project.name
+          teaser=project.teaser
+          location=project.location
+          image=project.thumbnail
+        %}
+      {% endfor %}
 
 			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
@@ -34,7 +84,7 @@
 					<h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> Surabaya, East Java, Indonesia</h5>
 				</a>
 			</div>
-			
+
 			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
 				<a href="project-climate-change-governance.html">
@@ -44,7 +94,7 @@
 					<h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> Surabaya, Semarang, Manado, Bandar Lampung, Kupang and Surakarta, Indonesia</h5>
 				</a>
 			</div>
-			
+
 			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
 				<a href="project-women-wheels-pilot.html">
@@ -154,7 +204,7 @@
 					<h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> Kupang, West Timor, East Nusa Tenggara, Indonesia</h5>
 				</a>
 			</div>
-									
+
 			<div class="project-block block-item col-xs-6 col-md-3">
 				<div class="intern-top-box"></div>
 				<a href="project-manado-ccva.html">

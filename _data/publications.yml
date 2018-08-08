@@ -1,0 +1,54 @@
+# UPDATE JULY 2018
+# Author: Ongki Herlambang -- meepomodeon@gmail.com
+# TODO: Get the thumbnails
+# TODO: Confirm aboyt document storage, github, issue, or google drive
+
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361423/kotakita/library/july%202018/annual-report.jpg'
+  title: 'Kota Kita’s Annual Report 2017'
+  publisher: 'Kota Kita, 2018'
+  options:
+    - url: 'july 2018/kotakita-annual-report-2017.pdf'
+      name: 'English'
+
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361424/kotakita/library/july%202018/disability-inclusive-city.jpg'
+  title: 'Solo City: A Disability-inclusive City Profile'
+  publisher: 'UNESCO, Kota Kita, 2018'
+  options:
+    - url: 'july 2018/disability-report.pdf'
+      name: 'English'
+
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361424/kotakita/library/july%202018/participatory-data-collection.jpg'
+  title: 'Participatory Data Collection and Mapping Tool: Guideline for Disability Study'
+  publisher: 'UNESCO, Kota Kita, 2018'
+  options:
+    - url: 'july 2018/participatory-data-collection-methodology.pdf'
+      name: 'English'
+
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361423/kotakita/library/july%202018/asian-russian.jpg'
+  title: 'Highlights on Some Asian and Russian Participatory Budgeting Pioneers'
+  publisher: 'Yves Cabannes,  DPU-UCL, IOPD, Kota Kita, 2018'
+  options:
+    - url: 'july 2018/participatory-budgetting-asia-russia.pdf'
+      name: 'English'
+
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361425/kotakita/library/july%202018/world-urban-forum.jpg'
+  title: 'Kota Kita and The World Urban Forum 9: Experiences and Learnings'
+  publisher: 'Kota Kita, 2018'
+  options:
+    - url: 'july 2018/world-urban-forum-report.pdf'
+      name: 'English'
+
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361426/kotakita/library/july%202018/participatory-budgetting.jpg'
+  title: 'Participatory Budgeting in Indonesia; Past, Present, Future'
+  publisher: 'Making All Voices Count, Kota Kita, 2017'
+  options:
+    - url: 'july 2018/mavc.pdf'
+      name: 'English'
+
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361425/kotakita/library/july%202018/usf4-2016.jpg'
+  title: 'The 4th Urban Social Forum Event Report'
+  publisher: 'Kota Kita, 2016'
+  options:
+    - url: 'july 2018/the-4th-usf-report.pdf'
+      name: 'English'
+

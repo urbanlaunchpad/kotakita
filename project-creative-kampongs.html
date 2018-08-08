@@ -1,0 +1,59 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.creative-kampongs%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.creative-kampongs%}
+
+    {% for project in site.data.projects.creative-kampongs %}
+
+      {% include components/projects/full-bleed-image.html
+        image=project.img.action3
+      %}
+
+      {% include components/projects/image-right.html
+        text="
+        <p>With an extensive experience in conducting city-wide and transboundary surveys, Kota Kita designed an intensive survey process that documents almost all small informal industries in Solo. Using baseline data from Surakarta government, Kota Kita validated number of business together with city stakeholders in participatory workshop and conducted in-depth survey to selected industries. There are 29 groups or sentra in the cities which cover almost 768 business owners in Surakarta.</p>
+        <p>This research also recorded 722 groups or sentra in the cities around Solo (Klaten, Karanganyar, Boyolali, Sragen, Wonogiri, and Sukoharjo), from which Kota Kita surveyed and interviewed 293 business owners to better understand the economic and spatial relations of Solo City with the surrounding metropolitan and hinterland area.</p>
+        "
+        image=project.img.seminar
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.action1
+        image2=project.img.action4
+      %}
+
+      {% include components/projects/image-right.html
+        text="
+        <p>The research has documented unprecedented information and data set about the industries in Solo and surrounding areas in the forms of maps, industry profiles (location, employment, cost and benefits, challenges, assets and opportunities), and videos. Apart from academic contribution in the form of journal articles, the research developed a city wide profile on creative industries to better inform general public about the creative industries in the city. A national workshop will be conducted to disseminate the findings, generate policy recommendations and promote the creative informal and home-based industries. Kota Kita will continue to develop a follow-up project in a selected kampung in Solo to further implement the recommendations derived from the research.</p>
+        "
+        image=project.img.action5
+      %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

@@ -1,0 +1,91 @@
+{% for tool in include.tools %}
+
+<div class="row featurette">
+
+  {% assign imageSize = tool.images.size %}
+
+  {% if imageSize == 1 %}
+    <div class="col-md-8">
+      <h2>{{ tool.name }}</h2>
+      <p>{{ tool.description }}</p>
+      {% assign urlSize = tool.urls.size %}
+      {% if urlSize > 0 %}
+      <div class="btn-group" role="group" aria-label="...">
+        {% for link in tool.urls %}
+          <a href="{{ link.url }}" target="_blank" role="button" class="btn btn-primary"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> {{ link.name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% for image in tool.images %}
+      <div class="col-sm-12 col-md-4">
+        <img class="featurette-image img-responsive" src="./src/img/tools/july-2018/{{ image.name }}">
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if imageSize == 2 %}
+    <div class="col-md-4">
+      <h2>{{ tool.name }}</h2>
+      <p>{{ tool.description }}</p>
+      {% assign urlSize = tool.urls.size %}
+      {% if urlSize > 0 %}
+      <div class="btn-group" role="group" aria-label="...">
+        {% for link in tool.urls %}
+          <a href="{{ link.url }}" target="_blank" role="button" class="btn btn-primary"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> {{ link.name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% for image in tool.images %}
+      <div class="col-sm-6 col-md-4">
+        <img class="featurette-image img-responsive" src="./src/img/tools/july-2018/{{ image.name }}">
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if imageSize == 3 %}
+    <div class="col-md-3">
+      <h2>{{ tool.name }}</h2>
+      <p>{{ tool.description }}</p>
+      {% assign urlSize = tool.urls.size %}
+      {% if urlSize > 0 %}
+      <div class="btn-group" role="group" aria-label="...">
+        {% for link in tool.urls %}
+          <a href="{{ link.url }}" target="_blank" role="button" class="btn btn-primary"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> {{ link.name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% for image in tool.images %}
+      <div class="col-sm-6 col-md-3">
+        <img class="featurette-image img-responsive" src="./src/img/tools/july-2018/{{ image.name }}">
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if imageSize == 4 %}
+    <div class="col-sm-12 col-md-4">
+      <h2>{{ tool.name }}</h2>
+      <p>{{ tool.description }}</p>
+      {% assign urlSize = tool.urls.size %}
+      {% if urlSize > 0 %}
+      <div class="btn-group" role="group" aria-label="...">
+        {% for link in tool.urls %}
+          <a href="{{ link.url }}" target="_blank" role="button" class="btn btn-primary"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> {{ link.name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% for image in tool.images %}
+      <div class="col-sm-6 col-md-4">
+        <img class="featurette-image img-responsive" src="./src/img/tools/july-2018/{{ image.name }}">
+      </div>
+    {% endfor %}
+  {% endif %}
+
+</div>
+
+<hr class="featurette-divider">
+
+{% endfor %}

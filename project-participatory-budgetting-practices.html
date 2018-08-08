@@ -1,0 +1,72 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.participatory-budgetting %}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.participatory-budgetting %}
+
+    {% for project in site.data.projects.participatory-budgetting %}
+
+      {% include components/projects/full-bleed-image.html
+        image=project.img.wall
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+        <p>In 2016, Kota Kita, with the support of the Making All Voices Count (MAVC) programme and Institute of Development Studies (IDS), conducted a research, documenting participatory budgeting and planning practices in six Indonesian cities, Solo, Yogyakarta, Surabaya, Makassar, Bandung, and Municipality of Kebumen. Through this research, Kota Kita set out to investigate the challenges and opportunities of institutionalising participation; how access to information and use of technology impact participation in budget planning processes; what it takes for participatory budgeting to empower citizens; and how participatory budgeting can be inclusive to the most marginalized citizens.</p>
+        "
+      %}
+
+      {% include components/projects/image-right.html
+        heading="<h4 style='font-weight: 700;'>Key findings from the research are:</h4>"
+        text="
+          <h3>Improving capacity of actors and improvising within the mode of participation</h3>
+          <p>The research has documented unprecedented information and data set about the industries in Solo and surrounding areas in the forms of maps, industry profiles (location, employment, cost and benefits, challenges, assets and opportunities), and videos. Apart from academic contribution in the form of journal articles, the research developed a city wide profile on creative industries to better inform general public about the creative industries in the city. A national workshop will be conducted to disseminate the findings, generate policy recommendations and promote the creative informal and home-based industries. Kota Kita will continue to develop a follow-up project in a selected kampung in Solo to further implement the recommendations derived from the research.</p>
+        "
+        image=project.img.sadar-formasi
+        credits="Credits to Formasi"
+      %}
+
+      {% include components/projects/image-right.html
+        text="
+          <h3>Utilizing local Innovation and technology for participation</h3>
+          <p>Innovation should be sympathetic to local context. The diverse experience from the six cities shows different type of innovations and they do not always suggest the use of digital technology to ensure higher citizen participation. In cities like Solo and Yogyakarta, many facilitators implement strategies to improve participation and engagement through adaptation to local needs, i.e. conducting youth forum prior to musrenbang, the selection of time which can accommodates community members.</p>
+          <p>The use of technology should not only focus solely on data digitalisation, but to improve efficiency, accuracy, transparency, and accountability. Furthermore, it has to better connect the public with government in participatory planning and budgeting, and evaluation process.</p>
+        "
+        image=project.img.seminar
+      %}
+
+      {% include components/projects/full-bleed-image.html
+        image=project.img.discuss
+      %}
+
+      {% include components/projects/full-text.html
+        text="By involving different stakeholders in transforming cities, participatory budgeting in Indonesia promotes the notion of inclusive cities - improving representation, inching closer towards more democratic urban practices. But the process needs to revitalised, to be more effective and responsive to citizens’ needs. Kota Kita believes that there needs to be wider coordination and better collaboration between stakeholders. The research is the start of a long term plan for advocacy. Kota Kita aims to improve the practices of PBs in Indonesia, whilst helping to share the good practices from Indonesia to other PB practitioners in Asia."
+      %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

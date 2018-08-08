@@ -1,0 +1,37 @@
+{% for project in include.projects %}
+<div class="section-shift row" style="background-color:#FEF7EC;">
+  <div class="col-sm-4">
+    <div class="section-intro">
+      <h1 style="font-size:2em;">{{ project.name }}</h1>
+      <h4><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> {{ project.location }}</h4>
+    </div>
+    <div class="section-meta">
+      <!-- <h5>Report:</h5>
+      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <a href="./publications-docs/3rd Urban Social Forum Event Report_ENG.pdf" target="_blank" role="button" class="btn btn-primary"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> English</a>
+        <a href="./publications-docs/3rd Urban Social Forum Event Report_IND.pdf" target="_blank" role="button" class="btn btn-primary"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Bahasa</a>
+      </div> -->
+      <h5>Key organizations &amp; partners:</h5>
+      <h4>{{ project.keyorganizations }}</h4>
+      <h5>Duration:</h5>
+      <h4>{{ project.duration }}</h4>
+    </div>
+  </div>
+  <div class="col-sm-8">
+    <div class="project-page-intro">
+      <h3>{{ project.teaser }}</h3>
+      <hr class="featurette-divider">
+      <div class="row">
+        <div class="col-md-6">
+          <p>{{ project.paragraph1 }}</p>
+        </div>
+        <div class="col-md-6">
+          <p>{{ project.paragraph2 }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="featurette-divider">
+{% endfor %}

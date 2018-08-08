@@ -88,56 +88,29 @@
 			<div id="intern" class="col-sm-9">
 				<div class="row">
 
-					<!-- JOHN TAYLOR -->
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-john">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/JOHN_web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">John Taylor</h3>
-							<h4>Co-founder &amp; Strategic Advisor</h4>
-						</a>
-						<div class="modal fade modal-john" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">John Taylor</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Co-founder &amp; Strategic Advisor</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/JOHN_web.jpg"> John Taylor is an Indonesian-American whose love for the country and passion for urban development led him to co-found Kota Kita in 2010. Even though he has a Javanese background, when uses the odd Javanese word in the field, it is usually met with laughter. “No one expects me to speak Javanese, so it really breaks the ice and gets people talking,” John says.</p> 
-										<p>John leads the foundation, he helps come up with ideas, conducts research and analysis, as well as connects with government, community, civil society partners and donors. John has served as a technical advisor on urban programs and research initiatives to UN-HABITAT Indonesia, Mercy Corps Indonesia, and the Asia Foundation; he has worked in Angola, Brazil, Colombia, Ecuador, Honduras and Timor Leste on urban development, governance and planning issues. He has Masters degree in Urban Planning from Harvard University.</p> 
-										<p>The most enjoyable aspects of the job, he says, are being part of a strong team, working in different cities, and interacting with people on the ground.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- JOHN TAYLOR -->
+          {% include components/team.html
+            name = "John Taylor"
+            job = "Co-founder &amp; Strategic Advisor"
+            target = "john"
+            url = "JOHN_web.jpg"
+            paragraph = "
+            <p>John Taylor is an Indonesian-American whose love for the country and passion for urban development led him to co-found Kota Kita in 2010. Even though he has a Javanese background, when uses the odd Javanese word in the field, it is usually met with laughter. “No one expects me to speak Javanese, so it really breaks the ice and gets people talking,” John says.</p>
+            <p>John leads the foundation, he helps come up with ideas, conducts research and analysis, as well as connects with government, community, civil society partners and donors. John has served as a technical advisor on urban programs and research initiatives to UN-HABITAT Indonesia, Mercy Corps Indonesia, and the Asia Foundation; he has worked in Angola, Brazil, Colombia, Ecuador, Honduras and Timor Leste on urban development, governance and planning issues. He has Masters degree in Urban Planning from Harvard University.</p>
+            <p>The most enjoyable aspects of the job, he says, are being part of a strong team, working in different cities, and interacting with people on the ground.</p>"
+          %}
 
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-rifai">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/AHMAD-RIFAI_web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">Ahmad Rifai</h3>
-							<h4>Executive Director &amp; Co-Founder</h4>
-						</a>
-						<div class="modal fade modal-rifai" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">Ahmad Rifai</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Executive Director &amp; Co-Founder</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/AHMAD-RIFAI_web.jpg">Ahmad Rifai goes by many names — Pai, Rifai and Ahmad. But he remembers one time when he was called something else entirely. “A local development official forgot my name, so he just called me Mr. Map, because Kota Kita is so closely associated with our community mapping project, Solo Kota Kita,” he laughs. “But I prefer Pai.”</p>
-										<p>Rifai has worked with co-founder John Taylor since initiating the Solo Kota Kita project in 2009; he manages the office in Solo, overseeing and getting involved in all aspects of projects, from facilitating workshops to networking to overall management.</p>
-										<p>Rifai received his Masters degree from the Development Planning Unit, University of College, London. He has worked on urban issues with UN HABITAT Indonesia, UNDP and the ILO.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- AHMAD RIFAI -->
+          {% include components/team.html
+            name = "Ahmad Rifai"
+            job = "Executive Director &amp; Co-Founder"
+            target = "rifai"
+            url = "AHMAD-RIFAI_web.jpg"
+            paragraph = "
+            <p>Ahmad Rifai goes by many names — Pai, Rifai and Ahmad. But he remembers one time when he was called something else entirely. “A local development official forgot my name, so he just called me Mr. Map, because Kota Kita is so closely associated with our community mapping project, Solo Kota Kita,” he laughs. “But I prefer Pai.”</p>
+            <p>Rifai has worked with co-founder John Taylor since initiating the Solo Kota Kita project in 2009; he manages the office in Solo, overseeing and getting involved in all aspects of projects, from facilitating workshops to networking to overall management.</p>
+            <p>Rifai received his Masters degree from the Development Planning Unit, University of College, London. He has worked on urban issues with UN HABITAT Indonesia, UNDP and the ILO.</p>"
+          %}
 
 					<!-- ZAKARIA -->
 					<!-- <div class="col-xs-6 col-sm-3">
@@ -164,207 +137,152 @@
 						</div>
 					</div> -->
 
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-aa">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/AA_web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">Fuad Jamil</h3>
-							<h4>Senior Facilitator</h4>
-						</a>
-						<div class="modal fade modal-aa" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">Fuad Jamil</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Senior Facilitator</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/AA_web.jpg"> Fuad Jamil, best known as Aa, loves working in the field and meeting all kinds of community members. He is Kota Kita’s lead outreach facilitator and is responsible for organizing field work, surveys and data collection. Aa has been working with Kota Kita since the beginning in 2010 and has played a key role in a number of Kota Kita’s initiatives such as Solo Kota Kita (the Solo citywide data for neighborhood advocacy and citizen planning project) and SMS Air (the ‘software as a service’ project to improve water supply in Malang).</p>
-										<p>Aa is an avid culture-seeker, he reads everything from Tan Malaka to Benedict Anderson, as well as enjoys The Godfather series on his free time. Aa can also be your designated tour guide to Solo as he loves showing people around the city.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- FUAD JAMIL -->
+          {% include components/team.html
+            name = "Fuad Jamil"
+            job = "Senior Facilitator"
+            target = "fuad"
+            url = "AA_web.jpg"
+            paragraph = "
+            <p>Fuad Jamil, best known as Aa, loves working in the field and meeting all kinds of community members. He is Kota Kita’s lead outreach facilitator and is responsible for organizing field work, surveys and data collection. Aa has been working with Kota Kita since the beginning in 2010 and has played a key role in a number of Kota Kita’s initiatives such as Solo Kota Kita (the Solo citywide data for neighborhood advocacy and citizen planning project) and SMS Air (the ‘software as a service’ project to improve water supply in Malang).</p>
+            <p>Aa is an avid culture-seeker, he reads everything from Tan Malaka to Benedict Anderson, as well as enjoys The Godfather series on his free time. Aa can also be your designated tour guide to Solo as he loves showing people around the city.</p>"
+          %}
 
-					<!-- RIZQA -->
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-rizqa">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/RIZQA_web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">Rizqa Hidayani</h3>
-							<h4>Urban Planner</h4>
-						</a>
-						<div class="modal fade modal-rizqa" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">Rizqa Hidayani</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Urban Planner</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/RIZQA_web.jpg">Rizqa is a planner with Kota Kita; she works on urban participatory planning activities, incuding data collection, conducting climate change assessments, and research on urban mobility and poverty.  She is currently completing her Masters degree in Urban Planning at Universitas Diponegoro in Semarang, and has an undergraduate planning degree from the same university.</p>
-										<p>Rizqa likes working with different people and taking interesting skills and innovative ideas to help strengthen communities. “I really enjoy the opportunity to share my knowledge and work together with citizens to develop their communities,” she says.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- RIZQA -->
+          {% include components/team.html
+            name = "Rizqa Hidayani"
+            job = "Urban Planner"
+            target = "rizqa"
+            url = "RIZQA_web.jpg"
+            paragraph = "
+            <p>Rizqa is a planner with Kota Kita; she works on urban participatory planning activities, incuding data collection, conducting climate change assessments, and research on urban mobility and poverty.  She is currently completing her Masters degree in Urban Planning at Universitas Diponegoro in Semarang, and has an undergraduate planning degree from the same university.</p>
+            <p>Rizqa likes working with different people and taking interesting skills and innovative ideas to help strengthen communities. “I really enjoy the opportunity to share my knowledge and work together with citizens to develop their communities,” she says.</p>"
+          %}
 
-					<div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
+          <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
 
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-icha">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/ICHA_web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">Hasanatun Nisa Thamrin</h3>
-							<h4>Urban Planner</h4>
-						</a>
-						<div class="modal fade modal-icha" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">Hasanatun Nisa Thamrin</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Urban Planner</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/ICHA_web.jpg"> Hasanatun is better known at the Kota Kita office as Icha, and is an urban planner. Icha works on a range of planning issues such as climate adaptation, economic development, community development and strategic planning.</p>
-										<p>She holds a Masters degree in Urban and Regional Planning from Universitas Diponegoro Semarang. She started working with Kota Kita in 2014, and has been heavily involved in the production for 2nd Urban Social Forum and organizing the Urban Citizenship Academy.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- BARRY BEAGEN -->
+          {% include components/team.html
+            name = "Barry Beagen"
+            job = "Project Director"
+            target = "barry"
+            url = "update/barrybeagen.jpg"
+            paragraph = "<p>Barry is a designer and planner at the intersection of community development, urban infrastructure and climate change resilience in developing countries. As a program director at Kota Kita, Barry focuses on methodologies to mainstream urban participatory design and co-development projects.</p>
+            <p>At MIT Urban Risk Lab, Barry has collaborated on design research related to urban resilience and disaster emergency response systems in Indonesia, Haiti and India. He had received the Tata Center for Design and Technology Fellowship developing models for co-operative based incremental housing in India. Prior to joining Kota Kita, Barry had worked for Diller Scofidio + Renfro in New York City. He had previously taught at Columbia University Graduate School of Architecture, Planning and Preservation (GSAPP), and received a Master of Architecture at Massachusetts Institute of Technology and a B.S. in Civil and Environmental Engineering at Cornell University. </p>"
+          %}
 
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-bima">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/BIMA_web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">Bima Pratama Putra</h3>
-							<h4>Designer &amp; Planner</h4>
-						</a>
-						<div class="modal fade modal-bima" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">Bima Pratama Putra</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Designer &amp; Planner</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/BIMA_web.jpg"> Bima began working with Kota Kita as a student volunteer in 2010, since then he has worked on projects as a designer and planner. Bima graduated with a Bachelor in Architecture from Universitas Sebelas Maret in Solo. Bima works mostly on data collection, mapping and developing ways to communicate data through graphic design and visualization. He also creates a wide variety of Kota Kita’s planning tools, presentations and planning documents.</p>
-										<p>Bima is one of the four Kota Kita contributors who won the challenge of AECOM Urban SOS in 2011, implemented their proposal for Firm Foundation: Decreasing Vulnerability with Self-Reliant Urban Design for Riverfront Housing, in Banjarmasin, Borneo, Indonesia.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- BIMA PRATAMA -->
+          {% include components/team.html
+            name = "Bima Pratama Putra"
+            job = "Designer &amp; Planner"
+            target = "bima"
+            url = "BIMA_web.jpg"
+            paragraph = "
+            <p>Bima began working with Kota Kita as a student volunteer in 2010, since then he has worked on projects as a designer and planner. Bima graduated with a Bachelor in Architecture from Universitas Sebelas Maret in Solo. Bima works mostly on data collection, mapping and developing ways to communicate data through graphic design and visualization. He also creates a wide variety of Kota Kita’s planning tools, presentations and planning documents.</p>
+            <p>Bima is one of the four Kota Kita contributors who won the challenge of AECOM Urban SOS in 2011, implemented their proposal for Firm Foundation: Decreasing Vulnerability with Self-Reliant Urban Design for Riverfront Housing, in Banjarmasin, Borneo, Indonesia.</p>"
+          %}
 
-					<!-- PAULISTA -->
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-PAULISTA">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/PAULISTA_web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">Paulista Bunga Surjadi</h3>
-							<h4>Communications officer</h4>
-						</a>
-						<div class="modal fade modal-PAULISTA" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">Paulista Bunga Surjadi</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Communications and Partnership</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/PAULISTA_web.jpg">Paulista is Kota Kita’s Communications and Partnership Coordinator, she is responsible for outreach to governments, communities and the general public or citizens. She also connects with civil society partners to strengthen advocacy for inclusive urban governance. Paulista brings experience from the world of public relations and is passionate about urban issues. She believes that while cities are often a work-in-progress, that an inclusive and socially just city, a city for all, is possible.</p>
-										<p>She led the Organizing Committee for the 3rd and 4th Urban Social Forum, an annual Kota Kita-led event in collaboration with Indonesia’s civil society organizations. Year after year, as the Forum grows and expands the conversation about socially just and inclusive cities, she wishes for more people and communities to be a part of the movement. Paulista holds a Bachelor of Arts with Honours degree in Cultural Studies from Monash University.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- PAULISTA -->
+          {% include components/team.html
+            name = "Paulista Bunga Surjadi"
+            job = "Communications Specialist"
+            target = "paulista"
+            url = "PAULISTA_web.jpg"
+            paragraph = "
+            <p>Paulista is responsible for communication and outreach to governments, communities and the general public or citizens. She also connects with civil society partners to strengthen advocacy for inclusive urban governance. Paulista brings experience from the world of public relations and is passionate about urban issues. She believes that while cities are often a work-in-progress, that an inclusive and socially just city, a city for all, is possible.</p>
+            <p>She contributes to the organization of the Urban Social Forum , an annual open, free, and inclusive forum talking about pressing urban issues in Indonesia and the region. Year after year, the Forum grows and expands the conversation about socially just and inclusive cities, she wishes for more people and communities to be a part of the movement.</p>
+            <p>Paulista holds a Bachelor of Arts with Honours degree in Cultural Studies from Monash University.</p>"
+          %}
 
-					<!-- RIRIN -->
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-ririn">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/RIRIN_web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">Ririn Setyowati</h3>
-							<h4>Administration Staff</h4>
-						</a>
-						<div class="modal fade modal-ririn" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">Ririn Setyowati</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Administration Staff</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/RIRIN_web.jpg">Ririn works with the office manager to make sure that the all operation and administration within Kota Kita runs smoothly.</p>
-										<p>“Working with Kota Kita is very exciting People here are well educated and professional in their work, so I am very happy to be surrounded by a bright group of people,” she says.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>					
-					
-					<!-- NINA -->
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-NINA">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/NINA-web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">Nina Asterina</h3>
-							<h4>Knowledge Management Officer</h4>
-						</a>
-						<div class="modal fade modal-NINA" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">Nina Asterina</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Knowledge Management Officer</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/NINA-web.jpg">Nina started working with Kota Kita as knowledge management officer in 2016. She  loves to engage in community planning, urban research, and virtual collaboration. She works on participatory planning and budgeting and urban community of practice.</p>
-										<p>She holds a Master’s degree in International Development (Urban Development) from University of Birmingham, having previously completed her study at University of Indonesia. </p>
-										<p>Nina loves taking photograph. Capturing the ambience of a city always excites her.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<!-- YUNIA -->
-					<div class="col-xs-6 col-sm-3">
-						<div class="intern-top-box"></div>
-						<a data-toggle="modal" data-target=".modal-YUNIA">
-							<img class="featurette-image img-responsive" src="./src/img/team_thumb/YUNIA-web.jpg" alt="Generic placeholder image">
-							<h3 class="text-primary">Yunia Nursita Sari</h3>
-							<h4>Urban Planner</h4>
-						</a>
-						<div class="modal fade modal-YUNIA" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-										<h2 class="modal-title" id="myLargeModalLabel">Yunia Nursita Sari</h2>
-									</div>
-									<div class="modal-body">
-										<h4 class="text-primary">Project Manager</h4>
-										<p><img class="modal-image img-responsive" src="./src/img/team_thumb/YUNIA-web.jpg">Yunia Nursita Sari goes by the name of Sita in Kota Kita. She is a young urban planner who started working with the foundation in 2015. She holds a bachelor degree in Urban and Regional Planning from Institut Teknologi Bandung and currently leads the implementation of Urban Citizenship Academy Project. While also gets involved in several other projects.</p>
-										<p>Sita has a strong interest in urban development issues, youth urban activisms, and community planning, while also likes to do community engagement and works with different kinds of stakeholders. She also loves art and has a great skill in design, which makes her capable of visualizing urban datas through graphic design.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- ICHA -->
+          {% include components/team.html
+            name = "Hasanatun Nisa Thamrin"
+            job = "Urban Planner"
+            target = "icha"
+            url = "ICHA_web.jpg"
+            paragraph = "
+            <p>Hasanatun is better known at the Kota Kita office as Icha, and is an urban planner. Icha works on a range of planning issues such as climate adaptation, economic development, community development and strategic planning.</p>
+            <p>She holds a Masters degree in Urban and Regional Planning from Universitas Diponegoro Semarang. She started working with Kota Kita in 2014, and has been heavily involved in the production for 2nd Urban Social Forum and organizing the Urban Citizenship Academy.</p>"
+          %}
+
+          <div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+
+          <!-- NINA -->
+          {% include components/team.html
+            name = "Nina Asterina"
+            job = "Knowledge Management Officer"
+            target = "nina"
+            url = "NINA_web.jpg"
+            paragraph = "<p>Nina started working with Kota Kita as knowledge management officer in 2016. She  loves to engage in community planning, urban research, and virtual collaboration. She works on participatory planning and budgeting and urban community of practice.</p>
+            <p>She holds a Master’s degree in International Development (Urban Development) from University of Birmingham, having previously completed her study at University of Indonesia. </p>
+            <p>Nina loves taking photograph. Capturing the ambience of a city always excites her.</p>"
+          %}
+
+          <!-- ELSENA -->
+          {% include components/team.html
+            name = "Elsena Khurniadi"
+            job = "Planner"
+            target = "sena"
+            url = "update/elsena2.jpg"
+            paragraph = "<p>Elsena joined Kota Kita since January 2017. In the NGO, He started working on Community Mapping projects in Solo and Banjarmasin. Now, He is developing a web-based urban diagnostic platform called DATA KOTA project.</p>
+            <p>He believe that city technology develpoment is required to better citizen quality of life. His expertise in geographic information systems, statistics, and computer programming come from his passion in all about technology. He hold a Bachelor degree in Urban and Regional Plannning as urban and regional planning program from Bandung Institute of Technology (ITB). In his spare time, he is an avid how-to-book reader and hobbyist coder.</p>"
+          %}
+
+          <div class="clearfix visible-xs-block"></div>
+
+          <!-- TITIS EFRINDU B -->
+          {% include components/team.html
+            name = "Titis Efrindu B"
+            job = "Urban Mobility Specialist"
+            target = "titis"
+            url = "update/titis.jpeg"
+            paragraph = "<p>Titis Efrindu Bawono is working as urban mobility specialist in Kota Kita since 2017. His background as a transport planner supports the team on mapping the bicycle network, designing transportation infrastructures, promoting the sustainable transport, campaigning road safety, and engaging with women and cyclist groups.</p>
+            <p>He had worked with Department of transportation as a Junior Advisor in GIZ Gmbh for developing sustainable transport system in Surakarta including set up the public transport system and networks, provided sustainable infrastructures, parking management, and strengthen the policy. He intends to make city safer and less pollution by reducing the use of private cars.</p>"
+          %}
+
+          <div class="clearfix visible-xs-block"></div>
+
+          <!-- FEBRIAN GERINOSKY -->
+          {% include components/team.html
+            name = "Febrian Gerinosky"
+            job = "Designer"
+            target = "febrian"
+            url = "update/febrian.jpg"
+            paragraph = "<p>Febrian Gerinosky is a urban designer with an architecture background. He has been working with Kota Kita since 2017, engage closely with groups of youth, and lead the creative production through graph design, photography, and videography. His creative expression professionally recognised as he is also an official photographer of an indie band. He believes that besides words, a message which delivered in an artistic way can reach more people and give impact for good.</p>"
+          %}
+
+          <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
+
+          <!-- RIAN NUGROHO -->
+          {% include components/team.html
+            name = "Rian Nugroho"
+            job = "Operations Director"
+            target = "rian"
+            url = "update/rian.jpg"
+            paragraph = "<p>As the Operations Director, Rian leads the team in the aspects of finance, administration, human resources and information technology.</p>
+            <p>Streamlining administrative procedures while complying to the standards is one of his approaches in ensuring proper and timely implementation of programs in Kota Kita.  Prior in joining Kota Kita in early 2018, he had experiences working for international non-governmental organization, multinational profit companies and foreign government institution.  Rian holds the B.Sc. degree in Business Management from Montana State University.</p>"
+          %}
+
+          <!-- MURNI -->
+          {% include components/team.html
+            name = "Murni"
+            job = "Finance Manager"
+            target = "murni"
+            url = "update/murni.jpg"
+            paragraph = "<p>Murni is a Finance Manager at Kota Kita. She has been with the organization since 2015.</p>
+            <p>Prior to joining Kota Kita, she had experiences working in Finance for non-profit organizations based in Yogyakarta, Central Java. In her free time, Murni enjoys cooking, reading, dancing and exercising.</p>"
+          %}
+
+          <!-- RIRIN -->
+          {% include components/team.html
+            name = "Ririn Setyowati"
+            job = "Administration Staff"
+            target = "ririn"
+            url = "RIRIN_web.jpg"
+            paragraph = "
+            <p>Ririn works with the office manager to make sure that the all operation and administration within Kota Kita runs smoothly.</p>
+            <p>“Working with Kota Kita is very exciting People here are well educated and professional in their work, so I am very happy to be surrounded by a bright group of people,” she says.</p>"
+          %}
 
 				</div>
 			</div>
@@ -384,11 +302,12 @@
 				<hr class="featurette-divider visible-xs">
 			</div>
 			<div class="col-sm-4">
+        <br>
 				<h4 class="text-primary">Phone</h4>
 				<h3>+62 271 710263</h3>
 				<hr class="featurette-divider">
-				<h4 class="text-primary">Ahmad Rifai</h4>
-				<h3>rifai@kotakita.org</h3>
+				<h4 class="text-primary">Email</h4>
+        {% comment %} <h3>rifai@kotakita.org</h3> {% endcomment %}
 				<h3>info@kotakita.org</h3>
 			</div>
 		</div>
@@ -402,6 +321,6 @@
 	{% include footer.html %}
 
 	{% include core-js.html %}
-	
+
 	</body>
 </html>
