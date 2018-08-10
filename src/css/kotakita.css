@@ -344,3 +344,7 @@ footer {
 #footer .featurette-divider {
   border-top: 1px solid #0E2430;
 }
+
+.secondary-text {
+  font-size: 22px;
+}
