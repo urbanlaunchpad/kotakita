@@ -2,3 +2,6 @@ _site/
 
 /CNAME
 ./CNAME
+
+*/.DS_Store
+.DS_Store
