@@ -3,6 +3,20 @@
 # TODO: Get the thumbnails
 # TODO: Confirm aboyt document storage, github, issue, or google drive
 
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1540917416/kotakita/library/2018-10-30/lib-bungarampai.jpg'
+  title: 'Bunga Rampai Catatan Pengetahuan MAVC di Indonesia'
+  publisher: 'Hivos, 2018'
+  options:
+    - url: '2018-10-30/lib-bungarampai.pdf'
+      name: 'English'
+
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1540917415/kotakita/library/2018-10-30/lib-singaporejournal.jpg'
+  title: 'Women on wheels: Gender and cycling in Solo, Indonesia'
+  publisher: 'Singapore Journal of Tropical Geography, 2018'
+  options:
+    - url: '2018-10-30/lib-singaporejournal.pdf'
+      name: 'English'
+
 - thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1537834118/kotakita/library/2018-09-25/integrating_food_into_urban_planning.jpg'
   title: 'Making Food Markets Work: Towards Participatory Planning and Adaptive Governance'
   publisher: 'UCL Press, 2018'
@@ -18,10 +32,17 @@
       name: 'English'
 
 - thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1537834119/kotakita/library/2018-09-25/usf5_cover.png'
-  title: 'The Urban Social Forum 5'
+  title: 'The Urban Social Forum 5 Event Report'
   publisher: 'Kota Kita, 2017'
   options:
     - url: '2018-09-25/event_report_the_5th_usf_fin.pdf'
+      name: 'English'
+
+- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1540917255/kotakita/library/2018-10-30/lib-usf5poster.jpg'
+  title: 'The Urban Social Forum 5 Event Poster'
+  publisher: 'KotaKita, 2017'
+  options:
+    - url: '2018-10-30/lib-usf5poster.jpg'
       name: 'English'
 
 - thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361423/kotakita/library/july%202018/annual-report.jpg'
