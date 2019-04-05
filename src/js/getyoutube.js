@@ -12,7 +12,7 @@
   };
 
   $.getJSON('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=30&playlistId=PLSWOIa6H704Ft0NfODhpOp_h7CSuOJQhA&key=AIzaSyALicOFaXZslcRWh0d9GzfqUKA6sBRZfL8', function(data,status,xhr){
-    console.log(data.items.sort(sortPublish));
+    // console.log(data.items.sort(sortPublish));
 		$.each(data.items, function(i, data){
     	id = data.snippet.resourceId.videoId;
       title = data.snippet.title;
