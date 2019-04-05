@@ -2,7 +2,7 @@
 <div class="intern-block col-xs-6 col-sm-3">
   <div class="intern-top-box"></div>
   <a data-toggle="modal" data-target=".modal-{{ intern.codename }}">
-    <img class="featurette-image img-responsive" src="./src/img/intern_thumb/july-2018/{{ intern.thumbnail }}">
+    <img class="featurette-image img-responsive" src="./src/img/intern_thumb/{{ intern.thumbnail }}">
     <h4>{{ intern.name }}</h4>
   </a>
   <div class="modal fade modal-{{ intern.codename }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -14,7 +14,7 @@
         </div>
         <div class="modal-body">
           <h4>{{ intern.year }}</h4>
-          <img class="modal-image img-responsive" src="./src/img/intern_thumb/july-2018/{{ intern.thumbnail }}">
+          <img class="modal-image img-responsive" src="./src/img/intern_thumb/{{ intern.thumbnail }}">
           {{ intern.description }}
           <div class="clearfix"></div>
         </div>
