@@ -3,117 +3,207 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
+    {% include header.html %}
+  </head>
 
-	{% include header.html %}
+  <body>
+    {% include nav-in.html %}
 
-	</head>
+    <div
+      class="jumbotron"
+      style="background-image:url(./src/img/about-us/banner.jpg)"
+    ></div>
 
-	<body>
+    <div class="container project-page">
+      <div class="section-shift row" style="background-color:#FEF7EC;">
+        <div id="who-we-are" class="col-sm-4 col-md-3">
+          <div class="section-intro">
+            <h1>About Us</h1>
+            <h4></h4>
+          </div>
+        </div>
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-sm-8 col-md-9">
+          <div class="project-page-intro">
+            <h3>
+              At Kota Kita, we have a vision of a model city that is shaped and
+              shared by informed and empowered citizens — A City for All.
+            </h3>
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                  We believe that citizens should be at the heart of the
+                  decision-making process that determines the environment and
+                  the quality of living of the urban centers they reside in.
+                  They are entitled to governance that is inclusive, transparent
+                  and socially just.
+                </p>
+                <p>
+                  We are a non-profit organization based in the Indonesian city
+                  of Solo with expertise in urban planning and citizen
+                  participation in the design and development of cities. We
+                  provide education, facilitate citizen participation and
+                  collective action, and work with governments to build bridges
+                  between officials and their constituencies.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  In our experience carrying out projects in 12 rapidly
+                  urbanizing Indonesian cities, we have found that when citizens
+                  and stakeholders understand urban issues and work together,
+                  services improve, poverty is reduced and inequality narrows,
+                  as poor communities become empowered to make a living.
+                </p>
+                <p>
+                  The bulk of our work has been in Indonesia, but we have taken
+                  our knowledge and experience to other fast urbanizing
+                  countries in the region, where participatory governance is on
+                  the agenda and is gaining momentum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="clearfix visible-xs-block visible-sm-block visible-md-block"
+        ></div>
+      </div>
 
-	{% include nav-in.html %}
+      <hr class="featurette-divider" />
 
-	<div class="jumbotron" style="background-image:url(./src/img/about-us/banner.jpg)">
-    </div>
-
-	<div class="container project-page">
-
-		<div class="section-shift row" style="background-color:#FEF7EC;">
-			<div id="who-we-are" class="col-sm-4 col-md-3">
-				<div class="section-intro">
-					<h1>About Us</h1>
-					<h4></h4>
-				</div>
-			</div>
-			<div class="clearfix visible-xs-block"></div>
-			<div class="col-sm-8 col-md-9">
-				<div class="project-page-intro">
-					<h3>At Kota Kita, we have a vision of a model city that is shaped and shared by informed and empowered citizens — A City for All.</h3>
-					<div class="row">
-						<div class="col-md-6">
-							<p>We believe that citizens should be at the heart of the decision-making process that determines the environment and the quality of living of the urban centers they reside in. They are entitled to governance that is inclusive, transparent and socially just.</p>
-							<p>We are a non-profit organization based in the Indonesian city of Solo with expertise in urban planning and citizen participation in the design and development of cities. We provide education, facilitate citizen participation and collective action, and work with governments to build bridges between officials and their constituencies.</p>
-						</div>
-						<div class="col-md-6">
-							<p>In our experience carrying out projects in 12 rapidly urbanizing Indonesian cities, we have found that when citizens and stakeholders understand urban issues and work together, services improve, poverty is reduced and inequality narrows, as poor communities become empowered to make a living.</p>
-							<p>The bulk of our work has been in Indonesia, but we have taken our knowledge and experience to other fast urbanizing countries in the region, where participatory governance is on the agenda and is gaining momentum.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
-		</div>
-
-		<hr class="featurette-divider">
-
-		<div id="our-mission" class="row featurette">
-			<div class="col-sm-10 col-sm-offset-1 text-center">
-				<h3>Our mission is rooted in grassroots activism as well as engagement with government.</h3>
-				<h2 class="text-primary">Yayasan Kota Kita, or Our City Foundation, is an Indonesian non-profit organization helping people make thoughtful and inclusive decisions about the development of their cities – by facilitating citizen participation and collective action.</h2>
-				<h2 class="text-primary">We aim to empower a generation of people by promoting democratic and participatory approaches to improve urban areas.</h2>
-				<!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Our full Vision &amp; Mission Statement</a></p> -->
-			</div>
-			<!-- <div class="col-sm-4 col-md-5">
+      <div id="our-mission" class="row featurette">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+          <h3>
+            Our mission is rooted in grassroots activism as well as engagement
+            with government.
+          </h3>
+          <h2 class="text-primary">
+            Yayasan Kota Kita, or Our City Foundation, is an Indonesian
+            non-profit organization helping people make thoughtful and inclusive
+            decisions about the development of their cities – by facilitating
+            citizen participation and collective action.
+          </h2>
+          <h2 class="text-primary">
+            We aim to empower a generation of people by promoting democratic and
+            participatory approaches to improve urban areas.
+          </h2>
+          <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Our full Vision &amp; Mission Statement</a></p> -->
+        </div>
+        <!-- <div class="col-sm-4 col-md-5">
 				<img class="featurette-image img-responsive" src="./src/img/ex_thumb.jpg" alt="Generic placeholder image">
 			</div> -->
-		</div>
+      </div>
 
-		<hr class="featurette-divider">
+      <hr class="featurette-divider" />
 
-		<div id="our-mission" class="row featurette">
-			<div class="col-sm-10 col-sm-offset-1 text-center">
-				<h1>YKK's Organizational Values</h1>
-			</div>
-			<div class="col-md-4">
-				<h3 class="text-primary">Pedagogy</h3>
-				<p>Kota Kita is committed to shaping the next generation of actively engaged urban leaders by promoting learning and developing tools. We do this through research, capacity building and providing pedagogic experiences within our organization.</p>
-			</div>
-			<div class="col-md-4">
-				<h3 class="text-primary">Raising Awareness</h3>
-				<p>Kota Kita believes that sharing information can help people better understand how to take advantage of opportunities and overcome the challenges that come with rapid urbanization. We are committed to raising awareness through making urban information available and accessible to promote action and change.</p>
-			</div>
-			<div class="col-md-4">
-				<h3 class="text-primary">Encouraging Participation</h3>
-				<p>Kota Kita believes that everyone in cities is important; we all have roles and responsibilities for of actively participating in making our communities better places. We facilitate and promote the involvement of all people, especially the marginalized and excluded, to bring in different perspectives, voices and strengths, to make cities better places.</p>
-			</div>
-		</div>
+      <div id="our-mission" class="row featurette">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+          <h1>YKK's Organizational Values</h1>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-primary">Pedagogy</h3>
+          <p>
+            Kota Kita is committed to shaping the next generation of actively
+            engaged urban leaders by promoting learning and developing tools. We
+            do this through research, capacity building and providing pedagogic
+            experiences within our organization.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-primary">Raising Awareness</h3>
+          <p>
+            Kota Kita believes that sharing information can help people better
+            understand how to take advantage of opportunities and overcome the
+            challenges that come with rapid urbanization. We are committed to
+            raising awareness through making urban information available and
+            accessible to promote action and change.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-primary">Encouraging Participation</h3>
+          <p>
+            Kota Kita believes that everyone in cities is important; we all have
+            roles and responsibilities for of actively participating in making
+            our communities better places. We facilitate and promote the
+            involvement of all people, especially the marginalized and excluded,
+            to bring in different perspectives, voices and strengths, to make
+            cities better places.
+          </p>
+        </div>
+      </div>
 
-		<hr class="featurette-divider">
+      <hr class="featurette-divider" />
 
-		<div id="our-team" class="row featurette">
-			<div class="col-sm-3">
-				<h1>Our Team</h1>
-				<p>Every member of the Kota Kita team brings a different skill set to the table, making the organization dynamic and diverse, and most of all, an interesting place to work!</p>
-			</div>
-			<div id="intern" class="col-sm-9">
-				<div class="row">
+      <div id="our-team" class="row featurette">
+        <div class="col-sm-3">
+          <h1>Our Team</h1>
+          <p>
+            Every member of the Kota Kita team brings a different skill set to
+            the table, making the organization dynamic and diverse, and most of
+            all, an interesting place to work!
+          </p>
+        </div>
+        <div id="intern" class="col-sm-9">
+          <div class="row">
+            <!-- JOHN TAYLOR -->
+            {% include components/team.html name = "John Taylor" job =
+            "Co-founder &amp; Strategic Advisor" target = "john" url =
+            "JOHN_web.jpg" paragraph = "
+            <p>
+              John Taylor is an Indonesian-American whose love for the country
+              and passion for urban development led him to co-found Kota Kita in
+              2010. Even though he has a Javanese background, when uses the odd
+              Javanese word in the field, it is usually met with laughter. “No
+              one expects me to speak Javanese, so it really breaks the ice and
+              gets people talking,” John says.
+            </p>
+            <p>
+              John leads the foundation, he helps come up with ideas, conducts
+              research and analysis, as well as connects with government,
+              community, civil society partners and donors. John has served as a
+              technical advisor on urban programs and research initiatives to
+              UN-HABITAT Indonesia, Mercy Corps Indonesia, and the Asia
+              Foundation; he has worked in Angola, Brazil, Colombia, Ecuador,
+              Honduras and Timor Leste on urban development, governance and
+              planning issues. He has Masters degree in Urban Planning from
+              Harvard University.
+            </p>
+            <p>
+              The most enjoyable aspects of the job, he says, are being part of
+              a strong team, working in different cities, and interacting with
+              people on the ground.
+            </p>
+            " %}
 
-          <!-- JOHN TAYLOR -->
-          {% include components/team.html
-            name = "John Taylor"
-            job = "Co-founder &amp; Strategic Advisor"
-            target = "john"
-            url = "JOHN_web.jpg"
-            paragraph = "
-            <p>John Taylor is an Indonesian-American whose love for the country and passion for urban development led him to co-found Kota Kita in 2010. Even though he has a Javanese background, when uses the odd Javanese word in the field, it is usually met with laughter. “No one expects me to speak Javanese, so it really breaks the ice and gets people talking,” John says.</p>
-            <p>John leads the foundation, he helps come up with ideas, conducts research and analysis, as well as connects with government, community, civil society partners and donors. John has served as a technical advisor on urban programs and research initiatives to UN-HABITAT Indonesia, Mercy Corps Indonesia, and the Asia Foundation; he has worked in Angola, Brazil, Colombia, Ecuador, Honduras and Timor Leste on urban development, governance and planning issues. He has Masters degree in Urban Planning from Harvard University.</p>
-            <p>The most enjoyable aspects of the job, he says, are being part of a strong team, working in different cities, and interacting with people on the ground.</p>"
-          %}
+            <!-- AHMAD RIFAI -->
+            {% include components/team.html name = "Ahmad Rifai" job =
+            "Executive Director &amp; Co-Founder" target = "rifai" url =
+            "AHMAD-RIFAI_web.jpg" paragraph = "
+            <p>
+              Ahmad Rifai goes by many names — Pai, Rifai and Ahmad. But he
+              remembers one time when he was called something else entirely. “A
+              local development official forgot my name, so he just called me
+              Mr. Map, because Kota Kita is so closely associated with our
+              community mapping project, Solo Kota Kita,” he laughs. “But I
+              prefer Pai.”
+            </p>
+            <p>
+              Rifai has worked with co-founder John Taylor since initiating the
+              Solo Kota Kita project in 2009; he manages the office in Solo,
+              overseeing and getting involved in all aspects of projects, from
+              facilitating workshops to networking to overall management.
+            </p>
+            <p>
+              Rifai received his Masters degree from the Development Planning
+              Unit, University of College, London. He has worked on urban issues
+              with UN HABITAT Indonesia, UNDP and the ILO.
+            </p>
+            " %}
 
-          <!-- AHMAD RIFAI -->
-          {% include components/team.html
-            name = "Ahmad Rifai"
-            job = "Executive Director &amp; Co-Founder"
-            target = "rifai"
-            url = "AHMAD-RIFAI_web.jpg"
-            paragraph = "
-            <p>Ahmad Rifai goes by many names — Pai, Rifai and Ahmad. But he remembers one time when he was called something else entirely. “A local development official forgot my name, so he just called me Mr. Map, because Kota Kita is so closely associated with our community mapping project, Solo Kota Kita,” he laughs. “But I prefer Pai.”</p>
-            <p>Rifai has worked with co-founder John Taylor since initiating the Solo Kota Kita project in 2009; he manages the office in Solo, overseeing and getting involved in all aspects of projects, from facilitating workshops to networking to overall management.</p>
-            <p>Rifai received his Masters degree from the Development Planning Unit, University of College, London. He has worked on urban issues with UN HABITAT Indonesia, UNDP and the ILO.</p>"
-          %}
-
-					<!-- ZAKARIA -->
-					<!-- <div class="col-xs-6 col-sm-3">
+            <!-- ZAKARIA -->
+            <!-- <div class="col-xs-6 col-sm-3">
 						<div class="intern-top-box"></div>
 						<a data-toggle="modal" data-target=".modal-zakaria">
 							<img class="featurette-image img-responsive" src="./src/img/team_thumb/ZAKARIA_web.jpg" alt="Generic placeholder image">
@@ -137,256 +227,372 @@
 						</div>
 					</div> -->
 
-          <!-- FUAD JAMIL -->
-          {% include components/team.html
-            name = "Fuad Jamil"
-            job = "Senior Facilitator"
-            target = "fuad"
-            url = "AA_web.jpg"
+            <!-- FUAD JAMIL -->
+            {% include components/team.html name = "Fuad Jamil" job = "Senior
+            Facilitator" target = "fuad" url = "AA_web.jpg" paragraph = "
+            <p>
+              Fuad Jamil, best known as Aa, loves working in the field and
+              meeting all kinds of community members. He is Kota Kita’s lead
+              outreach facilitator and is responsible for organizing field work,
+              surveys and data collection. Aa has been working with Kota Kita
+              since the beginning in 2010 and has played a key role in a number
+              of Kota Kita’s initiatives such as Solo Kota Kita (the Solo
+              citywide data for neighborhood advocacy and citizen planning
+              project) and SMS Air (the ‘software as a service’ project to
+              improve water supply in Malang).
+            </p>
+            <p>
+              Aa is an avid culture-seeker, he reads everything from Tan Malaka
+              to Benedict Anderson, as well as enjoys The Godfather series on
+              his free time. Aa can also be your designated tour guide to Solo
+              as he loves showing people around the city.
+            </p>
+            " %}
+
+            <!-- RIZQA -->
+            {% include components/team.html name = "Rizqa Hidayani" job = "Urban
+            Planner" target = "rizqa" url = "RIZQA_web.jpg" paragraph = "
+            <p>
+              Rizqa is a planner with Kota Kita; she works on urban
+              participatory planning activities, incuding data collection,
+              conducting climate change assessments, and research on urban
+              mobility and poverty. She is currently completing her Masters
+              degree in Urban Planning at Universitas Diponegoro in Semarang,
+              and has an undergraduate planning degree from the same university.
+            </p>
+            <p>
+              Rizqa likes working with different people and taking interesting
+              skills and innovative ideas to help strengthen communities. “I
+              really enjoy the opportunity to share my knowledge and work
+              together with citizens to develop their communities,” she says.
+            </p>
+            " %}
+
+            <div
+              class="clearfix visible-sm-block visible-md-block visible-lg-block"
+            ></div>
+
+            <!-- BARRY BEAGEN -->
+            {% include components/team.html name = "Barry Beagen" job = "Program
+            Director" target = "barry" url = "update/barrybeagen.jpg" paragraph
+            = "
+            <p>
+              Barry is a designer and planner at the intersection of community
+              development, urban infrastructure and climate change resilience in
+              developing countries. As a program director at Kota Kita, Barry
+              focuses on methodologies to mainstream urban participatory design
+              and co-development projects.
+            </p>
+            <p>
+              At MIT Urban Risk Lab, Barry has collaborated on design research
+              related to urban resilience and disaster emergency response
+              systems in Indonesia, Haiti and India. He had received the Tata
+              Center for Design and Technology Fellowship developing models for
+              co-operative based incremental housing in India. Prior to joining
+              Kota Kita, Barry had worked for Diller Scofidio + Renfro in New
+              York City. He had previously taught at Columbia University
+              Graduate School of Architecture, Planning and Preservation
+              (GSAPP), and received a Master of Architecture at Massachusetts
+              Institute of Technology and a B.S. in Civil and Environmental
+              Engineering at Cornell University.
+            </p>
+            " %}
+
+            <!-- BIMA PRATAMA -->
+            {% include components/team.html name = "Bima Pratama Putra" job =
+            "Designer &amp; Planner" target = "bima" url = "BIMA_web.jpg"
             paragraph = "
-            <p>Fuad Jamil, best known as Aa, loves working in the field and meeting all kinds of community members. He is Kota Kita’s lead outreach facilitator and is responsible for organizing field work, surveys and data collection. Aa has been working with Kota Kita since the beginning in 2010 and has played a key role in a number of Kota Kita’s initiatives such as Solo Kota Kita (the Solo citywide data for neighborhood advocacy and citizen planning project) and SMS Air (the ‘software as a service’ project to improve water supply in Malang).</p>
-            <p>Aa is an avid culture-seeker, he reads everything from Tan Malaka to Benedict Anderson, as well as enjoys The Godfather series on his free time. Aa can also be your designated tour guide to Solo as he loves showing people around the city.</p>"
-          %}
+            <p>
+              Bima began working with Kota Kita as a student volunteer in 2010,
+              since then he has worked on projects as a designer and planner.
+              Bima graduated with a Bachelor in Architecture from Universitas
+              Sebelas Maret in Solo. Bima works mostly on data collection,
+              mapping and developing ways to communicate data through graphic
+              design and visualization. He also creates a wide variety of Kota
+              Kita’s planning tools, presentations and planning documents.
+            </p>
+            <p>
+              Bima is one of the four Kota Kita contributors who won the
+              challenge of AECOM Urban SOS in 2011, implemented their proposal
+              for Firm Foundation: Decreasing Vulnerability with Self-Reliant
+              Urban Design for Riverfront Housing, in Banjarmasin, Borneo,
+              Indonesia.
+            </p>
+            " %}
 
-          <!-- RIZQA -->
-          {% include components/team.html
-            name = "Rizqa Hidayani"
-            job = "Urban Planner"
-            target = "rizqa"
-            url = "RIZQA_web.jpg"
+            <!-- PAULISTA -->
+            {% include components/team.html name = "Paulista Bunga Surjadi" job
+            = "Communications Specialist" target = "paulista" url =
+            "PAULISTA_web.jpg" paragraph = "
+            <p>
+              Paulista is responsible for communication and outreach to
+              governments, communities and the general public or citizens. She
+              also connects with civil society partners to strengthen advocacy
+              for inclusive urban governance. Paulista brings experience from
+              the world of public relations and is passionate about urban
+              issues. She believes that while cities are often a
+              work-in-progress, that an inclusive and socially just city, a city
+              for all, is possible.
+            </p>
+            <p>
+              She contributes to the organization of the Urban Social Forum , an
+              annual open, free, and inclusive forum talking about pressing
+              urban issues in Indonesia and the region. Year after year, the
+              Forum grows and expands the conversation about socially just and
+              inclusive cities, she wishes for more people and communities to be
+              a part of the movement.
+            </p>
+            <p>
+              Paulista holds a Bachelor of Arts with Honours degree in Cultural
+              Studies from Monash University.
+            </p>
+            " %}
+
+            <!-- ICHA -->
+            {% include components/team.html name = "Hasanatun Nisa Thamrin" job
+            = "Urban Planner" target = "icha" url = "ICHA_web.jpg" paragraph = "
+            <p>
+              Hasanatun is better known at the Kota Kita office as Icha, and is
+              an urban planner. Icha works on a range of planning issues such as
+              climate adaptation, economic development, community development
+              and strategic planning.
+            </p>
+            <p>
+              She holds a Masters degree in Urban and Regional Planning from
+              Universitas Diponegoro Semarang. She started working with Kota
+              Kita in 2014, and has been heavily involved in the production for
+              2nd Urban Social Forum and organizing the Urban Citizenship
+              Academy.
+            </p>
+            " %}
+
+            <div
+              class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"
+            ></div>
+
+            <!-- NINA -->
+            {% include components/team.html name = "Nina Asterina" job =
+            "Knowledge Management Officer" target = "nina" url = "NINA_web.jpg"
             paragraph = "
-            <p>Rizqa is a planner with Kota Kita; she works on urban participatory planning activities, incuding data collection, conducting climate change assessments, and research on urban mobility and poverty.  She is currently completing her Masters degree in Urban Planning at Universitas Diponegoro in Semarang, and has an undergraduate planning degree from the same university.</p>
-            <p>Rizqa likes working with different people and taking interesting skills and innovative ideas to help strengthen communities. “I really enjoy the opportunity to share my knowledge and work together with citizens to develop their communities,” she says.</p>"
-          %}
+            <p>
+              Nina started working with Kota Kita as knowledge management
+              officer in 2016. She loves to engage in community planning, urban
+              research, and virtual collaboration. She works on participatory
+              planning and budgeting and urban community of practice.
+            </p>
+            <p>
+              She holds a Master’s degree in International Development (Urban
+              Development) from University of Birmingham, having previously
+              completed her study at University of Indonesia.
+            </p>
+            <p>
+              Nina loves taking photograph. Capturing the ambience of a city
+              always excites her.
+            </p>
+            " %}
 
-          <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
+            <div class="clearfix visible-xs-block"></div>
 
-          <!-- BARRY BEAGEN -->
-          {% include components/team.html
-            name = "Barry Beagen"
-            job = "Program Director"
-            target = "barry"
-            url = "update/barrybeagen.jpg"
-            paragraph = "<p>Barry is a designer and planner at the intersection of community development, urban infrastructure and climate change resilience in developing countries. As a program director at Kota Kita, Barry focuses on methodologies to mainstream urban participatory design and co-development projects.</p>
-            <p>At MIT Urban Risk Lab, Barry has collaborated on design research related to urban resilience and disaster emergency response systems in Indonesia, Haiti and India. He had received the Tata Center for Design and Technology Fellowship developing models for co-operative based incremental housing in India. Prior to joining Kota Kita, Barry had worked for Diller Scofidio + Renfro in New York City. He had previously taught at Columbia University Graduate School of Architecture, Planning and Preservation (GSAPP), and received a Master of Architecture at Massachusetts Institute of Technology and a B.S. in Civil and Environmental Engineering at Cornell University. </p>"
-          %}
+            <!-- FEBRIAN GERINOSKY -->
+            {% include components/team.html name = "Febrian Gerinosky" job =
+            "Designer" target = "febrian" url = "update/febrian.jpg" paragraph =
+            "
+            <p>
+              Febrian Gerinosky is a urban designer with an architecture
+              background. He has been working with Kota Kita since 2017, engage
+              closely with groups of youth, and lead the creative production
+              through graph design, photography, and videography. His creative
+              expression professionally recognised as he is also an official
+              photographer of an indie band. He believes that besides words, a
+              message which delivered in an artistic way can reach more people
+              and give impact for good.
+            </p>
+            " %}
 
-          <!-- BIMA PRATAMA -->
-          {% include components/team.html
-            name = "Bima Pratama Putra"
-            job = "Designer &amp; Planner"
-            target = "bima"
-            url = "BIMA_web.jpg"
+            <!-- RIAN NUGROHO -->
+            {% include components/team.html name = "Rian Nugroho" job =
+            "Operations Director" target = "rian" url = "update/rian.jpg"
             paragraph = "
-            <p>Bima began working with Kota Kita as a student volunteer in 2010, since then he has worked on projects as a designer and planner. Bima graduated with a Bachelor in Architecture from Universitas Sebelas Maret in Solo. Bima works mostly on data collection, mapping and developing ways to communicate data through graphic design and visualization. He also creates a wide variety of Kota Kita’s planning tools, presentations and planning documents.</p>
-            <p>Bima is one of the four Kota Kita contributors who won the challenge of AECOM Urban SOS in 2011, implemented their proposal for Firm Foundation: Decreasing Vulnerability with Self-Reliant Urban Design for Riverfront Housing, in Banjarmasin, Borneo, Indonesia.</p>"
-          %}
+            <p>
+              As the Operations Director, Rian leads the team in the aspects of
+              finance, administration, human resources and information
+              technology.
+            </p>
+            <p>
+              Streamlining administrative procedures while complying to the
+              standards is one of his approaches in ensuring proper and timely
+              implementation of programs in Kota Kita. Prior in joining Kota
+              Kita in early 2018, he had experiences working for international
+              non-governmental organization, multinational profit companies and
+              foreign government institution. Rian holds the B.Sc. degree in
+              Business Management from Montana State University.
+            </p>
+            " %}
 
-          <!-- PAULISTA -->
-          {% include components/team.html
-            name = "Paulista Bunga Surjadi"
-            job = "Communications Specialist"
-            target = "paulista"
-            url = "PAULISTA_web.jpg"
+            <!-- MURNI -->
+            {% include components/team.html name = "Murni" job = "Finance
+            Manager" target = "murni" url = "update/murni.jpg" paragraph = "
+            <p>
+              Murni is a Finance Manager at Kota Kita. She has been with the
+              organization since 2015.
+            </p>
+            <p>
+              Prior to joining Kota Kita, she had experiences working in Finance
+              for non-profit organizations based in Yogyakarta, Central Java. In
+              her free time, Murni enjoys cooking, reading, dancing and
+              exercising.
+            </p>
+            " %}
+
+            <div
+              class="clearfix visible-sm-block visible-md-block visible-lg-block"
+            ></div>
+
+            <!-- RIRIN -->
+            {% include components/team.html name = "Ririn Setyowati" job =
+            "Administration Staff" target = "ririn" url = "RIRIN_web.jpg"
             paragraph = "
-            <p>Paulista is responsible for communication and outreach to governments, communities and the general public or citizens. She also connects with civil society partners to strengthen advocacy for inclusive urban governance. Paulista brings experience from the world of public relations and is passionate about urban issues. She believes that while cities are often a work-in-progress, that an inclusive and socially just city, a city for all, is possible.</p>
-            <p>She contributes to the organization of the Urban Social Forum , an annual open, free, and inclusive forum talking about pressing urban issues in Indonesia and the region. Year after year, the Forum grows and expands the conversation about socially just and inclusive cities, she wishes for more people and communities to be a part of the movement.</p>
-            <p>Paulista holds a Bachelor of Arts with Honours degree in Cultural Studies from Monash University.</p>"
-          %}
+            <p>
+              Ririn works with the office manager to make sure that the all
+              operation and administration within Kota Kita runs smoothly.
+            </p>
+            <p>
+              “Working with Kota Kita is very exciting People here are well
+              educated and professional in their work, so I am very happy to be
+              surrounded by a bright group of people,” she says.
+            </p>
+            " %}
 
-          <!-- ICHA -->
-          {% include components/team.html
-            name = "Hasanatun Nisa Thamrin"
-            job = "Urban Planner"
-            target = "icha"
-            url = "ICHA_web.jpg"
+            <!-- MELINDA -->
+            {% include components/team.html name = "Melinda Martinus" job =
+            "Urban Planner" target = "melinda" url = "2019-04-05/melinda.jpg"
             paragraph = "
-            <p>Hasanatun is better known at the Kota Kita office as Icha, and is an urban planner. Icha works on a range of planning issues such as climate adaptation, economic development, community development and strategic planning.</p>
-            <p>She holds a Masters degree in Urban and Regional Planning from Universitas Diponegoro Semarang. She started working with Kota Kita in 2014, and has been heavily involved in the production for 2nd Urban Social Forum and organizing the Urban Citizenship Academy.</p>"
-          %}
+            <p>
+              Melinda is an urban planning and development expert with
+              experiences managing research social, economic, and environmental
+              impact of municipal infrastructure and housing program. Melinda
+              joined Kota Kita Foundation in December 2018. Prior to joining
+              Kota Kita Foundation, she studied in Master of Urban Planning
+              program at Columbia University in the City of New York. There, she
+              concentrated on international development, climate change,
+              politics of urbanization, and housing policies. She wrote thesis
+              on “Politics and Urban Development Focus on Jakarta’s Shopping
+              Center Trajectory.“
+            </p>
+            <p>
+              Melinda is also a research fellow at the Urban Lab, Tarumanagara
+              University, Jakarta. She had involved in research collaborations
+              with University of California Los Angeles and the Wharton School
+              at University of Pennsylvania.
+            </p>
+            <p>
+              When she isn’t working, she enjoys strolling in traditional
+              markets, (is aspired to learn making) buying handcrafts, and
+              tasting local coffee.
+            </p>
+            " %}
 
-          <div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+            <!-- FILDZAH -->
+            {% include components/team.html name = "Fildzah Husna" job = "Urban
+            Planner" target = "fildzah" url = "2019-04-05/fildzah.jpg" paragraph
+            = "
+            <p>
+              Fildzah Husna Amalina is an urban planner with passion in
+              communication. She finds enthusiasm in cities and always excited
+              in finding ways to communicate plan and urban issues to citizen’s
+              daily conversation. As she believes that all citizen should
+              mindfully engage and participate in urban process, spaces for such
+              opportunities need to be--not only encouraged--but also realized,
+              with participative, collaborative and creative values rooted in
+              the core.
+            </p>
+            <p>
+              She’s been working with Kota Kita since 2018; previously as a
+              campaigner for Urban Social Forum, an annual forum for citizens
+              and activist working on urban issues in Indonesia. She is now a
+              communication officer in the organization, taking role to shape
+              urban discourse by planning and delivering contents through Kota
+              Kita’s media and engagements.
+            </p>
+            <p>
+              She holds bachelor degree in Urban Planning from Universitas
+              Gadjah Mada; she’s still a planner by heart, believing a city for
+              all is possible.
+            </p>
+            " %}
 
-          <!-- NINA -->
-          {% include components/team.html
-            name = "Nina Asterina"
-            job = "Knowledge Management Officer"
-            target = "nina"
-            url = "NINA_web.jpg"
-            paragraph = "<p>Nina started working with Kota Kita as knowledge management officer in 2016. She  loves to engage in community planning, urban research, and virtual collaboration. She works on participatory planning and budgeting and urban community of practice.</p>
-            <p>She holds a Master’s degree in International Development (Urban Development) from University of Birmingham, having previously completed her study at University of Indonesia. </p>
-            <p>Nina loves taking photograph. Capturing the ambience of a city always excites her.</p>"
-          %}
-
-          <!-- ELSENA -->
-          <!-- {% include components/team.html
-            name = "Elsena Khurniadi"
-            job = "Planner"
-            target = "sena"
-            url = "update/elsena2.jpg"
-            paragraph = "<p>Elsena joined Kota Kita since January 2017. In the NGO, He started working on Community Mapping projects in Solo and Banjarmasin. Now, He is developing a web-based urban diagnostic platform called DATA KOTA project.</p>
-            <p>He believe that city technology develpoment is required to better citizen quality of life. His expertise in geographic information systems, statistics, and computer programming come from his passion in all about technology. He hold a Bachelor degree in Urban and Regional Plannning as urban and regional planning program from Bandung Institute of Technology (ITB). In his spare time, he is an avid how-to-book reader and hobbyist coder.</p>"
-          %} -->
-
-          <div class="clearfix visible-xs-block"></div>
-
-          <!-- TITIS EFRINDU B -->
-          <!-- {% include components/team.html
-            name = "Titis Efrindu B"
-            job = "Urban Mobility Specialist"
-            target = "titis"
-            url = "update/titis.jpeg"
-            paragraph = "<p>Titis Efrindu Bawono is working as urban mobility specialist in Kota Kita since 2017. His background as a transport planner supports the team on mapping the bicycle network, designing transportation infrastructures, promoting the sustainable transport, campaigning road safety, and engaging with women and cyclist groups.</p>
-            <p>He had worked with Department of transportation as a Junior Advisor in GIZ Gmbh for developing sustainable transport system in Surakarta including set up the public transport system and networks, provided sustainable infrastructures, parking management, and strengthen the policy. He intends to make city safer and less pollution by reducing the use of private cars.</p>"
-          %}
-
-          <div class="clearfix visible-xs-block"></div> -->
-
-          <!-- FEBRIAN GERINOSKY -->
-          {% include components/team.html
-            name = "Febrian Gerinosky"
-            job = "Designer"
-            target = "febrian"
-            url = "update/febrian.jpg"
-            paragraph = "<p>Febrian Gerinosky is a urban designer with an architecture background. He has been working with Kota Kita since 2017, engage closely with groups of youth, and lead the creative production through graph design, photography, and videography. His creative expression professionally recognised as he is also an official photographer of an indie band. He believes that besides words, a message which delivered in an artistic way can reach more people and give impact for good.</p>"
-          %}
-
-          <!-- RIAN NUGROHO -->
-          {% include components/team.html
-            name = "Rian Nugroho"
-            job = "Operations Director"
-            target = "rian"
-            url = "update/rian.jpg"
-            paragraph = "<p>As the Operations Director, Rian leads the team in the aspects of finance, administration, human resources and information technology.</p>
-            <p>Streamlining administrative procedures while complying to the standards is one of his approaches in ensuring proper and timely implementation of programs in Kota Kita.  Prior in joining Kota Kita in early 2018, he had experiences working for international non-governmental organization, multinational profit companies and foreign government institution.  Rian holds the B.Sc. degree in Business Management from Montana State University.</p>"
-          %}
-
-          <!-- MURNI -->
-          {% include components/team.html
-            name = "Murni"
-            job = "Finance Manager"
-            target = "murni"
-            url = "update/murni.jpg"
-            paragraph = "<p>Murni is a Finance Manager at Kota Kita. She has been with the organization since 2015.</p>
-            <p>Prior to joining Kota Kita, she had experiences working in Finance for non-profit organizations based in Yogyakarta, Central Java. In her free time, Murni enjoys cooking, reading, dancing and exercising.</p>"
-          %}
-
-          <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
-
-          <!-- RIRIN -->
-          {% include components/team.html
-            name = "Ririn Setyowati"
-            job = "Administration Staff"
-            target = "ririn"
-            url = "RIRIN_web.jpg"
+            <!-- MUKHLIS -->
+            {% include components/team.html name = "Mukhlis Akbar" job = "GIS
+            Officer" target = "mukhlis" url = "2019-04-05/mukhlis.jpeg"
             paragraph = "
-            <p>Ririn works with the office manager to make sure that the all operation and administration within Kota Kita runs smoothly.</p>
-            <p>“Working with Kota Kita is very exciting People here are well educated and professional in their work, so I am very happy to be surrounded by a bright group of people,” she says.</p>"
-          %}
+            <p>
+              Mukhlis is a GIS Officer who recently joined Kota Kita Foundation
+              in January 2019. For now he works as a research support team to
+              process data and analyze data in spatial form. Mukhlis is a
+              freelancer, who gets a chance to teach geographical information
+              systems to remote sensing. Mukhlis graduated from Geography at the
+              Muhammadiyah University of Surakarta. For now he is developing a
+              spatial based information system database in accessing data and
+              collecting data from KOTA KITA.
+            </p>
+            <p>
+              He said that spatial data is not only to be displayed, because for
+              now many people can already make maps. But, please allow us not
+              only to display them, so that the maps we produce can be useful
+              and beneficial for everyone. Mukhlis believes that cities can
+              advance current compilation with communities to be improved with
+              all aspects (spatial, environmental and regional).
+            </p>
+            <p>
+              he really likes new things related to technology and often
+              experiments with the help of Python, SQL and Javascript
+            </p>
+            " %}
 
-          <!-- MELINDA -->
-          {% include components/team.html
-            name = "Melinda Martinus"
-            job = "Urban Planner"
-            target = "melinda"
-            url = "2019-04-05/melinda.jpg"
-            paragraph = "
-            <p>Melinda is an urban planning and development expert with experiences managing research
-            social, economic, and environmental impact of municipal infrastructure and housing
-            program. Melinda joined Kota Kita Foundation in December 2018. Prior to joining Kota Kita
-            Foundation, she studied in Master of Urban Planning program at Columbia University in the
-            City of New York. There, she concentrated on international development, climate change,
-            politics of urbanization, and housing policies. She wrote thesis on “Politics and Urban
-            Development Focus on Jakarta’s Shopping Center Trajectory.“</p>
-            <p>Melinda is also a research fellow at the Urban Lab, Tarumanagara University, Jakarta. She
-            had involved in research collaborations with University of California Los Angeles and the
-            Wharton School at University of Pennsylvania.</p>
-            <p>When she isn’t working, she enjoys strolling in traditional markets, (is aspired to learn
-            making) buying handcrafts, and tasting local coffee.</p>"
-          %}
+            <div
+              class="clearfix visible-sm-block visible-md-block visible-lg-block"
+            ></div>
+          </div>
+        </div>
+      </div>
 
-          <!-- MUKHLIS -->
-          {% include components/team.html
-            name = "Mukhlis Akbar"
-            job = "GIS Officer"
-            target = "mukhlis"
-            url = "2019-04-05/mukhlis.jpeg"
-            paragraph = "
-            <p>Mukhlis is a GIS Officer who recently joined Kota Kita Foundation in January 2019. For now
-            he works as a research support team to process data and analyze data in spatial form.
-            Mukhlis is a freelancer, who gets a chance to teach geographical information systems to
-            remote sensing. Mukhlis graduated from Geography at the Muhammadiyah University of
-            Surakarta. For now he is developing a spatial based information system database in
-            accessing data and collecting data from KOTA KITA.</p>
-            <p>He said that spatial data is not only to be displayed, because for now many people can
-            already make maps. But, please allow us not only to display them, so that the maps we
-            produce can be useful and beneficial for everyone. Mukhlis believes that cities can advance
-            current compilation with communities to be improved with all aspects (spatial, environmental
-            and regional).</p>
-            <p>he really likes new things related to technology and often experiments with the help of
-            Python, SQL and Javascript</p>"
-          %}
+      <hr class="featurette-divider" />
 
-          <!-- FILDZAH -->
-          {% include components/team.html
-            name = "Fildzah Husna"
-            job = "Urban Planner"
-            target = "fildzah"
-            url = "2019-04-05/fildzah.jpg"
-            paragraph = "
-            <p>Fildzah Husna Amalina is an urban planner with passion in communication. She finds
-            enthusiasm in cities and always excited in finding ways to communicate plan and urban
-            issues to citizen’s daily conversation. As she believes that all citizen should mindfully engage
-            and participate in urban process, spaces for such opportunities need to be--not only
-            encouraged--but also realized, with participative, collaborative and creative values rooted in
-            the core.</p>
-            <p>She’s been working with Kota Kita since 2018; previously as a campaigner for Urban Social
-            Forum, an annual forum for citizens and activist working on urban issues in Indonesia. She
-            is now a communication officer in the organization, taking role to shape urban discourse by
-            planning and delivering contents through Kota Kita’s media and engagements.</p>
-            <p>She holds bachelor degree in Urban Planning from Universitas Gadjah Mada; she’s still a
-            planner by heart, believing a city for all is possible.</p>"
-          %}
+      <div id="contact" class="row" style="background-color:#FEF7EC;">
+        <div class="col-sm-3">
+          <div class="section-intro">
+            <h1>Contact Us</h1>
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <h2 class="text-primary" style="font-size: 28px;">
+            Yayasan Kota Kita
+          </h2>
+          <h3 class="secondary-text">
+            Jl. Melon Raya no. 53<br />Karangasem, Surakarta<br />Central Java,
+            Indonesia 57145
+          </h3>
+          <hr class="featurette-divider visible-xs" />
+        </div>
+        <div class="col-sm-4">
+          <br />
+          <h4 class="text-primary">Phone</h4>
+          <h3 class="secondary-text">+62 271 710263</h3>
+          <hr class="featurette-divider" />
+          <h4 class="text-primary">Email</h4>
+          {% comment %}
+          <h3>rifai@kotakita.org</h3>
+          {% endcomment %}
+          <h3 class="secondary-text">info@kotakita.org</h3>
+        </div>
+      </div>
 
-          <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
+      <hr class="featurette-divider" />
 
-				</div>
-			</div>
-		</div>
+      <!-- /END THE FEATURETTES -->
+    </div>
+    <!-- /.container -->
 
-		<hr class="featurette-divider">
-
-		<div id="contact" class="row"  style="background-color:#FEF7EC;">
-			<div class="col-sm-3">
-				<div class="section-intro">
-					<h1>Contact Us</h1>
-				</div>
-			</div>
-			<div class="col-sm-5">
-				<h2 class="text-primary" style="font-size: 28px;">Yayasan Kota Kita</h2>
-				<h3 class="secondary-text">Jl. Melon Raya no. 53<br/>Karangasem, Surakarta<br/>Central Java, Indonesia 57145</h3>
-				<hr class="featurette-divider visible-xs">
-			</div>
-			<div class="col-sm-4">
-        <br>
-				<h4 class="text-primary">Phone</h4>
-				<h3 class="secondary-text">+62 271 710263</h3>
-				<hr class="featurette-divider">
-				<h4 class="text-primary">Email</h4>
-        {% comment %} <h3>rifai@kotakita.org</h3> {% endcomment %}
-				<h3 class="secondary-text">info@kotakita.org</h3>
-			</div>
-		</div>
-
-		<hr class="featurette-divider">
-
-		<!-- /END THE FEATURETTES -->
-
-	</div><!-- /.container -->
-
-	{% include footer.html %}
-
-	{% include core-js.html %}
-
-	</body>
+    {% include footer.html %} {% include core-js.html %}
+  </body>
 </html>

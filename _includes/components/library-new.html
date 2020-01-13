@@ -1,0 +1,25 @@
+{% for publication in include.publications %}
+<div class="thumb col-xs-6 col-md-3">
+  <div class="intern-top-box"></div>
+  <img
+    class="publication-image img-responsive"
+    src="{{ publication.thumbnail }}"
+  />
+  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+    {% for option in publication.options %}
+    <a
+      href="{{ option.url }}"
+      target="_blank"
+      role="button"
+      class="btn btn-primary"
+      ><span class="glyphicon glyphicon-file" aria-hidden="true"></span> {{
+      option.name }}</a
+    >
+    {% endfor %}
+
+    <!-- <a href="./publications-docs/UCRMP Makassar_BAHASA_130815.pdf" target="_blank" role="button" class="btn btn-primary"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Bahasa</a> -->
+  </div>
+  <h4>{{ publication.title }}</h4>
+  <h5 class="text-primary">{{ publication.publisher }}</h5>
+</div>
+{% endfor %}

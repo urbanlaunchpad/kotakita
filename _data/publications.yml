@@ -3,94 +3,93 @@
 # TODO: Get the thumbnails
 # TODO: Confirm aboyt document storage, github, issue, or google drive
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1540917416/kotakita/library/2018-10-30/lib-bungarampai.jpg'
-  title: 'Bunga Rampai Catatan Pengetahuan MAVC di Indonesia'
-  publisher: 'Hivos, 2018'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1540917416/kotakita/library/2018-10-30/lib-bungarampai.jpg"
+  title: "Bunga Rampai Catatan Pengetahuan MAVC di Indonesia"
+  publisher: "Hivos, 2018"
   options:
-    - url: '2018-10-30/lib-bungarampai.pdf'
-      name: 'English'
+    - url: "2018-10-30/lib-bungarampai.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1540917415/kotakita/library/2018-10-30/lib-singaporejournal.jpg'
-  title: 'Women on wheels: Gender and cycling in Solo, Indonesia'
-  publisher: 'Singapore Journal of Tropical Geography, 2018'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1540917415/kotakita/library/2018-10-30/lib-singaporejournal.jpg"
+  title: "Women on wheels: Gender and cycling in Solo, Indonesia"
+  publisher: "Singapore Journal of Tropical Geography, 2018"
   options:
-    - url: '2018-10-30/lib-singaporejournal.pdf'
-      name: 'English'
+    - url: "2018-10-30/lib-singaporejournal.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1537834118/kotakita/library/2018-09-25/integrating_food_into_urban_planning.jpg'
-  title: 'Making Food Markets Work: Towards Participatory Planning and Adaptive Governance'
-  publisher: 'UCL Press, 2018'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1537834118/kotakita/library/2018-09-25/integrating_food_into_urban_planning.jpg"
+  title: "Making Food Markets Work: Towards Participatory Planning and Adaptive Governance"
+  publisher: "UCL Press, 2018"
   options:
-    - url: '2018-09-25/making_food_market_works.pdf'
-      name: 'English'
+    - url: "2018-09-25/making_food_market_works.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1537834118/kotakita/library/2018-09-25/another_city_is_possible.jpg'
-  title: 'Another City is Possible! The Urban Social Forum in Indonesia'
-  publisher: 'Jovis Verlag GmbH, 2017'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1537834118/kotakita/library/2018-09-25/another_city_is_possible.jpg"
+  title: "Another City is Possible! The Urban Social Forum in Indonesia"
+  publisher: "Jovis Verlag GmbH, 2017"
   options:
-    - url: '2018-09-25/another_city_is_possible.pdf'
-      name: 'English'
+    - url: "2018-09-25/another_city_is_possible.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1537834119/kotakita/library/2018-09-25/usf5_cover.png'
-  title: 'The Urban Social Forum 5 Event Report'
-  publisher: 'Kota Kita, 2017'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1537834119/kotakita/library/2018-09-25/usf5_cover.png"
+  title: "The Urban Social Forum 5 Event Report"
+  publisher: "Kota Kita, 2017"
   options:
-    - url: '2018-09-25/event_report_the_5th_usf_fin.pdf'
-      name: 'English'
+    - url: "2018-09-25/event_report_the_5th_usf_fin.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1540917255/kotakita/library/2018-10-30/lib-usf5poster.jpg'
-  title: 'The Urban Social Forum 5 Event Poster'
-  publisher: 'KotaKita, 2017'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1540917255/kotakita/library/2018-10-30/lib-usf5poster.jpg"
+  title: "The Urban Social Forum 5 Event Poster"
+  publisher: "KotaKita, 2017"
   options:
-    - url: '2018-10-30/lib-usf5poster.jpg'
-      name: 'English'
+    - url: "2018-10-30/lib-usf5poster.jpg"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361423/kotakita/library/july%202018/annual-report.jpg'
-  title: 'Kota Kita’s Annual Report 2017'
-  publisher: 'Kota Kita, 2018'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533361423/kotakita/library/july%202018/annual-report.jpg"
+  title: "Kota Kita’s Annual Report 2017"
+  publisher: "Kota Kita, 2018"
   options:
-    - url: 'july 2018/kotakita-annual-report-2017.pdf'
-      name: 'English'
+    - url: "july 2018/kotakita-annual-report-2017.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361424/kotakita/library/july%202018/disability-inclusive-city.jpg'
-  title: 'Solo City: A Disability-inclusive City Profile'
-  publisher: 'UNESCO, Kota Kita, 2018'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533361424/kotakita/library/july%202018/disability-inclusive-city.jpg"
+  title: "Solo City: A Disability-inclusive City Profile"
+  publisher: "UNESCO, Kota Kita, 2018"
   options:
-    - url: 'july 2018/disability-report.pdf'
-      name: 'English'
+    - url: "july 2018/disability-report.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361424/kotakita/library/july%202018/participatory-data-collection.jpg'
-  title: 'Participatory Data Collection and Mapping Tool: Guideline for Disability Study'
-  publisher: 'UNESCO, Kota Kita, 2018'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533361424/kotakita/library/july%202018/participatory-data-collection.jpg"
+  title: "Participatory Data Collection and Mapping Tool: Guideline for Disability Study"
+  publisher: "UNESCO, Kota Kita, 2018"
   options:
-    - url: 'july 2018/participatory-data-collection-methodology.pdf'
-      name: 'English'
+    - url: "july 2018/participatory-data-collection-methodology.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361423/kotakita/library/july%202018/asian-russian.jpg'
-  title: 'Highlights on Some Asian and Russian Participatory Budgeting Pioneers'
-  publisher: 'Yves Cabannes,  DPU-UCL, IOPD, Kota Kita, 2018'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533361423/kotakita/library/july%202018/asian-russian.jpg"
+  title: "Highlights on Some Asian and Russian Participatory Budgeting Pioneers"
+  publisher: "Yves Cabannes,  DPU-UCL, IOPD, Kota Kita, 2018"
   options:
-    - url: 'july 2018/participatory-budgetting-asia-russia.pdf'
-      name: 'English'
+    - url: "july 2018/participatory-budgetting-asia-russia.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361425/kotakita/library/july%202018/world-urban-forum.jpg'
-  title: 'Kota Kita and The World Urban Forum 9: Experiences and Learnings'
-  publisher: 'Kota Kita, 2018'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533361425/kotakita/library/july%202018/world-urban-forum.jpg"
+  title: "Kota Kita and The World Urban Forum 9: Experiences and Learnings"
+  publisher: "Kota Kita, 2018"
   options:
-    - url: 'july 2018/world-urban-forum-report.pdf'
-      name: 'English'
+    - url: "july 2018/world-urban-forum-report.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361426/kotakita/library/july%202018/participatory-budgetting.jpg'
-  title: 'Participatory Budgeting in Indonesia; Past, Present, Future'
-  publisher: 'Making All Voices Count, Kota Kita, 2017'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533361426/kotakita/library/july%202018/participatory-budgetting.jpg"
+  title: "Participatory Budgeting in Indonesia; Past, Present, Future"
+  publisher: "Making All Voices Count, Kota Kita, 2017"
   options:
-    - url: 'july 2018/mavc.pdf'
-      name: 'English'
+    - url: "july 2018/mavc.pdf"
+      name: "English"
 
-- thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1533361425/kotakita/library/july%202018/usf4-2016.jpg'
-  title: 'The 4th Urban Social Forum Event Report'
-  publisher: 'Kota Kita, 2016'
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1533361425/kotakita/library/july%202018/usf4-2016.jpg"
+  title: "The 4th Urban Social Forum Event Report"
+  publisher: "Kota Kita, 2016"
   options:
-    - url: 'july 2018/the-4th-usf-report.pdf'
-      name: 'English'
-
+    - url: "july 2018/the-4th-usf-report.pdf"
+      name: "English"
