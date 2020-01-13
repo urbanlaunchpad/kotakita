@@ -17,6 +17,13 @@
     - url: "https://drive.google.com/open?id=1iJcvFpKYmhTddUF2_KnLJYGFJssbxIy1"
       name: "English"
 
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1578904666/kotakita/library/2020-01-13/6-disability-toolbox.jpg"
+  title: "Toolbox of Practices and Program ideas: Disability-inclusive city Banjarmasin"
+  publisher: "UNESCO, Kota Kita, 2019"
+  options:
+    - url: "https://drive.google.com/file/d/1f3sqVEOHhWqHDFXrLKcC-dyXfRLvf4Bk/view?usp=sharing"
+      name: "English"
+
 - thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1578904663/kotakita/library/2020-01-13/3-usf6-report.jpg"
   title: "The 6th Urban Social Forum Event Report"
   publisher: "Kota Kita, 2018"
@@ -38,13 +45,6 @@
   publisher: "ADB, 2018"
   options:
     - url: "https://drive.google.com/open?id=1INuSAzxIRhd_76KeeqhaDsSNUSk86OEk"
-      name: "English"
-
-- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1578904666/kotakita/library/2020-01-13/6-disability-toolbox.jpg"
-  title: "Toolbox of Practices and Program ideas: Disability-inclusive city Banjarmasin"
-  publisher: "UNESCO, Kota Kita, 2019"
-  options:
-    - url: "https://drive.google.com/file/d/1f3sqVEOHhWqHDFXrLKcC-dyXfRLvf4Bk/view?usp=sharing"
       name: "English"
 
 - thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1578904664/kotakita/library/2020-01-13/7-toolkit.jpg"
