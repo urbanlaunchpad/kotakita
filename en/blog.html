@@ -3,44 +3,49 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
+    {% include header.html %}
+  </head>
 
-	{% include header.html %}
+  <body>
+    {% include nav-en.html %}
 
-	</head>
+    <div
+      class="jumbotron"
+      style="background-image:url(../src/img/blog/banner.jpg)"
+    ></div>
 
-	<body>
+    <div class="container project-page">
+      <script
+        type="text/javascript"
+        src="https://kotakita-journal.tumblr.com/api/read/json"
+      ></script>
 
-	{% include nav-en.html %}
+      <ol class="tumblr_posts">
+        <script type="text/javascript">
+          // document.write("<h1>" + tumblr_api_read.tumblelog.title + "</h1>");  Shows "First Title"
 
-	<div class="jumbotron" style="background-image:url(../src/img/blog/banner.jpg)">
+          for (var i = 0; i < tumblr_api_read.posts.length; i++) {
+            var thisPost = tumblr_api_read.posts[i];
+            document.write(
+              '<li class="tumblr_post tumblr_text_post"><div class="row"><div class="col-sm-3"><div class="tumblr_title text-primary"><a href="' +
+                thisPost.url +
+                '"><h1>' +
+                tumblr_api_read["posts"][i]["regular-title"] +
+                '</h1><h5 class="text-uppercase">' +
+                thisPost.date +
+                '</h5></a></div></div><div class="col-sm-9 tumblr_body">' +
+                tumblr_api_read["posts"][i]["regular-body"] +
+                "</div></li>"
+            );
+          }
+        </script>
+      </ol>
+
+      <!-- <script type="text/javascript" src="https://kotakita-journal.tumblr.com/js"></script> -->
     </div>
+    <!-- /.container -->
 
-	<div class="container project-page">
-
-		<script type="text/javascript" src="http://kotakita-journal.tumblr.com/api/read/json"></script>
-
-		<ol class="tumblr_posts">
-			<script type="text/javascript">
-			    // document.write("<h1>" + tumblr_api_read.tumblelog.title + "</h1>");  Shows "First Title"
-
-				for (var i=0;i<tumblr_api_read.posts.length;i++) {
-			        var thisPost = tumblr_api_read.posts[i];
-					document.write(
-				    	'<li class="tumblr_post tumblr_text_post"><div class="row"><div class="col-sm-3"><div class="tumblr_title text-primary"><a href="' + thisPost.url + '"><h1>' + tumblr_api_read['posts'][i]['regular-title'] + '</h1><h5 class="text-uppercase">' + thisPost.date + '</h5></a></div></div><div class="col-sm-9 tumblr_body">' + tumblr_api_read['posts'][i]['regular-body'] + '</div></li>'
-			        );
-
-			    }
-			</script>
-		</ol>
-
-<!-- <script type="text/javascript" src="http://kotakita-journal.tumblr.com/js"></script> -->
-
-	</div><!-- /.container -->
-
-	{% include footer.html %}
-
-	{% include core-js.html %}
-
-	</body>
+    {% include footer.html %} {% include core-js.html %}
+  </body>
 </html>
