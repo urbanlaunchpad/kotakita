@@ -3,50 +3,59 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
+    {% include header.html %}
+  </head>
 
-	{% include header.html %}
+  <body>
+    {% include nav-in.html %}
 
-	</head>
-
-	<body>
-
-	{% include nav-in.html %}
-
-	<!-- Carousel
+    <!-- Carousel
 	================================================== -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-		</ol>
-		<div class="carousel-inner" role="listbox">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div
+          class="item active"
+          style="background-image:url(./src/img/carousel/ex_slider_01.jpg)"
+        >
+          <div class="container">
+            <div class="carousel-caption">
+              <h4>Our Mission</h4>
+              <h1>A City for All</h1>
+              <p>
+                Improving participatory planning and budgeting processes by
+                making information available to citizens.
+              </p>
+              <p>
+                <a
+                  class="btn btn-lg btn-default"
+                  href="about-us#our-mission"
+                  role="button"
+                  >Learn about our mission</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <div class="item active" style="background-image:url(./src/img/carousel/ex_slider_01.jpg)">
-				<div class="container">
-					<div class="carousel-caption">
-						<h4>Our Mission</h4>
-						<h1>A City for All</h1>
-						<p>Improving participatory planning and budgeting processes by making information available to citizens.</p>
-						<p><a class="btn btn-lg btn-default" href="about-us#our-mission" role="button">Learn about our mission</a></p>
-					</div>
-				</div>
-      </div>
-
-			<!-- <div class="item" style="background-image:url(./src/img/carousel/slider_another-city.jpg)">
+        <!-- <div class="item" style="background-image:url(./src/img/carousel/slider_another-city.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Latest News</h4>
 						<h1>Another City is Possible</h1>
 						<p>The 2nd Urban Social Forum was hosted and organized by Kota Kita on December 20th, 2014 in Solo.</p>
-						<p><a class="btn btn-lg btn-default" href="http://kotakita-journal.tumblr.com/post/109590341832/another-city-is-possible" role="button">Read more</a></p>
+						<p><a class="btn btn-lg btn-default" href="https://kotakita-journal.tumblr.com/post/109590341832/another-city-is-possible" role="button">Read more</a></p>
 					</div>
 				</div>
       </div> -->
 
-			<!-- <div class="item" style="background-image:url(./src/img/feature/development-boom/banner-dark.jpg)">
+        <!-- <div class="item" style="background-image:url(./src/img/feature/development-boom/banner-dark.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Feature</h4>
@@ -57,29 +66,66 @@
 				</div>
       </div> -->
 
-      <div class="item" style="background-image:url('https://res.cloudinary.com/vasilenka/image/upload/v1533597764/kotakita/featured/participatory-budgetting.jpg')">
-				<div class="container">
-					<div class="carousel-caption">
-						<h4>Library</h4>
-						<h1>Participatory Budgeting in Indonesia: Past, Present, and Future</h1>
-						<p><small>Kota Kita reflects on the history and evolution of participatory budgeting in Indonesia.</small></p>
-						<p><a class="btn btn-lg btn-default" href="./publications-docs/participatory_budgeting_asia_russia_final.pdf" role="button" target="_blank">Read more</a></p>
-					</div>
-				</div>
-      </div>
+        <div
+          class="item"
+          style="background-image:url('https://res.cloudinary.com/vasilenka/image/upload/v1533597764/kotakita/featured/participatory-budgetting.jpg')"
+        >
+          <div class="container">
+            <div class="carousel-caption">
+              <h4>Library</h4>
+              <h1>
+                Participatory Budgeting in Indonesia: Past, Present, and Future
+              </h1>
+              <p>
+                <small
+                  >Kota Kita reflects on the history and evolution of
+                  participatory budgeting in Indonesia.</small
+                >
+              </p>
+              <p>
+                <a
+                  class="btn btn-lg btn-default"
+                  href="./publications-docs/participatory_budgeting_asia_russia_final.pdf"
+                  role="button"
+                  target="_blank"
+                  >Read more</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <div class="item" style="background-image:url('https://res.cloudinary.com/vasilenka/image/upload/v1533597767/kotakita/featured/disability.jpg')">
-				<div class="container">
-					<div class="carousel-caption">
-						<h4>Video</h4>
-						<h1>Participatory data collection for disability-inclusive city: Solo City</h1>
-						<p><small>Participatory process enables mapping of various key determinants of exclusion and inclusion.</small></p>
-						<p><a class="btn btn-lg btn-default" target="_blank" href="https://www.youtube.com/watch?v=GVWqvL1XKtI&t=14s" role="button">Watch here</a></p>
-					</div>
-				</div>
-      </div>
+        <div
+          class="item"
+          style="background-image:url('https://res.cloudinary.com/vasilenka/image/upload/v1533597767/kotakita/featured/disability.jpg')"
+        >
+          <div class="container">
+            <div class="carousel-caption">
+              <h4>Video</h4>
+              <h1>
+                Participatory data collection for disability-inclusive city:
+                Solo City
+              </h1>
+              <p>
+                <small
+                  >Participatory process enables mapping of various key
+                  determinants of exclusion and inclusion.</small
+                >
+              </p>
+              <p>
+                <a
+                  class="btn btn-lg btn-default"
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=GVWqvL1XKtI&t=14s"
+                  role="button"
+                  >Watch here</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
 
-			<!-- <div class="item" style="background-image:url(./src/img/feature/mongolia-planning/banner-dark.jpg)">
+        <!-- <div class="item" style="background-image:url(./src/img/feature/mongolia-planning/banner-dark.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Feature</h4>
@@ -90,7 +136,7 @@
 				</div>
 			</div> -->
 
-			<!-- <div class="item" style="background-image:url(./src/img/feature/water-water/banner.jpg)">
+        <!-- <div class="item" style="background-image:url(./src/img/feature/water-water/banner.jpg)">
 				<div class="container">
 					<div class="carousel-caption">
 						<h4>Feature</h4>
@@ -100,65 +146,70 @@
 					</div>
 				</div>
 			</div> -->
-		</div>
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-		</a>
-	</div><!-- /.carousel -->
+      </div>
+      <a
+        class="left carousel-control"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-left"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="right carousel-control"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-right"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- /.carousel -->
 
-
-	<!-- Marketing messaging and featurettes
+    <!-- Marketing messaging and featurettes
 	================================================== -->
-	<!-- Wrap the rest of the page in another container to center all the content. -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-	<div class="container">
-
-		<!-- Three columns of text below the carousel -->
-		<div id="projects" class="row" style="background-color:#FEF7EC; padding-top: 24px;">
-
-			<div class="col-md-3">
-				<div class="section-shift section-intro">
-					<h1>Our Projects</h1>
-					<a href="projects"><p class="btn btn-lg btn-default" role="button">See all</p></a>
-				</div>
-				<!-- <h3>Support our campaign for lorem ipsum</h3>
+    <div class="container">
+      <!-- Three columns of text below the carousel -->
+      <div
+        id="projects"
+        class="row"
+        style="background-color:#FEF7EC; padding-top: 24px;"
+      >
+        <div class="col-md-3">
+          <div class="section-shift section-intro">
+            <h1>Our Projects</h1>
+            <a href="projects"
+              ><p class="btn btn-lg btn-default" role="button">See all</p></a
+            >
+          </div>
+          <!-- <h3>Support our campaign for lorem ipsum</h3>
 				<p>Donate to give 30 women the opportunity to start clean technology businesses in their communities</p>
 				<a href="#"><p class="btn btn-lg btn-primary" role="button">Learn more</p></a> -->
-			</div>
+        </div>
 
-      {% for project in site.data.projects.datakota-banjarmasin %}
+        {% for project in site.data.projects.datakota-banjarmasin %} {% include
+        components/projects/front-home.html
+        url="project-data-kota-banjarmasin.html" title=project.name
+        teaser=project.teaser image=project.thumbnail %} {% endfor %} {% for
+        project in site.data.projects.creative-kampongs %} {% include
+        components/projects/front-home.html url="project-creative-kampongs.html"
+        title=project.name teaser=project.short-teaser image=project.thumbnail
+        %} {% endfor %} {% for project in site.data.projects.women-on-wheels %}
         {% include components/projects/front-home.html
-          url="project-data-kota-banjarmasin.html"
-          title=project.name
-          teaser=project.teaser
-          image=project.thumbnail
-        %}
-      {% endfor %}
+        url="project-women-on-wheels.html" title=project.name
+        teaser=project.teaser image=project.thumbnail %} {% endfor %}
 
-      {% for project in site.data.projects.creative-kampongs %}
-        {% include components/projects/front-home.html
-          url="project-creative-kampongs.html"
-          title=project.name
-          teaser=project.short-teaser
-          image=project.thumbnail
-        %}
-      {% endfor %}
-
-      {% for project in site.data.projects.women-on-wheels %}
-        {% include components/projects/front-home.html
-          url="project-women-on-wheels.html"
-          title=project.name
-          teaser=project.teaser
-          image=project.thumbnail
-        %}
-      {% endfor %}
-
-			<!-- <div class="project block-item col-md-3">
+        <!-- <div class="project block-item col-md-3">
 				<hr class="featurette-divider visible-xs visible-sm">
 				<a href="project-third-urban-social-forum.html">
 					<div class="project-top-box"></div>
@@ -169,7 +220,7 @@
 				</a>
       </div> -->
 
-			<!-- <div class="project block-item col-md-3">
+        <!-- <div class="project block-item col-md-3">
 				<hr class="featurette-divider visible-xs visible-sm">
 				<a href="project-aiira-participatory-budgeting.html">
 					<div class="project-top-box"></div>
@@ -190,7 +241,7 @@
 				</a>
 			</div> -->
 
-			<!-- <div class="project col-xs-6 col-md-3">
+        <!-- <div class="project col-xs-6 col-md-3">
 				<a  href="firm-foundation.html" >
 					<div class="project-top-box"></div>
 					<img src="./src/img/ex_thumb.jpg" alt="Generic placeholder image" >
@@ -199,13 +250,12 @@
 					<p class="btn btn-default" role="button">View details &raquo;</p>
 				</a>
 			</div> -->
+      </div>
+      <!-- /.row -->
 
-		</div><!-- /.row -->
+      <!-- START THE FEATURETTES -->
 
-
-		<!-- START THE FEATURETTES -->
-
-		<!-- <hr class="featurette-divider">
+      <!-- <hr class="featurette-divider">
 
 		<div class="row featurette">
 			<div class="col-sm-8 col-md-7">
@@ -218,7 +268,7 @@
 			</div>
 		</div> -->
 
-		<!--
+      <!--
     <div id="features" class="row featurette">
 			<div class="col-xs-12">
 				<h1 class="text-center">Kota Kita Today</h1>
@@ -257,7 +307,7 @@
 			<div class="block-item col-sm-3">
 				<div class="news-top-box"></div>
 				<a href="blog">
-					<img class="featurette-image img-responsive" src="http://40.media.tumblr.com/022fa3ae997c7f8cc92cf65ed0d9cc98/tumblr_inline_o0mdqqq4gL1trtheb_540.jpg">
+					<img class="featurette-image img-responsive" src="https://40.media.tumblr.com/022fa3ae997c7f8cc92cf65ed0d9cc98/tumblr_inline_o0mdqqq4gL1trtheb_540.jpg">
 					<h5 class="text-primary text-uppercase small"><span class="iconic iconic-microphone iconic-sm" title="microphone" aria-hidden="true"></span> Blog</h5>
 					<h3>Urban Social Forum Hosts Asia Regional Meeting on the Right to the City</h3>
 					<p>Kota Kita supporting a coalition to promote better cities across Asia</p>
@@ -267,13 +317,10 @@
     </div>
     -->
 
-    {% include components/video-container.html %}
+      {% include components/video-container.html %}
+    </div>
+    <!-- /.container -->
 
-	</div><!-- /.container -->
-
-	{% include footer.html %}
-
-	{% include core-js.html %}
-
-	</body>
+    {% include footer.html %} {% include core-js.html %}
+  </body>
 </html>
