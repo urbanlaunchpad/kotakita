@@ -3,7 +3,12 @@
   <a href="{{ include.page-url }}">
     <img class="publication-image img-responsive" src="{{ include.image }}">
     <h3 class="text-primary">{{ include.title }}</h3>
-    <p>{{ include.teaser }}</p>
-    <h5 class="text-uppercase"><span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span> {{ include.location }}</h5>
+    <p class="text-excerpt">{{ include.teaser }}</p>
+    {% if include.location %}
+      <h5 class="text-uppercase">
+        <span class="iconic iconic-map-marker iconic-sm" title="map marker" aria-hidden="true"></span>
+         {{ include.location }}
+      </h5>
+    {% endif %}
   </a>
 </div>

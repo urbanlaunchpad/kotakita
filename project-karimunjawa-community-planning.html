@@ -1,0 +1,83 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.karimunjawa-community-planning%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.karimunjawa-community-planning%}
+
+    {% for project in site.data.projects.karimunjawa-community-planning %}
+
+      {% include components/projects/image-right.html
+        image=project.img.two
+        text="
+        <p>
+          Since November 2018, Kota Kita has been working with local communities and stakeholders in Karimunjawa to develop
+          community-based islandscape initiatives. We conducted the initial site visit to 5 inhabited islands in Karimunjawa -
+          including Karimunjawa, Kemojan, Parang, Nyamuk, and Genting island - in December 2018 to get a broad overview of the
+          network of islands. We carried out a guided survey to different inhabited and uninhabited islands to get a glimpse of
+          the social, political, cultural and environmental dimensions, along with interviews and photo documentation as well as
+          contacts with local community leaders. In this process, we partnered with local facilitators from tour guide association HPI (Himpunan Pramuwisata Indonesia) Karimunjawa and Lingkar Desa Jepara, a grassroots coalition focusing on community-based tourism steeped in local knowledge.
+        </p>
+        <p>
+          Overall, our field activities included:
+          <ul>
+            <li>
+          Interviews with different government agencies at the provincial and regency level (Central Java province and Kabupaten
+          Jepara) to gather basic information,
+          </li>
+          <li>
+          31 in-depth interviews with local government officials, community leaders, religious leaders, community associations,
+          non government organisations, business entities, as well as tourists who visited Karimunjawa to understand the area’s
+          complexity and explore potential initiatives.
+          </li>
+          <li>
+          6 Focus Group Discussions (FGDs) as a process of vision building amongst the local community.
+          </li>
+          </ul>
+        </p>
+        "
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.one
+        image2=project.img.four
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>The action research was conducted through participatory processes with the aim of gathering deep local insights about the development of Karimunjawa while simultaneously building a shared vision for the future development of Karimunjawa. Furthermore, the process is intended to cultivate a shared-learning process with local communities and stakeholders as well as raising local awareness on the current and upcoming problems in the islands i.e waste production and management, access to basic services, uncontrolled development, and nature conservation. It also allowed for the identification of key opportunities that can leverage the local potential of Karimunjawa in a more environmentally and economically sustainable manner, focusing upon principles of environmental stewardship, creative economic opportunities and socially responsible models of tourism development.</p>
+        " %}
+
+        {% include components/projects/full-bleed-image.html image=project.img.three %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>Following this process, a report was developed as a baseline qualitative insight that can serve as a tool for strategic planning purposes in the development of an islandscape vision for Karimunjawa. Some potential key initiatives include developing a circular model for waste management, promoting sustainable tourism practice, securing the future of the islandscape through sustainable development pathways (i.e. better land use management), improving food security and development of local food culture, as well as improving the institutional collaboration and multi-stakeholder arrangement. Although these initiatives are still preliminary in nature, we hope that our findings can provide insights and are followed up by different institutions and communities towards a more sustainable Karimunjawa.</p>
+        " %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

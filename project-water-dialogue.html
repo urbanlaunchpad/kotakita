@@ -1,0 +1,63 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.water-dialogue%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.water-dialogue%}
+
+    {% for project in site.data.projects.water-dialogue %}
+
+      {% include components/projects/image-right.html
+        image=project.img.two
+        text="
+        <p>
+          Stopping groundwater extraction requires active participation of multiple stakeholders. In 2019, Wetlands
+          International Indonesia, in collaboration with Kota Kita, Deltares, and Witteveen+Bos initiated the ‘Water Dialogues’
+          with funding from the German International Climate Initiative (IKI) and the Netherland Enterprise Agency (RVO.nl).
+        </p>
+
+          <p>The Water Dialogue project aims to address subsidence on Semarang & Demak’s coastal zones through the formulation of a roadmap with all actors in the wider watershed to reduce groundwater extraction, recharge the aquifer and optimize surface water use and recycling and will explore potential financial public and/or private arrangements for implementation. The main focus is on the mitigation of land subsidence while also exploring the adaptation measures to
+          ongoing subsidence.</p>
+        "
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.one
+        image2=project.img.three
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>The project launched with a preliminary engagement and communication process with the Government of Central Java
+          Province through Dinas PUSDATARU (Pekerjaan Umum Sumberdaya Air dan Tata Ruang) as the main partner. The project has
+          also received support from the Provincial Government of Central Java as land subsidence has become a severe issue
+          requiring prompt actions. A series of stakeholder dialogues with thematic discussion is currently underway in 2020 as
+          part of the effort in developing the Land Subsidence Mitigation Roadmap for Central Java Province, particularly Semarang and Demak.</p>
+        " %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

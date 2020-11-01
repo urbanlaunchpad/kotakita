@@ -1,14 +1,20 @@
 # UPDATE JULY 2018
 # Author: Ongki Herlambang -- meepomodeon@gmail.com
 
-- name: 'Dr. Feriyal Amal Aslam'
-  description: 'Cultural Anthropologist, PhD Culture and Performance, University of California, Los Angeles (UCLA)'
+- name: "Dr. Feriyal Amal Aslam"
+  description: "Cultural Anthropologist, PhD Culture and Performance, University of California, Los Angeles (UCLA)"
 
-- name: 'Prof Yves Cabannes'
-  description: 'Emeritus Professor in Development Planning, Development Planning Unit, University College London (UCL)'
+- name: "Prof Yves Cabannes"
+  description: "Emeritus Professor in Development Planning, Development Planning Unit, University College London (UCL)"
 
-- name: 'Prof Nicholas Phelps'
-  description: 'Professor and Chair of Urban Planning in the Melbourne School of Design, Faculty of Architecture, Building and Planning'
+- name: "Prof Nicholas Phelps"
+  description: "Professor and Chair of Urban Planning in the Melbourne School of Design, Faculty of Architecture, Building and Planning"
 
-- name: 'Lily Song'
-  description: 'Lecturer in Urban Planning and Design and Senior Research Associate, Harvard University, Graduate School of Design'
+- name: "Lily Song"
+  description: "Lecturer in Urban Planning and Design and Senior Research Associate, Harvard University, Graduate School of Design"
+
+- name: "Julian Walker"
+  description: "Associate Professor, Co-Programme Leader (MSc Social Development Practice), Director of Training and Advisory Services (TAS), Co-Director of Gender Policy and Planning Programme, The Bartlett Development Planning Unit, University College London"
+
+- name: "Ignacia Ossul Vermehren, PhD"
+  description: "Research Fellow, The Bartlett Development Planning Unit, University College London"

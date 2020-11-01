@@ -3,4 +3,10 @@
     <h4>{{ expert.name }}</h4>
     <h5>{{ expert.description }}</h5>
   </div>
+
+  {% assign remainder = forloop.index | modulo: 4 %}
+  {% if remainder == 0 %}
+    <div class="clearfix"></div>
+    <hr class="featurette-divider">
+  {% endif %}
 {% endfor %}

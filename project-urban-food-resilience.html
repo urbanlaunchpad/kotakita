@@ -1,0 +1,76 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.urban-food-resilience%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.urban-food-resilience%}
+
+    {% for project in site.data.projects.urban-food-resilience %}
+
+      <!-- {% include components/projects/full-bleed-image.html image=project.img.three %} -->
+
+      {% include components/projects/image-right.html
+        image=project.img.one
+        text="
+          <p>
+            This effort was a part of the World Bank’s Technical Assistance Program in Indonesia on Urban Flood Resilience in Indonesian Cities. In this initiative, we provided technical assistance in strengthening the capacity of the Indonesian government at national and city levels to reduce flood risks in urban areas in an effort to manage disaster risks and develop an evidence base that highlight the need for increased investments.
+          </p>
+          <p>
+            The program aims to reduce the risk of future urban flooding through a combination of structural and non-structural measures, such as nature-based solutions, risk-based urban design and planning approaches, which prioritize aspects of involving, and building the capacity of, local stakeholders. This study focuses on three cities — Bima, West Nusa Tenggara; Manado, North Sulawesi; and Pontianak, West Kalimantan — to conduct a rapid analysis of flood risk reduction measures, urban development and resilient urban design opportunities, as well as stakeholder inputs. The findings are then layered and synthesized into an integrated investment options package for each of the cities.
+          </p>
+        "
+      %}
+
+      {% include components/projects/three-column-images.html
+        image1=project.img.two
+        image2=project.img.three
+        image3=project.img.four
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>
+            In 2019, a series of technical city visits in Pontianak, Manado and Bima has been conducted including field surveys, stakeholder interviews and data collection to the key institutions i.e BAPPEDA, Dinas PUPR, BPBD, and Dinas Lingkungan Hidup, in each city. The activities were key in understanding the nature and cause of flooding, the current urban development issues, as well as understanding the future trend for development in the three cities.
+          </p>
+        "
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.five
+        image2=project.img.six
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>
+            The activities continue 2020 with key agendas including detailed analysis of urban flood hazards and urban development conditions as a basis in proposing the flood resilience strategies and measures for each city, series of participatory city design workshops both to verify the urban development challenges as well as development of the flood resilience strategies, and final dissemination and awareness raising activities has been planned as a follow-up. Kota Kita is committed to designing a process that will meaningfully engage the city stakeholders in the process to identify the flood resilience measures and investment packages for their cities.
+          </p>
+        "
+      %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

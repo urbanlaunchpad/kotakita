@@ -1,0 +1,62 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.poly-urban-waters%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.poly-urban-waters%}
+
+    {% for project in site.data.projects.poly-urban-waters %}
+
+      {% include components/projects/full-bleed-image.html image=project.img.one %}
+
+      {% include components/projects/image-right.html
+        image=project.img.four
+        text="
+          <p>The PolyUrbanWaters project aims to generate a scientific understanding of water management and develop practices as well as tools that allow fast-growing cities and peri-urban areas in Southeast Asia to implement polycentric approaches for urban development and integrated, cross-sectoral water management. The project focuses on three cities: Sleman, Indonesia; Kratie, Cambodia; and Sam Nuea, Laos.</p>
+        "
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.two
+        image2=project.img.five
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>In the first phase, we focused on developing research and development analysis as well as assessing possible villages to implement the PolyUrbanWaters approach. In September 2019, the program was formally launched through a kick-off meeting discussing the issue of water management in Sleman with local government offices such as Regional Planning Agency, Environment Department, Public Works Department, Regional Water Utilities and others related stakeholders.</p>
+        " %}
+
+      {% include components/projects/full-bleed-image.html image=project.img.three %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>Following the initial meeting and additional field work, a consortium consisting of kota Kita, TU Berlin, TH Köln, Kota Kita, BORDA, UGM, and Aksansi organized several coordination meetings and interviews to develop preliminary findings, next steps, as well as other activities that have carried into 2020. We are also preparing a proposal for the Research and Development Phase which will be conducted in 2021 - 2024 in three cities, including Sleman, Kratie and Sam Nuea.</p>
+        "
+      %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

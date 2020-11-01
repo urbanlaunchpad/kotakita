@@ -1,0 +1,53 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.advancing-inclusive-and-resilience-urban-development%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.advancing-inclusive-and-resilience-urban-development%}
+
+    {% for project in site.data.projects.advancing-inclusive-and-resilience-urban-development %}
+
+      {% include components/projects/image-right.html
+        image=project.img.one
+        text="<p>
+          Through this project, Kota Kita provided our expertise on urban development and urban poverty in Indonesia and was actively involved through a series of national workshops and data collection with ministerial level. Working with International Institute for Environment and Development (IIED), Kota Kita has linked both national and international expertise in a collaboration to build a national report, which will inform further processes for project preparatory phase and project implementation.
+        </p>
+        "
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.two
+        image2=project.img.three
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>The initial process of the project began in November 2018 through a national inception meeting with ministerial government, national civil society and academia. This was followed by series of preliminary data collection through meeting with several ministries such as Bappenas (Ministry of Development Planning), Ministry of Public Works, Ministry of Social Welfare, Ministry of Environment and Forestry, Ministry of Health, Ministry of Home Affairs, National Disaster Management Authority (BNPB) and the National Committee for Acceleration of Poverty Reduction (TNP2K).</p>
+      " %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

@@ -1,0 +1,97 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.tumi-inclusive-urban-mobility%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.tumi-inclusive-urban-mobility%}
+
+    {% for project in site.data.projects.tumi-inclusive-urban-mobility %}
+
+      {% include components/projects/full-bleed-image.html image=project.img.five %}
+
+      {% include components/projects/image-right-small.html
+        image=project.img.one
+        text="
+          <p>
+            Building on a long-standing collaboration with Kaki Kota Banjarmasin, UNESCO, and the Government of Banjarmasin, we have been working to raise public awareness of inclusive planning and build the community's capacity to design and implement pilot programs in the city through a citizen-driven process. Working with city officials, academics, practitioners, as well as persons with disabilities, five proposed activities were developed: inclusive neighborhood, safe and inclusive school zone, inclusive mobility as a new economy, inclusive mobility as public service, and accessible river promenade.
+          </p>
+          <p>
+            The project is supported by the Deutsche Gesellschaft für Internationale Zusammenarbeit GmbH (GIZ), Asian Development Bank (ADB), and received a Transformative Urban Mobility Initiative (TUMI) Global Urban Mobility Challenge 2019 award.
+          </p>
+        "
+      %}
+
+      {% include components/projects/three-column-images.html
+        image1=project.img.two
+        image2=project.img.four
+        image3=project.img.six
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>
+            In 2019, we focused on establishing stakeholder engagement efforts and began implementing two pilot projects:
+
+            <ul>
+              <li>
+                <h4 class='bold'>
+                  A safe and inclusive school zone
+                </h4>
+                <span>
+                Together with Banjarmasin's Department of Transportation (DoT), the schools, and Urban+ Institute, we are working to improve the crosswalk area of two inclusive schools - SDN Gadang 2 and SMPN 1- by establishing tactical traffic management, thus providing safe and accessible parking, drop off and pick up areas for all.
+                </span>
+              </li>
+              <li>
+                <h4 class='bold'>
+                  Inclusive mobility as a new economy
+                </h4>
+                <span>
+                  To support persons with disabilities in Banjarmasin with access to inclusive mobility and new sources of income, We are working with Difabike, authorized technical workshops, universities (Universitas Sarjanawiyata Tamansiswa, Yogyakarta and Universitas Lambung Mangkurat, Banjarmasin), schools (SMAN 2 Model Banjarmasin and SMK NU Banjarmasin), and the persons with disabilities (PwDs) community.
+                </span>
+              </li>
+            </ul>
+          </p>
+          <p>
+            Through improved services, awareness and infrastructure, citizens of Banjarmasin — especially those with disabilities,
+            marginalized, and underrepresented ⁠— will have better access to their needs and neighborhood, ultimately providing a
+            sustainable foundation of equal mobility for all.
+          </p>
+        "
+      %}
+
+      {% include components/projects/full-bleed-image.html image=project.img.three %}
+
+      <!-- {% include components/projects/full-text.html
+        text="
+          <p>
+            Through improved services, awareness and infrastructure, citizens of Banjarmasin — especially those with disabilities, marginalized, and underrepresented ⁠— will have better access to their needs and neighborhood, ultimately providing a sustainable foundation of equal mobility for all.
+          </p>
+        "
+      %} -->
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

@@ -23,6 +23,24 @@
   description: 'Forum Masyarakat Sipil, a forum or coalition of several NGOs and civil society organization
 working on the sovereignty of village, based in Kebumen, Central Java, Indonesia.'
 
+- name: 'Development Planning Unit, University College London (DPU-UCL)'
+  external: true
+  thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1604211200/kotakita/partners/collaboration/dpu.jpg'
+  url: 'https://www.ucl.ac.uk/bartlett/development/'
+  description: 'The Development Planning Unit, University College London (DPU-UCL) conducts world-leading research and postgraduate teaching that helps to build the capacity of national governments, local authorities, NGOs, aid agencies and businesses working towards socially just and sustainable development in the global south.'
+
+- name: 'Global Disability Innovation Hub'
+  external: true
+  thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1604211200/kotakita/partners/collaboration/gdi.jpg'
+  url: 'https://www.disabilityinnovation.com/'
+  description: 'Global Disability Innovation Hub is a research and practice centre based in East London, United Kingdom driving disability innovation for a fairer world. The organization envisions a world without barriers to participation, with equitable access and opportunity for all. Disability innovation is part of a bigger movement for disability inclusion and social justice. The approach is by stimulating entrepreneurship by developing bold approaches, partnership and ecosystems to accelerate change.'
+
+- name: 'Sierra Leone Urban Research Centre (SLURC)'
+  external: true
+  thumbnail: 'https://res.cloudinary.com/vasilenka/image/upload/v1604211200/kotakita/partners/collaboration/slruc.jpg'
+  url: 'https://www.slurc.org'
+  description: 'The Sierra Leone Urban Research Centre (SLURC), based in Freetown, is a globally connected research centre created through a partnership between the Bartlett Development Planning Unit (University College London) and the Institute of Geography and Development Studies (Njala University). The centre aims to generate capacity building as well as research initiatives in cities across Sierra Leone focused on the well-being of residents of informal settlements.'
+
 # Template -- Just copy and paste this to create new one
 # - name: ''
 #   thumbnail: ''
