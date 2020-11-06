@@ -355,3 +355,7 @@ footer {
 .secondary-text {
   font-size: 22px;
 }
+
+.button-project:not(:last-child) {
+  margin-bottom: 8px;
+}

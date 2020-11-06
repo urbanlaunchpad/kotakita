@@ -9,6 +9,9 @@
   duration: "November 2018 - June 2019"
   cover: "https://res.cloudinary.com/vasilenka/image/upload/v1603121994/kotakita/projects/karimun-jawa-community-planning/cover.jpg"
   thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603308861/kotakita/projects/karimun-jawa-community-planning/thumbnail.jpg"
+  report:
+    - url: "https://drive.google.com/u/0/uc?id=1-1FoIVViFftiDsrvwH39lq8WhSFITtJw&export=download"
+      label: "Karimunjawa: a Community-based Islandscape Initiative"
   img:
     one: "https://res.cloudinary.com/vasilenka/image/upload/v1603121996/kotakita/projects/karimun-jawa-community-planning/1.jpg"
     two: "https://res.cloudinary.com/vasilenka/image/upload/v1603121994/kotakita/projects/karimun-jawa-community-planning/2.jpg"
