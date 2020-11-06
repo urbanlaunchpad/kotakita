@@ -5,6 +5,7 @@ CNAME
 ./CNAME
 
 */.DS_Store
+*/**/.DS_Store
 .DS_Store
 
 .jekyll-cache/

@@ -1,0 +1,61 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.building-capacity-and-participation-for-community-led-solutions%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.building-capacity-and-participation-for-community-led-solutions%}
+
+    {% for project in site.data.projects.building-capacity-and-participation-for-community-led-solutions %}
+
+      {% include components/projects/image-right.html
+        image=project.img.two
+        text="
+          <p>
+            We have been working with persons with disabilities and community organizations in four settlements: Pelambuan and Kelayan Barat of Banjarmasin, Indonesia and Dwozark and Thompson Bay of Freetown, Sierra Leone. With a focus on collective and community-led responses, the research project is conducted through two phases. Phase 1 was initiated in 2019, with the mapping of selected aspirations of the persons with disabilities and the existing community-led responses that support them using a range of participatory methods.
+          </p>
+          <p>
+            Between May and December 2019, we conducted a survey using rATA (rapid Assistive Technology Assessment) ⁠— a new tool developed by the World Health Organisation (WHO) ⁠— to assess the need, use, supply, and impact of assistive technology. The process involved 16 data collectors and documented 2,046 respondents in two neighbourhoods.
+          </p>
+        "
+      %}
+
+      {% include components/projects/three-column-images.html
+        image1=project.img.one
+        image2=project.img.three
+        image3=project.img.four
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>
+            We also facilitated citizen participation through a participatory photography method that encouraged persons of disabilities to capture their hopes, aspirations, and perceived barriers when navigating daily life. Their photographs were later used as materials during one-to-one interviews and focus group discussions.For Kota Kita, the photographs also became a visual tool in yielding rich information on the lives of persons with disabilities in Banjarmasin; revealing nuanced opinions, emotions, values, and the contributing factors to their aspirations. Most importantly, it helped to stimulate more lively discussions between researchers and participants. We are continuing with Phase 2 in 2020, which will involve co-production and trialling of assistive technology interventions relevant to the aspirations and community support environment.
+          </p>
+        "
+      %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

@@ -1,0 +1,66 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.ngampon%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.ngampon%}
+
+    {% for project in site.data.projects.ngampon %}
+
+      {% include components/projects/full-bleed-image.html image=project.img.three %}
+
+      {% include components/projects/image-right.html
+        image=project.img.four
+        text="
+          <p>
+            Together with the Kota Kita team and the mentors and through intensive interaction with residents of Kampung Ngampon, participants were challenged to help identify potential assets, space-related solutions in the village, and finally creating concrete design strategies to improve the quality of living space - as a space for creativity, economic space, and the actualization of citizenship.
+          </p>
+          <p>
+            Following an intensive 3-day workshop with the Kota Kita team, participants learned an overview of the Ngampon
+            Village, from the problems to the potential faced by the villagers. This was obtained through field studies and group
+            discussions facilitated by the Kota Kita team. In this process each team was directed to a more open, specific,
+            strategic, and clear approach. After the intensive workshop, each team was given 14 days to complete their own design
+            proposals.
+          </p>
+        "
+      %}
+
+      {% include components/projects/three-column-images.html
+        image1=project.img.two
+        image2=project.img.one
+        image3=project.img.five
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>
+            In 2019, three selected proposals had the opportunity to present their proposals to the public and a panel of jury, through a public session and an exhibition of works in one of the exhibition halls (Rumah Banjarsari) in the city of Solo. Activities on this project are continuing in 2020 with the next step is the implementation phase. Kota Kita will facilitate public consultation and discussions with Ngampon residents as these groups will have the opportunity to sharpen design ideas and interact directly with residents of Kampung Ngampon.
+          </p>
+        " %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

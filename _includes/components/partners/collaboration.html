@@ -1,8 +1,18 @@
 {% for partner in include.partners %}
-<div class="col-sm-3">
-  <div class="intern-top-box"></div>
-  <img class="featurette-image img-responsive" src="./src/img/partner_thumb/collaboration/{{ partner.thumbnail }}">
-  <a href="{{ partner.url }}" target="_blank"><h3>{{ partner.name }}</h3></a>
-  <h5>{{ partner.description }}</h5>
-</div>
+  <div class="col-sm-3">
+    <div class="intern-top-box"></div>
+    {% if partner.external %}
+      <img alt="" class="featurette-image img-responsive" src="{{ partner.thumbnail }}">
+    {% else %}
+      <img alt="" class="featurette-image img-responsive" src="./src/img/partner_thumb/collaboration/{{ partner.thumbnail }}">
+    {% endif %}
+    <a href="{{ partner.url }}" target="_blank"><h3>{{ partner.name }}</h3></a>
+    <h5>{{ partner.description }}</h5>
+  </div>
+
+  {% assign remainder = forloop.index | modulo: 4 %}
+  {% if remainder == 0 %}
+  <div class="clearfix"></div>
+  <hr class="featurette-divider">
+  {% endif %}
 {% endfor %}

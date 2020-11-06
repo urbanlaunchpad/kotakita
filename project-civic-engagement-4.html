@@ -1,0 +1,58 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.civic-engagement-4%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.civic-engagement-4%}
+
+    {% for project in site.data.projects.civic-engagement-4 %}
+
+      {% include components/projects/three-column-images.html
+        image1=project.img.one
+        image2=project.img.two
+        image3=project.img.four
+      %}
+
+      {% include components/projects/image-right.html
+        image=project.img.five
+        text="
+          <p>
+            The three-day event consisted of a variety of events and activities, including a public forum discussing themes ranging from civic engagement and urban farming, as well as a Mayors’ Symposium joined by a number of mayors and officials to talk about the challenges, good practices, and innovative solutions of today. Kota Kita also organized thematic site visits to selected sites in the city of Solo: Laweyan (Urban Kampung famous for its Batik home-industries), Pepe Riverside Settlement and Keraton Surakarta Royal Neighborhood, where the participant could learn and experience first-hand transformative civic engagement undertakings and meet local communities.
+          </p>
+          <p>
+            This event was held as a form of commitment of a long-term partnership with Kota Kita’s partners in Asia, especially Chulalongkorn University in Thailand and the Indonesian Consortium for Religious Studies, to foster the spirit of citizen participation across all sectors.
+          </p>
+        "
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.three
+        image2=project.img.six
+      %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

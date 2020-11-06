@@ -1,0 +1,55 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.disability-inclusive-banjarmasin%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.disability-inclusive-banjarmasin%}
+
+    {% for project in site.data.projects.disability-inclusive-banjarmasin %}
+
+      {% include components/projects/image-right.html
+        image=project.img.one
+        text="The discussion completed a series of participatory data collection processes, which includes field surveys, interviews, focus group discussions, data analysis and mapping. As a result, relevant stakeholders were able to gain a greater understanding of persons with disabilities living in Banjarmasin and accessibility in the city.
+        "
+      %}
+
+      {% include components/projects/three-column-images.html
+        image1=project.img.two
+        image2=project.img.three
+        image3=project.img.four
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>We also published findings from the participatory data collection process in a joint production of a comprehensive
+          disability profile of the city and toolbox of practice and program ideas, available on Kota Kita’s website. The reports
+          were launched at the High-Level Meeting of Mayors for Inclusive Cities, co-organized by UNESCO, APEKSI (Association of
+          Indonesian City Governments) and Banjarmasin City on October 3rd-4th 2019.</p>
+      " %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

@@ -44,28 +44,6 @@
           </div>
         </div>
 
-        <!-- <div class="item" style="background-image:url(./src/img/carousel/slider_another-city.jpg)">
-				<div class="container">
-					<div class="carousel-caption">
-						<h4>Latest News</h4>
-						<h1>Another City is Possible</h1>
-						<p>The 2nd Urban Social Forum was hosted and organized by Kota Kita on December 20th, 2014 in Solo.</p>
-						<p><a class="btn btn-lg btn-default" href="https://kotakita-journal.tumblr.com/post/109590341832/another-city-is-possible" role="button">Read more</a></p>
-					</div>
-				</div>
-      </div> -->
-
-        <!-- <div class="item" style="background-image:url(./src/img/feature/development-boom/banner-dark.jpg)">
-				<div class="container">
-					<div class="carousel-caption">
-						<h4>Feature</h4>
-						<h1>Indonesia Development Boom Ignores Community Voices</h1>
-						<p>The communities most affected are having little say in how their environment should be shaped</p>
-						<p><a class="btn btn-lg btn-default" href="feature-development-boom" role="button">Read more</a></p>
-					</div>
-				</div>
-      </div> -->
-
         <div
           class="item"
           style="background-image:url('https://res.cloudinary.com/vasilenka/image/upload/v1533597764/kotakita/featured/participatory-budgetting.jpg')"
@@ -97,26 +75,24 @@
 
         <div
           class="item"
-          style="background-image:url('https://res.cloudinary.com/vasilenka/image/upload/v1533597767/kotakita/featured/disability.jpg')"
+          style="background-image:url('https://res.cloudinary.com/vasilenka/image/upload/v1604646971/kotakita/featured/banjarmasin.jpg')"
         >
           <div class="container">
             <div class="carousel-caption">
               <h4>Video</h4>
               <h1>
-                Participatory data collection for disability-inclusive city:
-                Solo City
+                Participatory Data Collection for a Disability-Inclusive City: Banjarmasin
               </h1>
               <p>
-                <small
-                  >Participatory process enables mapping of various key
-                  determinants of exclusion and inclusion.</small
-                >
+                <small>
+                  Participatory process enables mapping of various key determinants of exclusion and inclusion.
+                </small>
               </p>
               <p>
                 <a
                   class="btn btn-lg btn-default"
                   target="_blank"
-                  href="https://www.youtube.com/watch?v=GVWqvL1XKtI&t=14s"
+                  href="https://www.youtube.com/watch?v=AJ7OUziayVw"
                   role="button"
                   >Watch here</a
                 >
@@ -192,130 +168,34 @@
               ><p class="btn btn-lg btn-default" role="button">See all</p></a
             >
           </div>
-          <!-- <h3>Support our campaign for lorem ipsum</h3>
-				<p>Donate to give 30 women the opportunity to start clean technology businesses in their communities</p>
-				<a href="#"><p class="btn btn-lg btn-primary" role="button">Learn more</p></a> -->
         </div>
 
-        {% for project in site.data.projects.datakota-banjarmasin %} {% include
-        components/projects/front-home.html
-        url="project-data-kota-banjarmasin.html" title=project.name
-        teaser=project.teaser image=project.thumbnail %} {% endfor %} {% for
-        project in site.data.projects.creative-kampongs %} {% include
-        components/projects/front-home.html url="project-creative-kampongs.html"
-        title=project.name teaser=project.short-teaser image=project.thumbnail
-        %} {% endfor %} {% for project in site.data.projects.women-on-wheels %}
-        {% include components/projects/front-home.html
-        url="project-women-on-wheels.html" title=project.name
-        teaser=project.teaser image=project.thumbnail %} {% endfor %}
+        {% for project in site.data.projects.water-as-leverage %}
+          {% include components/projects/front-home.html
+            url="project-water-as-leverage.html"
+            title=project.name
+            teaser=project.teaser
+            image=project.thumbnail
+          %}
+        {% endfor %}
+        {% for project in site.data.projects.karimunjawa-community-planning %}
+          {% include components/projects/front-home.html
+            url="project-karimunjawa-community-planning.html"
+            title=project.name
+            teaser=project.teaser
+            image=project.thumbnail
+          %}
+        {% endfor %}
+        {% for project in site.data.projects.building-capacity-and-participation-for-community-led-solutions %}
+          {% include components/projects/front-home.html
+            url="project-building-capacity-and-participation-for-community-led-solutions.html"
+            title=project.name
+            teaser=project.teaser
+            image=project.thumbnail
+          %}
+        {% endfor %}
 
-        <!-- <div class="project block-item col-md-3">
-				<hr class="featurette-divider visible-xs visible-sm">
-				<a href="project-third-urban-social-forum.html">
-					<div class="project-top-box"></div>
-					<img class="publication-image img-responsive" src="./src/img/projects/third-urban-social-forum/thumb.jpg">
-					<h3>3rd Urban Social Forum</h3>
-					<p>Over 1000 activists, social leaders, academics, and students from throughout Indonesia and Asia came together to discuss solutions and actions to respond to our most pressing urban issues</p>
-					<p class="btn btn-default" role="button">View details &raquo;</p>
-				</a>
-      </div> -->
-
-        <!-- <div class="project block-item col-md-3">
-				<hr class="featurette-divider visible-xs visible-sm">
-				<a href="project-aiira-participatory-budgeting.html">
-					<div class="project-top-box"></div>
-					<img class="publication-image img-responsive" src="./src/img/projects/aiira-participatory-budgeting/thumb.jpg">
-					<h3>Toward Pro-Poor &amp; Accountable Infrastructure Development Planning</h3>
-					<p>Kota Kita researched Surakarta’s participatory budgeting process, the Musrenbang, to better understand whether the outcomes are democratic and effective</p>
-					<p class="btn btn-default" role="button">View details &raquo;</p>
-				</a>
-			</div>
-
-			<div class="project block-item col-md-3">
-				<hr class="featurette-divider visible-xs visible-sm">				<a href="project-women-on-wheels.html">
-					<div class="project-top-box"></div>
-					<img class="publication-image img-responsive" src="./src/img/projects/women-on-wheels/thumb.jpg">
-					<h3>Women on Wheels in Indonesia: Research Report &amp; Feasibility Study</h3>
-					<p>Promoting bicycling for women in Indonesian cities, through a pilot project in Solo</p>
-					<p class="btn btn-default" role="button">View details &raquo;</p>
-				</a>
-			</div> -->
-
-        <!-- <div class="project col-xs-6 col-md-3">
-				<a  href="firm-foundation.html" >
-					<div class="project-top-box"></div>
-					<img src="./src/img/ex_thumb.jpg" alt="Generic placeholder image" >
-					<h3>Manaikhoroo Participatory Mapping of the Ger Areas</h3>
-					<p>Kota Kita takes its Solo mapping project to the Mongolian capital</p>
-					<p class="btn btn-default" role="button">View details &raquo;</p>
-				</a>
-			</div> -->
       </div>
-      <!-- /.row -->
-
-      <!-- START THE FEATURETTES -->
-
-      <!-- <hr class="featurette-divider">
-
-		<div class="row featurette">
-			<div class="col-sm-8 col-md-7">
-				<h3 class="featurette-heading">Kota Kita's mission is to improve participatory planning and budgeting processes by making information available to help citizens understand and take advantage of the opportunities that come with rapid urbanization. <span class="text-primary">We'd love your help to reach many more.</span></h3>
-				<p class="lead">Kota Kita works at the grass-roots community level as well as the city government level and often facilitates engagement between a range of stakeholders. We've worked on a wide range of urban issues such as water, urban poverty, mobility and transportation, climate change resilience, participation and urban policymaking.</p>
-				<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn about our process</a></p>
-			</div>
-			<div class="col-sm-4 col-md-5">
-				<img class="featurette-image img-responsive" src="./src/img/ex_thumb.jpg" alt="Generic placeholder image">
-			</div>
-		</div> -->
-
-      <!--
-    <div id="features" class="row featurette">
-			<div class="col-xs-12">
-				<h1 class="text-center">Kota Kita Today</h1>
-				<hr class="featurette-divider">
-			</div>
-			<div class="block-item col-sm-3">
-				<div class="news-top-box"></div>
-				<a href="https://www.youtube.com/watch?v=3HseJlc6KsY">
-					<img class="featurette-image img-responsive" src="./src/img/news/tedx_thumb_sq.jpg" target="_blank">
-					<h5 class="text-primary text-uppercase small"><span class="iconic iconic-video iconic-sm" title="flag" aria-hidden="true"></span> TEDxUbud</h5>
-					<h3>Making invisible cities visible | John Taylor</h3>
-					<p class="text-uppercase small">September, 2015</p>
-				</a>
-				<hr class="featurette-divider visible-xs">
-			</div>
-			<div class="block-item col-sm-3">
-				<div class="news-top-box"></div>
-				<a href="feature-development-boom">
-					<img class="featurette-image img-responsive" src="./src/img/feature/development-boom/thumb.jpg">
-					<h5 class="text-primary text-uppercase small"><span class="iconic iconic-flag iconic-sm" title="flag" aria-hidden="true"></span> Feature</h5>
-					<h3>Indonesia Development Boom Ignores Community Voices</h3>
-					<p>The communities most affected are having little say in how their environment should be shaped</p>
-					<h4>August, 2015</h4>
-				</a>
-			</div>
-			<div class="block-item col-sm-3">
-				<div class="news-top-box"></div>
-				<a href="feature-mongolia-planning">
-					<img class="featurette-image img-responsive" src="./src/img/feature/mongolia-planning/thumb.jpg">
-					<h5 class="text-primary text-uppercase small"><span class="iconic iconic-flag iconic-sm" title="flag" aria-hidden="true"></span> Feature</h5>
-					<h3>Participatory Urban Planning Takes Hold in Mongolia</h3>
-					<p>Mapping enables citizens to interact in planning, budgeting, &amp; urban development decisions</p>
-					<h4>August, 2015</h4>
-				</a>
-			</div>
-			<div class="block-item col-sm-3">
-				<div class="news-top-box"></div>
-				<a href="blog">
-					<img class="featurette-image img-responsive" src="https://40.media.tumblr.com/022fa3ae997c7f8cc92cf65ed0d9cc98/tumblr_inline_o0mdqqq4gL1trtheb_540.jpg">
-					<h5 class="text-primary text-uppercase small"><span class="iconic iconic-microphone iconic-sm" title="microphone" aria-hidden="true"></span> Blog</h5>
-					<h3>Urban Social Forum Hosts Asia Regional Meeting on the Right to the City</h3>
-					<p>Kota Kita supporting a coalition to promote better cities across Asia</p>
-          <h4>January, 2016</h4>
-				</a>
-			</div>
-    </div>
-    -->
 
       {% include components/video-container.html %}
     </div>

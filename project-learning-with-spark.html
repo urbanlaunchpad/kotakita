@@ -1,0 +1,57 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	{% include header.html %}
+
+	</head>
+
+	<body>
+
+	{% include nav-in.html %}
+
+  <!-- Jumbotron -->
+  {% include components/projects/jumbotron.html projects=site.data.projects.learning-with-spark%}
+
+	<div class="container project-page">
+
+    <!-- Header -->
+    {% include components/projects/header.html projects=site.data.projects.learning-with-spark%}
+
+    {% for project in site.data.projects.learning-with-spark %}
+
+      {% include components/projects/image-right.html
+        image=project.img.three
+        text="
+          <p>
+            In early 2019, Kota Kita carried out an identification and in-depth research study on several civil society
+            organizations as entry points for the SPARK project in Indonesia. This process involved identifying specific service delivery issues for poor and marginalized communities, assessing the extent and nature of existing civic organization around these issues, and identifying the potential links of these issues to patterns of exclusionary fiscal governance. Drawing on the result of this process, SPARK Indonesia has chosen two entry points: first is access of the urban poor to the Family Hope Program (PKH), and second, access of small fisheries to subsidized fuel. In its implementation, SPARK worked with two civil society organizations SPRI (Indonesian People's Struggle Union) and KNTI (Indonesian Traditional Fishermen Association). In addition, SPARK also collaborated with SEKNAS FITRA and the INITIATIVE association as IBP partners who will work to support the two institutions.
+          </p>
+        "
+      %}
+
+      {% include components/projects/two-column-images.html
+        image1=project.img.two
+        image2=project.img.one
+      %}
+
+      {% include components/projects/full-text.html
+        text="
+          <p>
+            The SPARK program strategically encourages the involvement of SPRI in seeking transparency of government programs through the Family Hope Program (PKH) and access for more than 2000 of its members for PKH program. While KNTI is seeking advocacy on improving the distribution of subsidized fuel among traditional fishermen. Besides being quite complicated in the process, these subsidies are often misdirected, plus various distribution leaks. KNTI is pursuing an audit process for how far BBM has been distributed and seeking advocacy at the national level to influence subsidized fuel distribution policies. By the end of 2019, SPRI and KNTI have prepared massive scenarios to conduct social audits, including collaborating with FITRA to help analyze PKH budgets and budgets for social protection in general, while Perkumpulan Inisiatif prepare technical and social audit training for SPRI and KNTI.
+          </p>
+        " %}
+
+    {% endfor %}
+
+	</div>
+
+	{% include footer.html %}
+
+	{% include core-js.html %}
+
+	</body>
+</html>

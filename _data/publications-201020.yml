@@ -1,0 +1,67 @@
+# UPDATE JULY 2018
+# Author: Ongki Herlambang -- meepomodeon@gmail.com
+# TODO: Get the thumbnails
+# TODO: Confirm aboyt document storage, github, issue, or google drive
+
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603129184/kotakita/library/2020-10-19/contribution-of-participatory-budgeting.jpg"
+  title: "Contributions of Participatory Budgeting to Climate Change Adaptation and Mitigation"
+  publisher: "Enda ECOPOP, FMDV, IOPD, Kota Kita, DPU UCL, UCLG, 2020"
+  options:
+    - url: "https://drive.google.com/u/0/uc?id=1ydLOqBsYZTRvaqccZpADQfIN9jYZoA_z&export=download"
+      name: "English"
+
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603129186/kotakita/library/2020-10-19/water-sensitive-communities.jpg"
+  title: "Water-sensitive Communities, Sleman Regency: Feasibility Study and Pilot Site Selections"
+  publisher: "Kota Kita, BORDA, TU Berlin Habitat Unit, TH Koln, et.al., 2020"
+  options:
+    - url: "https://drive.google.com/u/0/uc?id=1R_LjSlFzUpzpXh_fnq0iXlYpxp1hyHDn&export=download"
+      name: "English"
+
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603129185/kotakita/library/2020-10-19/case-studies-on-urban-sanitation.jpg"
+  title: "Case Studies on Urban Sanitation and Wastewater Management in Indonesia"
+  publisher: "Kota Kita, BORDA, TU Berlin Habitat Unit, TH Koln, et.al., 2020"
+  options:
+    - url: "https://drive.google.com/u/0/uc?id=1THe883WQP6pFohIrRwPqXi-dtYps3XXs&export=download"
+      name: "English"
+
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603130908/kotakita/library/2020-10-19/bus-transit-in-solo.jpg"
+  title: "Bus Rapid Transit In Solo, Indonesia: Lessons From A Low Ridership System"
+  publisher: "Case Studies on Transport Policy, 2020"
+  options:
+    - url: "https://drive.google.com/u/0/uc?id=1Sz5XL8ueUP9ek5Egnd_ozRUKRTxS2gmS&export=download"
+      name: "English"
+
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603129184/kotakita/library/2020-10-19/sambang-makasar.jpg"
+  title: "USF Sambang Kota Makassar"
+  publisher: "Kota Kita, 2020"
+  options:
+    - url: "https://drive.google.com/u/0/uc?id=1O-Wm09h-GQsZDk3B6XdCzJUToSUJJKtV&export=download"
+      name: "Indonesian"
+
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603129184/kotakita/library/2020-10-19/sambang-solo.jpg"
+  title: "USF Sambang Kota Solo"
+  publisher: "Kota Kita, 2020"
+  options:
+    - url: "https://drive.google.com/u/0/uc?id=104hU5bV9z3g3JBEtEGRYBLkDGN72wfIX&export=download"
+      name: "Indonesian"
+
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603129185/kotakita/library/2020-10-19/sambang-surabaya.jpg"
+  title: "USF Sambang Kota Surabaya"
+  publisher: "Kota Kita, 2019"
+  options:
+    - url: "https://drive.google.com/u/0/uc?id=1-AMmsPhxo8bTh8i-frrpoKrIYQ1FuZLP&export=download"
+      name: "Indonesian"
+
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603129185/kotakita/library/2020-10-19/karimunjawa.jpg"
+  title: "Karimunjawa: a Community-based Islandscape Initiative"
+  publisher: "Kota Kita, 2019"
+  options:
+    - url: "https://drive.google.com/u/0/uc?id=1-1FoIVViFftiDsrvwH39lq8WhSFITtJw&export=download"
+      name: "English"
+
+- thumbnail: "https://res.cloudinary.com/vasilenka/image/upload/v1603129183/kotakita/library/2020-10-19/annual-report-2019.jpg"
+  title: "Annual Report 2019"
+  publisher: "Kota Kita, 2019"
+  options:
+    - url: "https://drive.google.com/u/0/uc?id=1F-Us_G1WsPAbV1XqrF2r3ZD_VsJ3z1UD&export=download"
+      name: "English"

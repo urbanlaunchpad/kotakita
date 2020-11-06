@@ -87,7 +87,7 @@ ul.nav li:hover,
 }
 
 .section-intro {
-  background-image: url("https://www.stephenjameskennedy.com/kotakita/src/img/batik.png");
+  background-image: url("https://res.cloudinary.com/vasilenka/image/upload/v1604207403/kotakita/assets/batik.png");
   background-repeat: repeat;
   background-color: #f5b349;
   padding: 2em;
@@ -269,14 +269,14 @@ ul.nav li:hover,
 
 /* FOOTER */
 
-. {
+/* . {
   margin-top: 2em;
-  background-image: url("https://www.stephenjameskennedy.com/kotakita/src/img/batik.png");
+  background-image: url("https://res.cloudinary.com/vasilenka/image/upload/v1604207403/kotakita/assets/batik.png");
   background-repeat: repeat;
   background-color: #f5b349;
   padding: 2em;
   color: white;
-}
+} */
 
 .subscription-container {
   align-items: flex-end;
@@ -354,4 +354,8 @@ footer {
 
 .secondary-text {
   font-size: 22px;
+}
+
+.button-project:not(:last-child) {
+  margin-bottom: 8px;
 }
